@@ -393,9 +393,7 @@
 							<article class="location">
 								<h4 class="info-title">찾아오시는 길</h4>
 								<div class="maps">
-									<figure>
-										<img src="/rehabilitate/assets/images/img_maps.jpg" alt="">
-									</figure>
+									<img src="/rehabilitate/assets/images/img_maps.jpg" class="img-fluid" alt="">
 								</div>
 							</article>
 						</div>
@@ -499,6 +497,30 @@
 				});
 				e.preventDefault();
 			});
+		
+			// text 효과 관련
+            $(window).on('scroll', function() {
+                $('.benefit').each(function(index, elem) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.4)) {
+                        $(elem).addClass('action');  
+                    }
+                });
+				 $('.rehabilitate').each(function(index, elem) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
+                        $(elem).addClass('action');  
+                    }
+                });
+				$('.news').each(function(index, elem) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
+                        $(elem).addClass('action');  
+                    }
+                });
+				$('.service').each(function(index, elem) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
+                        $(elem).addClass('action');  
+                    }
+                });
+            });
 		</script>
 	</body>
 </html>
