@@ -397,25 +397,25 @@ body {
     opacity: 1; }
   #content .rehabilitate .section-header h2 {
     position: relative;
-    top: -50px;
+    top: -30px;
     opacity: 0;
     font-size: 37px;
     color: #2b2b2b;
     font-weight: 600;
     -webkit-transition-property: all;
     transition-property: all;
-    -webkit-transition-duration: 1.5s;
-    transition-duration: 1.5s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
-    -webkit-transition-delay: 0.25s;
-    transition-delay: 0.25s; }
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s; }
     #content .rehabilitate .section-header h2 i {
       font-style: normal;
       color: #e9193a; }
   #content .rehabilitate .section-header p {
     position: relative;
-    top: -50px;
+    top: -30px;
     opacity: 0;
     font-size: 17px;
     color: #999;
@@ -423,17 +423,17 @@ body {
     margin-top: 25px;
     -webkit-transition-property: all;
     transition-property: all;
-    -webkit-transition-duration: 1.5s;
-    transition-duration: 1.5s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
-    -webkit-transition-delay: 0.65s;
-    transition-delay: 0.65s; }
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s; }
   #content .rehabilitate .section-content {
     margin-top: 80px; }
     #content .rehabilitate .section-content ul {
       position: relative;
-      top: 60px;
+      top: 50px;
       opacity: 0;
       font-size: 0;
       height: 290px;
@@ -1021,68 +1021,83 @@ body {
 
 .service {
   background-color: #fffbf4; }
-  .service.action {
-    /*.section-header {
-    	h3 {
-    		top: 0;
-    		opacity: 1;
-    		strong {
-    			top: 0;
-    			opacity: 1;
-    		}
-    	}
-    	p {
-    		top: 0;
-    		opacity: 1;
-    	}
-    }*/ }
-    .service.action .section-content > article .details h4 {
+  .service.action .section-header h3 {
+    top: 0;
+    opacity: 1; }
+    .service.action .section-header h3 strong {
       top: 0;
       opacity: 1; }
-    .service.action .section-content > article .details > p {
-      top: 0;
-      opacity: 1; }
-    .service.action .section-content > article .details .btn-area {
-      top: 0;
-      opacity: 1; }
-    .service.action .section-content > article.speech figure .img-fluid {
-      right: 0;
-      opacity: 1; }
-    .service.action .section-content > article.sports figure .img-fluid {
-      left: 0;
-      opacity: 1; }
+  .service.action .section-header p {
+    top: 0;
+    opacity: 1; }
+  .service.action .section-content > article .details h4 {
+    top: 0;
+    opacity: 1; }
+  .service.action .section-content > article .details > p {
+    top: 0;
+    opacity: 1; }
+  .service.action .section-content > article .details .btn-area {
+    top: 0;
+    opacity: 1; }
+  .service.action .section-content > article.speech figure .img-fluid {
+    right: 0;
+    opacity: 1; }
+  .service.action .section-content > article.sports figure .img-fluid {
+    left: 0;
+    opacity: 1; }
   .service .section-header {
     text-align: center;
     padding: 100px 0 90px; }
     .service .section-header h3 {
-      /*position: relative;
+      position: relative;
       top: -30px;
-      opacity: 0;*/
+      opacity: 0;
       font-size: 37px;
       color: #2b2b2b;
       font-weight: 600;
       letter-spacing: -2px;
-      /*@include transition($duration: 1s, $delay: .15s);*/ }
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0.5s;
+      transition-delay: 0.5s; }
       .service .section-header h3 strong {
-        /*position: relative;
+        position: relative;
         top: -20px;
-        opacity: 0;*/
+        opacity: 0;
         display: block;
         font-size: 46px;
         color: #e9193a;
         font-weight: bold;
         letter-spacing: 0;
         font-family: 'Exo 2', sans-serif;
-        /*@include transition($duration: 1s, $delay: .05s);*/ }
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0.45s;
+        transition-delay: 0.45s; }
     .service .section-header p {
-      /*position: relative;
+      position: relative;
       top: -30px;
-      opacity: 0;*/
+      opacity: 0;
       font-size: 17px;
       color: #999;
       font-weight: 300;
       margin-top: 20px;
-      /*@include transition($duration: 1s, $delay: 1s);*/ }
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 1.5s;
+      transition-delay: 1.5s; }
   .service .section-content {
     display: table;
     width: 100%;
@@ -1121,8 +1136,8 @@ body {
           transition-duration: 1s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-          -webkit-transition-delay: 0.65s;
-          transition-delay: 0.65s; }
+          -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s; }
         .service .section-content > article .details > p {
           position: relative;
           top: -30px;
@@ -1140,8 +1155,8 @@ body {
           transition-duration: 1s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-          -webkit-transition-delay: 0.95s;
-          transition-delay: 0.95s; }
+          -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s; }
         .service .section-content > article .details .btn-area {
           position: relative;
           top: 30px;
@@ -1153,8 +1168,8 @@ body {
           transition-duration: 1s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-          -webkit-transition-delay: 1s;
-          transition-delay: 1s; }
+          -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s; }
           .service .section-content > article .details .btn-area p .btn-default {
             display: inline-block;
             width: 155px;
@@ -1175,16 +1190,16 @@ body {
           left: 0;
           padding-right: 95px; }
           .service .section-content > article.speech figure .img-fluid {
-            right: 100px;
+            right: 140px;
             opacity: 0;
             -webkit-transition-property: all;
             transition-property: all;
-            -webkit-transition-duration: 1s;
-            transition-duration: 1s;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
             -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
-            -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s; }
+            -webkit-transition-delay: 3.5s;
+            transition-delay: 3.5s; }
       .service .section-content > article.sports {
         padding-left: 60px;
         text-align: left;
@@ -1193,15 +1208,15 @@ body {
           right: 0px;
           padding-left: 95px; }
           .service .section-content > article.sports figure .img-fluid {
-            left: 100px;
+            left: 140px;
             opacity: 0;
             -webkit-transition-property: all;
             transition-property: all;
-            -webkit-transition-duration: 1s;
-            transition-duration: 1s;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
             -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
-            -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s; }
+            -webkit-transition-delay: 3.5s;
+            transition-delay: 3.5s; }
 
 /*# sourceMappingURL=default.css.map */

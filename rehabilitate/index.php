@@ -247,47 +247,6 @@
 					</ul>
 				</div>
 			</article>
-			<!--
-			<section class="all-in-one">
-				<div class="section-header">
-					<h3>
-						SRC병원 부설의원만의<br> 
-						<i>All-IN-ONE SERVICE</i>
-					</h3>
-					<p>
-						건물 내 언어심리상담센터 및 스포츠센터가 위치하여 치료가 용이합니다.
-					</p>
-				</div>
-				<div class="section-content">
-					<div class="center speech">
-						<h4>SRC 언어·심리상담센터</h4>
-						<p>
-							건물 내 SRC언어·심리상담센터와 연계되어<br>
-							놀이, 인지, 미술, 심리 외 기타 치료가 가능합니다
-						</p>
-						<div class="btn-area">
-							<p>
-								<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
-							</p>
-						</div>
-					</div>
-					<div class="center sports">
-						<h4>SRC 스포츠센터</h4>
-						<p>
-							건물 내 SRC스포츠센터(수영장)와 연계되어<br>
-							각종 체육활동 및 재활체육 치료가 가능합니다
-						</p>
-						<div class="btn-area">
-							<p>
-								<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="bg-speech"></div>
-				<div class="bg-sports"></div>
-			</section>
-			-->
 			<section class="service">
 			    <div class="section-header">
 			        <h3>
@@ -501,7 +460,7 @@
 			// text 효과 관련
             $(window).on('scroll', function() {
                 $('.benefit').each(function(index, elem) {
-                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.4)) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.5)) {
                         $(elem).addClass('action');  
                     }
                 });
@@ -516,7 +475,7 @@
                     }
                 });
 				$('.service').each(function(index, elem) {
-                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.3)) {
                         $(elem).addClass('action');  
                     }
                 });
