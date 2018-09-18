@@ -181,33 +181,39 @@
 					<div class="notice-board">
 						<div class="row">
 							<div class="col-4">
-								<div class="news-card effect01">
-									<small>NEWLETTER</small>
-									<h3>SRC NEWSLETTER 40호:2018년 07월발행</h3>
-									<a href="#" class="p-txt02">
-										<p>자세히보기</p>
-										<span></span>
-									</a>
+								<div class="effect01">
+								    <div class="news-card">
+                                        <small>NEWLETTER</small>
+                                        <h3>SRC NEWSLETTER 40호:2018년 07월발행</h3>
+                                        <a href="#" class="p-txt02">
+                                            <p>자세히보기</p>
+                                            <span></span>
+                                        </a>
+								    </div>
 								</div>
 							</div>
 							<div class="col-4">
-								<div class="news-card effect02">
-									<small>SOCIAL CONTRIBUTION</small>
-									<h3>사회공헌 게시글의 타이틀이 노출 되는 영역입니다.</h3>
-									<a href="#" class="p-txt02">
-										<p>자세히보기</p>
-										<span></span>
-									</a>
+								<div class="effect02">
+								    <div class="news-card">
+                                        <small>SOCIAL CONTRIBUTION</small>
+                                        <h3>사회공헌 게시글의 타이틀이 노출 되는 영역입니다.</h3>
+                                        <a href="#" class="p-txt02">
+                                            <p>자세히보기</p>
+                                            <span></span>
+                                        </a>
+								    </div>
 								</div>
 							</div>
 							<div class="col-4">
-								<div class="news-card effect03">
-									<small>INFORMATION</small>
-									<h3>[재활] 건강정보 게시글 타이틀이 노출되는 영역입니다.</h3>
-									<a href="#" class="p-txt02">
-										<p>자세히보기</p>
-										<span></span>
-									</a>
+								<div class="effect03">
+								    <div class="news-card">
+                                        <small>INFORMATION</small>
+                                        <h3>[재활] 건강정보 게시글 타이틀이 노출되는 영역입니다.</h3>
+                                        <a href="#" class="p-txt02">
+                                            <p>자세히보기</p>
+                                            <span></span>
+                                        </a>
+								    </div>
 								</div>  
 							</div>
 						</div>

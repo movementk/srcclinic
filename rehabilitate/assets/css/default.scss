@@ -491,36 +491,6 @@ body {
 		height: 895px;
 		padding-top: 105px;
 		background-color: #eef3f8;
-		&.action {
-			.notice {
-				.item {
-					img {
-						right: 0;
-						opacity: 1;
-					}
-				}
-				.details {
-					right: 0;
-					opacity: 1;
-				}
-			}
-			.notice-board {
-				.news-card {
-					&.effect01 {
-						top: 0;
-						opacity: 1;
-					}
-					&.effect02 {
-						top: 0;
-						opacity: 1;
-					}
-					&.effect03 {
-						top: 0;
-						opacity: 1;
-					}
-				}
-			}
-		}
 		.notice {
 			position: relative;
 			width: 100%;
@@ -607,23 +577,25 @@ body {
 		}
 		.notice-board {
 			margin-top: 40px;
+            .col-4 {
+                > div {
+                    position: relative;
+                    top: 50px;
+                    opacity: 0;
+                    &.effect01 {
+					    @include transition($duration: 1s, $delay: 1.5s);
+                    }
+                    &.effect02 {
+					    @include transition($duration: 1s, $delay: 1.8s);
+                    }
+                    &.effect03 {
+					    @include transition($duration: 1s, $delay: 2.3s);
+                    }
+                }
+            }
 			.news-card {
-				position: relative;
-				opacity: 0;
 				padding: 30px 30px 15px;
 				background-color: #fff;
-				&.effect01 {
-					top: 50px;
-					@include transition($duration: 1s, $delay: 1.5s);
-				}
-				&.effect02 {
-					top: 50px;
-					@include transition($duration: 1s, $delay: 1.8s);
-				}
-				&.effect03 {
-					top: 50px;
-					@include transition($duration: 1s, $delay: 2.3s);
-				}
 				small {
 					display: block;
 					font-size: 12px;
@@ -643,6 +615,7 @@ body {
 					display: inline-block;
 					position: relative;
 					margin-top: 40px;
+                    @include transition();
 					> p {
 						font-size: 12px;
 						color: #999;
@@ -655,12 +628,12 @@ body {
 						width: 0;
 						height: 1px; 
 						background-color: #fff;
+                        @include transition($duration: .2s, $delay: .15s);
 					} 
 				}
 				&:hover {
 					background-color: #28b690;
 					box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.18); 
-					@include transition();
 					small {
 						color: #fff;
 					}
@@ -674,10 +647,31 @@ body {
 						> span {
 							width: 100%;
 							right: 0;
-							@include transition($duration: .2s, $delay: .15s);
 						}
 					}
 				}
+			}
+		}
+        &.action {
+			.notice {
+				.item {
+					img {
+						right: 0;
+						opacity: 1;
+					}
+				}
+				.details {
+					right: 0;
+					opacity: 1;
+				}
+			}
+			.notice-board {
+                .col-4 {
+                    > div {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
 			}
 		}
 	}
