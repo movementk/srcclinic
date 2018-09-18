@@ -382,12 +382,12 @@ body {
 		.section-header {
 			h2 {
 				position: relative;
-				top: -50px;
+				top: -30px;
 				opacity: 0;
 				font-size: 37px;
 				color: #2b2b2b;
 				font-weight: 600;
-				@include transition($duration: 1.5s, $delay: .25s);
+				@include transition($duration: 1s, $delay: .5s);
 				i {
 					font-style: normal;
 					color: #e9193a;
@@ -395,20 +395,20 @@ body {
 			}
 			p {
 				position: relative;
-				top: -50px;
+				top: -30px;
 				opacity: 0;
 				font-size: 17px;
 				color: #999;
 				font-weight: 300;
 				margin-top: 25px;
-				@include transition($duration: 1.5s, $delay: .65s);
+				@include transition($duration: 1s, $delay: .5s);
 			}
 		}
 		.section-content {
 			margin-top: 80px;
 			ul {
 				position: relative;
-				top: 60px;
+				top: 50px;
 				opacity: 0;
 				font-size: 0;
 				height: 290px;
@@ -1108,7 +1108,7 @@ body {
 .service {
     background-color: #fffbf4;
 	&.action {
-		/*.section-header {
+		.section-header {
 			h3 {
 				top: 0;
 				opacity: 1;
@@ -1121,7 +1121,7 @@ body {
 				top: 0;
 				opacity: 1;
 			}
-		}*/
+		}
 		 .section-content {
 			> article {
 				.details {
@@ -1161,36 +1161,36 @@ body {
         text-align: center;
         padding: 100px 0 90px;
         h3 {
-			/*position: relative;
+			position: relative;
 			top: -30px;
-			opacity: 0;*/
+			opacity: 0;
             font-size: 37px;
             color: #2b2b2b;
             font-weight: 600;
             letter-spacing: -2px;
-			/*@include transition($duration: 1s, $delay: .15s);*/
+			@include transition($duration: 1s, $delay: .5s);
             strong {
-				/*position: relative;
+				position: relative;
 				top: -20px;
-				opacity: 0;*/
+				opacity: 0;
                 display: block;
                 font-size: 46px;
                 color: #e9193a;
                 font-weight: bold;
                 letter-spacing: 0;
                 @include exo();
-				/*@include transition($duration: 1s, $delay: .05s);*/
+				@include transition($duration: 1s, $delay: .45s);
             }
         }
         p {
-			/*position: relative;
+			position: relative;
 			top: -30px;
-			opacity: 0;*/
+			opacity: 0;
             font-size: 17px;
             color: #999;
             font-weight: 300;
             margin-top: 20px;
-			/*@include transition($duration: 1s, $delay: 1s);*/
+			@include transition($duration: 1s, $delay: 1.5s);
         }
     }
     .section-content {
@@ -1227,7 +1227,7 @@ body {
                     letter-spacing: -1px;
 					font-weight: bold;
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: .65s);
+					@include transition($duration: 1s, $delay: 1.8s);
 				}
 				> p {
 					position: relative;
@@ -1240,14 +1240,14 @@ body {
 					font-weight: 300;
 					margin-top: 25px;
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: .95s);
+					@include transition($duration: 1s, $delay: 2.5s);
 				}
 				.btn-area {
 					position: relative;
 					top: 30px;
 					opacity: 0;
 					margin-top: 35px;
-					@include transition($duration: 1s, $delay: 1s);
+					@include transition($duration: 1s, $delay: 2.5s);
 					p {
 						.btn-default {
 							display: inline-block;
@@ -1274,9 +1274,9 @@ body {
                     left: 0;
                     padding-right: 95px;
 					.img-fluid {
-						right: 100px;
+						right: 140px;
 						opacity: 0;
-						@include transition($duration: 1s, $delay: .15s);
+						@include transition($duration: .5s, $delay: 3.5s);
 					}
                 }
             }
@@ -1288,9 +1288,9 @@ body {
                     right: 0px;
                     padding-left: 95px;
 					.img-fluid {
-						left: 100px;
+						left: 140px;
 						opacity: 0;
-						@include transition($duration: 1s, $delay: .15s);
+						@include transition($duration: .5s, $delay: 3.5s);
 					}
                 }
             }
