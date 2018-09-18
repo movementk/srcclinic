@@ -1206,11 +1206,12 @@ body {
             padding: 60px 0 40px;
             vertical-align: middle;
             figure {
+				overflow: hidden;
                 position: absolute;
                 bottom: 0;
                 z-index: 1;
                 .img-fluid {
-					position: relative;
+					position: relative; 
                     max-width: 740px;
                     min-width: 740px;
                 }
