@@ -525,10 +525,15 @@ body {
   #content .news.action .notice .details {
     right: 0;
     opacity: 1; }
-  #content .news.action .notice-board .news-card {
+  #content .news.action .notice-board .news-card.effect01 {
     top: 0;
-    opacity: 1;
-    /*@include transition($duration: 1s, $delay: 1.5s);*/ }
+    opacity: 1; }
+  #content .news.action .notice-board .news-card.effect02 {
+    top: 0;
+    opacity: 1; }
+  #content .news.action .notice-board .news-card.effect03 {
+    top: 0;
+    opacity: 1; }
   #content .news .notice {
     position: relative;
     width: 100%;
@@ -631,10 +636,39 @@ body {
     margin-top: 40px; }
     #content .news .notice-board .news-card {
       position: relative;
-      top: 100px;
       opacity: 0;
       padding: 30px 30px 15px;
       background-color: #fff; }
+      #content .news .notice-board .news-card.effect01 {
+        top: 50px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1.5s;
+        transition-delay: 1.5s; }
+      #content .news .notice-board .news-card.effect02 {
+        top: 50px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1.8s;
+        transition-delay: 1.8s; }
+      #content .news .notice-board .news-card.effect03 {
+        top: 50px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 2.3s;
+        transition-delay: 2.3s; }
       #content .news .notice-board .news-card small {
         display: block;
         font-size: 12px;
@@ -1065,23 +1099,12 @@ body {
       -webkit-transition-delay: 0.5s;
       transition-delay: 0.5s; }
       .service .section-header h3 strong {
-        position: relative;
-        top: -20px;
-        opacity: 0;
         display: block;
         font-size: 46px;
         color: #e9193a;
         font-weight: bold;
         letter-spacing: 0;
-        font-family: 'Exo 2', sans-serif;
-        -webkit-transition-property: all;
-        transition-property: all;
-        -webkit-transition-duration: 1s;
-        transition-duration: 1s;
-        -webkit-transition-timing-function: linear;
-        transition-timing-function: linear;
-        -webkit-transition-delay: 0.45s;
-        transition-delay: 0.45s; }
+        font-family: 'Exo 2', sans-serif; }
     .service .section-header p {
       position: relative;
       top: -30px;
@@ -1096,8 +1119,8 @@ body {
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 1.5s;
-      transition-delay: 1.5s; }
+      -webkit-transition-delay: 0.5s;
+      transition-delay: 0.5s; }
   .service .section-content {
     display: table;
     width: 100%;
@@ -1124,7 +1147,7 @@ body {
         z-index: 2; }
         .service .section-content > article .details h4 {
           position: relative;
-          top: -30px;
+          top: 30px;
           opacity: 0;
           font-size: 28px;
           color: #fff;
@@ -1137,11 +1160,11 @@ body {
           transition-duration: 1s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-          -webkit-transition-delay: 1.8s;
-          transition-delay: 1.8s; }
+          -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s; }
         .service .section-content > article .details > p {
           position: relative;
-          top: -30px;
+          top: 30px;
           opacity: 0;
           font-size: 16px;
           color: #fff;
@@ -1195,12 +1218,12 @@ body {
             opacity: 0;
             -webkit-transition-property: all;
             transition-property: all;
-            -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+            -webkit-transition-duration: 1s;
+            transition-duration: 1s;
             -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
-            -webkit-transition-delay: 3.5s;
-            transition-delay: 3.5s; }
+            -webkit-transition-delay: 1.5s;
+            transition-delay: 1.5s; }
       .service .section-content > article.sports {
         padding-left: 60px;
         text-align: left;
@@ -1213,11 +1236,11 @@ body {
             opacity: 0;
             -webkit-transition-property: all;
             transition-property: all;
-            -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+            -webkit-transition-duration: 1s;
+            transition-duration: 1s;
             -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
-            -webkit-transition-delay: 3.5s;
-            transition-delay: 3.5s; }
+            -webkit-transition-delay: 1.5s;
+            transition-delay: 1.5s; }
 
 /*# sourceMappingURL=default.css.map */

@@ -506,9 +506,18 @@ body {
 			}
 			.notice-board {
 				.news-card {
-					top: 0;
-					opacity: 1;
-					/*@include transition($duration: 1s, $delay: 1.5s);*/
+					&.effect01 {
+						top: 0;
+						opacity: 1;
+					}
+					&.effect02 {
+						top: 0;
+						opacity: 1;
+					}
+					&.effect03 {
+						top: 0;
+						opacity: 1;
+					}
 				}
 			}
 		}
@@ -600,10 +609,21 @@ body {
 			margin-top: 40px;
 			.news-card {
 				position: relative;
-				top: 100px;
 				opacity: 0;
 				padding: 30px 30px 15px;
 				background-color: #fff;
+				&.effect01 {
+					top: 50px;
+					@include transition($duration: 1s, $delay: 1.5s);
+				}
+				&.effect02 {
+					top: 50px;
+					@include transition($duration: 1s, $delay: 1.8s);
+				}
+				&.effect03 {
+					top: 50px;
+					@include transition($duration: 1s, $delay: 2.3s);
+				}
 				small {
 					display: block;
 					font-size: 12px;
@@ -1170,16 +1190,12 @@ body {
             letter-spacing: -2px;
 			@include transition($duration: 1s, $delay: .5s);
             strong {
-				position: relative;
-				top: -20px;
-				opacity: 0;
                 display: block;
                 font-size: 46px;
                 color: #e9193a;
                 font-weight: bold;
                 letter-spacing: 0;
                 @include exo();
-				@include transition($duration: 1s, $delay: .45s);
             }
         }
         p {
@@ -1190,7 +1206,7 @@ body {
             color: #999;
             font-weight: 300;
             margin-top: 20px;
-			@include transition($duration: 1s, $delay: 1.5s);
+			@include transition($duration: 1s, $delay: .5s);
         }
     }
     .section-content {
@@ -1221,18 +1237,18 @@ body {
                 z-index: 2;
                 h4 {
 					position: relative;
-					top: -30px;
+					top: 30px;
 					opacity: 0;
 					font-size: 28px;
 					color: #fff;
                     letter-spacing: -1px;
 					font-weight: bold;
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: 1.8s);
+					@include transition($duration: 1s, $delay: 2.5s);
 				}
 				> p {
 					position: relative;
-					top: -30px;
+					top: 30px;
 					opacity: 0;
 					font-size: 16px;
 					color: #fff;
@@ -1277,7 +1293,7 @@ body {
 					.img-fluid {
 						right: 140px;
 						opacity: 0;
-						@include transition($duration: .5s, $delay: 3.5s);
+						@include transition($duration: 1s, $delay: 1.5s);
 					}
                 }
             }
@@ -1291,7 +1307,7 @@ body {
 					.img-fluid {
 						left: 140px;
 						opacity: 0;
-						@include transition($duration: .5s, $delay: 3.5s);
+						@include transition($duration: 1s, $delay: 1.5s);
 					}
                 }
             }
