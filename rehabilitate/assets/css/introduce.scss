@@ -1,0 +1,56 @@
+@import 'common';
+
+// 치료진 페이지
+.care-team {
+	.section-content {
+		margin-top: 75px;
+		.sub-title {
+			& ~ .sub-title {
+				margin-top: 125px;
+			}
+		}
+		.member {
+			ul {
+				li {
+					figure {
+						figcaption {
+							h3 {
+								span {
+									display: inline-block;
+									font-size: 15px;
+									font-weight: 400;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

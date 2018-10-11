@@ -2,9 +2,9 @@
 
 body {
 	position: relative;
-	min-width: 1200px !important;
+	min-width: 1200px !important; 
+	font-weight: 300;
 	font-family: 'Noto Sans KR', sans-serif;
-	background-color: #28b690;
 }
 
 //header
@@ -433,7 +433,6 @@ body {
             position: relative;
             display: table-cell;
             width: 50%;
-            z-index: 3;
             padding: 60px 0 40px;
             vertical-align: middle;
             figure {

@@ -2,45 +2,10 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/rehabilitate/assets/scrollbar-plugin/jquery.mCustomScrollbar.min.css">	
 <link rel="stylesheet" href="/rehabilitate/assets/css/default.css">  
-<link rel="stylesheet" href="/rehabilitate/assets/css/main.css">       
+<link rel="stylesheet" href="/rehabilitate/assets/css/main.css">  
 </head>
 <body>
-	<header id="header">
-		<div class="container">
-			<div class="header-wrap">
-				<h1 class="logo">
-					<a href="/rehabilitate/index.php">
-						<img src="/rehabilitate/assets/images/img_logo.png" alt="로고">
-					</a>
-				</h1>
-				<nav id="gnb">
-					<ul>
-						<li>
-							<a href="#">병원소개</a>
-						</li>
-						<li>
-							<a href="#">이용안내</a>
-						</li>
-						<li>
-							<a href="#">재활치료</a>
-						</li>
-						<li>
-							<a href="#">소아 낮병동</a>
-						</li>
-						<li>
-							<a href="#">병원소식</a>
-						</li>
-					</ul>
-				</nav>
-				<button type="button" class="btn btn-nav">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</button>
-			</div>
-		</div>
-	</header>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/header.php'); ?>
 	<main id="content">
 		<!--jumbotrons slider-->
 		<div class="jumbotron">
