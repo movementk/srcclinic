@@ -105,6 +105,7 @@ body {
 		font-size: 16px;
 		color: #666;
 		margin-top: 30px;
+		font-weight: 300;
 	}
 }
 
@@ -168,6 +169,8 @@ body {
 	p {
 		font-size: 14px;
 		color: #666;
+		line-height: 20px;
+		font-weight: 300;
 		padding-left: 20px;
 		margin-top: 15px;
 	}
@@ -311,7 +314,7 @@ body {
 						height: 55px;
 						font-size: 15px;
 						color: #fff;
-						font-weight: 300;
+						font-weight: 400;
 						background-color: #28b690;
 						border-right: 1px solid #fff;
 						&:last-child {
@@ -341,7 +344,7 @@ body {
 					td {
 						height: 55px;
 						font-size: 15px;
-						color: #666; 
+						color: #666;
 						vertical-align: middle;
 						border-right: 1px solid #d6d6d6;
 						border-bottom: 1px solid #d6d6d6;
@@ -362,6 +365,7 @@ body {
 		margin-top: 10px;
 		font-size: 15px;
 		line-height: 22px;
+		font-weight: 300;
 		padding-left: 32px;
 		vertical-align: middle;
 		&:first-child {
@@ -560,6 +564,7 @@ body {
 			> p {
 				font-size: 16px;
 				color: #666;
+				font-weight: 300;
 				line-height: 30px;
 			}
 		}
@@ -567,7 +572,7 @@ body {
 }
 
 .slider {
-	.slider-for {
+	.slider-main {
 		position: relative;
 		width: 100%;
 		height: 685px;
@@ -622,6 +627,7 @@ body {
 			margin-top: -42px;
 			background: none;
 			outline: none;
+			cursor: pointer;
 			background-repeat: no-repeat;
 			&:hover, &:focus {
 				i {
@@ -976,11 +982,14 @@ body {
 		&:nth-of-type(3) ~ .news-list {
 			margin-top: 95px;
 		}
+		&:nth-of-type(3n + 1) {
+			clear: both;
+		} 
 		a {
 			display: block;
 			.items {
 				position: relative;
-				box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2);
+				box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.2);
 				/*img {
 					height: 390px;
 				}
@@ -996,13 +1005,108 @@ body {
 				color: #333;
 				font-weight: 400;
 				margin-top: 40px;
+				letter-spacing: -.5px;
+    			text-align: center;
 			}
 		}
 	}
 }
 
-
-
+// 시설안내 슬라이드
+.facility-slider {
+	.facility-img {
+		position: relative;
+		> .slick-list {
+			> .slick-track {
+				> .slick-slide {
+					height: 730px;
+					outline: none;
+					/*transition: opacity 500ms ease 0s;*/
+					transition: all 500ms linear 0s !important;
+					figure {
+						img {
+							width: 100%;
+							height: 655px;
+						}
+						figcaption {
+							display: block;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							width: 570px;
+							min-height: 190px;
+							background-color: #fff;
+							padding: 50px 30px 30px 60px;
+							@include transition();
+							h4 {
+								font-size: 30px;
+								color: #232323;
+								font-weight: 400;
+							}
+							> p {
+								font-size: 15px;
+								color: #666;
+								font-weight: 300;
+								margin-top: 35px;
+							}
+						}
+					}
+				}
+			}
+		}
+		> .slick-arrow {
+			position: absolute;
+			bottom: 0;
+			right: 570px;
+			border: 0;
+			width: 80px;
+			height: 75px;
+			color: #fff;
+			cursor: pointer;
+			outline: none;
+			background-color: #5b5b5b;
+			&.slick-prev {
+				right: 650px;
+				background-color: #28b690;
+				z-index: 5;
+			}
+		}
+	}
+	.facility-nav {
+		margin-top: 70px;
+		text-align: center;
+		> .slick-slider {
+			display: inline-block;
+			> .slick-list  {
+				padding: 0 !important;
+				> .slick-track {
+					width: 100% !important;
+					transform: none !important;
+					padding-top: 15px;
+					outline: none;
+					> .slick-slide {
+						width: 220px !important;
+						height: 195px;
+						margin-right: 17px;
+						outline: none;
+						&.slick-current {
+							img {
+								box-shadow: 7px -5px 10px 0px rgba(0, 0, 0, 0.15);
+							}
+						}
+						&:last-child {
+							margin-right: 0;
+						}
+						img {
+							width: 100%;
+							
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
