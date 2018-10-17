@@ -295,7 +295,7 @@
 			<h2 class="ex-title">재활 슬라이드</h2>
 			<!-- 재활 슬라이드 -->
 			<div class="slider">
-				<ul class="slider-for">
+				<ul class="slider-main">
 					<li>1</li>
 					<li>2</li>
 					<li>3</li>
@@ -517,6 +517,68 @@
 					</a>
 				</div>
 			</div>
+			<br>
+			<br>
+			<h2 class="ex-title">시설안내 슬라이드</h2>
+			<!-- 시설안내 슬라이드 -->
+			<div class="facility-slider">
+				<ul class="facility-img">
+					<li>
+						<figure>
+							<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
+							<figcaption>
+								<h4>SRC 부설의원1</h4>	
+								<p>SRC부설의원 관련 내용 설명</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="/rehabilitate/assets/images/introduce/img_facility_slider02.jpg" class="img-fluid" alt="">
+							<figcaption>
+								<h4>SRC 부설의원2</h4>	
+								<p>SRC부설의원 관련 내용 설명</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
+							<figcaption>
+								<h4>SRC 부설의원3</h4>	
+								<p>SRC부설의원 관련 내용 설명</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="/rehabilitate/assets/images/introduce/img_facility_slider02.jpg" class="img-fluid" alt="">
+							<figcaption>
+								<h4>SRC 부설의원4</h4>	
+								<p>SRC부설의원 관련 내용 설명</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
+							<figcaption>
+								<h4>SRC 부설의원5</h4>	
+								<p>SRC부설의원 관련 내용 설명</p>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+				<nav class="facility-nav">
+					<ul>
+						<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav03.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav01.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav02.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav04.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav05.jpg" class="img-fluid" alt=""></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</main>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/footer.php'); ?>
@@ -525,19 +587,19 @@
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script>
 		(function($){
-			$('.slider-for').slick({
+			$('.slider-main, .facility-img').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				arrows: true,
 				fade: true,
 				prevArrow: '<button class="slick-prev"><i class="icon-left-open"></i></button>',
             	nextArrow: '<button class="slick-next"><i class="icon-right-open"></i></button>',
-				asNavFor: '.slider-nav ul'
+				asNavFor: '.slider-nav ul, .facility-nav ul'
 			});
-			$('.slider-nav ul').slick({
+			$('.slider-nav ul, .facility-nav ul').slick({
 			  slidesToShow: 8,
 			  slidesToScroll: 1, 
-			  asNavFor: '.slider-for',
+			  asNavFor: '.slider-main, .facility-img',
 			  dots: false,
 			  arrows: false,	
 			  centerMode: true,

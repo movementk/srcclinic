@@ -27,14 +27,6 @@
 		}
 	});
 
-	// 퀵탑
-	$(document).on('click', '.quick-top .btn-top', function(e) {
-		$('html, body').stop().animate({
-			scrollTop: 0
-		});
-		e.preventDefault();
-	});
-
 	// text 효과 관련
 	$(window).on('scroll', function() {
 		$('.benefit').each(function(index, elem) {

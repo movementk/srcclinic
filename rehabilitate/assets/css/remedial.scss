@@ -1,0 +1,151 @@
+@import 'common';
+
+// 공통
+#content {
+	padding-top: 95px;
+	.sub-title {
+		margin-bottom: 90px;
+		h3 {
+			font-size: 28px;
+			font-weight:  400;
+			padding-left: 15px;
+			line-height: 26px;
+			border-left: 3px solid #28b690;
+			&:before {
+				display: none;
+			}
+		}
+		p {
+			font-size: 16px;
+			line-height: 32px;
+			padding-left: 0;
+			margin-top: 30px;
+		}
+	}
+	.care {
+		> div {
+			.details {
+				> .circle-list {
+					> li {
+						line-height: 26px;
+						span {
+							top: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.slider {
+		margin-top: 120px;
+	}
+}
+
+// 청소년 재활치료 page-intro 공통
+.teenager {
+	.page-intro {
+		background-image: url(/rehabilitate/assets/images/remedial/bg_intro_teenager.jpg);
+	} 
+}
+
+// 성인 재활치료 page-intro 공통
+.adult {
+	.page-intro {
+		background-image: url(/rehabilitate/assets/images/remedial/bg_intro_adult.jpg);
+	} 
+}
+
+// 소아 언어 치료
+.speech-therapy {
+	.care {
+		.target {
+			.details {
+				.circle-list {
+					li {
+						display: inline-block;
+						width: 490px;
+						font-weight: 300;
+						vertical-align: top;
+						&:nth-of-type(2) {
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// 청소년 물리 치료
+.teenager-physical {
+	.care {
+		> div {
+			.details {
+				> .circle-list {
+					> li {
+						& ~ li {
+							margin-top: 45px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// 청소년 작업 치료
+.teenager-occupational {
+	.care {
+		> div {
+			&.contents {
+				.details {
+					.circle-list {
+						> li {
+							line-height: 22px;
+							margin-top: 10px;
+							& ~ li {
+								margin-top: 10px;
+							}
+							&:first-child {
+								margin-top: 0;
+							}
+							span {
+								top: 6px;
+							}
+						}
+					}
+				}
+			}
+			.details {
+				> .circle-list {
+					> li {
+						& ~ li {
+							margin-top: 10px;
+						}	
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

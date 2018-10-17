@@ -86,4 +86,191 @@ a {
     font-size: 15px;
     font-weight: 400; }
 
+.business-number .section-header {
+  border-bottom: 1px solid #9b9da0; }
+  .business-number .section-header .page-title {
+    padding-bottom: 60px; }
+.business-number .section-content {
+  padding-top: 50px; }
+  .business-number .section-content .sub-title ~ .sub-title {
+    margin-top: 90px; }
+  .business-number .section-content .summary {
+    font-size: 14px;
+    color: #666;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px; }
+    .business-number .section-content .summary i {
+      font-size: 15px;
+      font-style: normal;
+      color: #e9193a; }
+
+.facility .section-content {
+  margin-top: 80px; }
+
+.location .section-content {
+  padding-top: 90px; }
+  .location .section-content article .table-wrap {
+    border-top: 2px solid #28b690; }
+    .location .section-content article .table-wrap .table {
+      margin: 0;
+      background: none; }
+      .location .section-content article .table-wrap .table tr th {
+        padding: 0;
+        vertical-align: middle;
+        border: 0;
+        width: 155px;
+        font-size: 16px;
+        color: #282828;
+        font-weight: 400;
+        padding: 18px 30px;
+        background-color: #fff;
+        border-bottom: 1px solid #dfdfdf; }
+      .location .section-content article .table-wrap .table tr td {
+        font-size: 15px;
+        color: #666;
+        font-weight: 300;
+        vertical-align: middle;
+        /*padding-left: 30px;*/
+        padding: 18px 30px;
+        border-bottom: 1px solid #dfdfdf; }
+        .location .section-content article .table-wrap .table tr td > .details > li {
+          font-size: 15px;
+          color: #666;
+          font-weight: 300;
+          line-height: 46px; }
+          .location .section-content article .table-wrap .table tr td > .details > li span {
+            display: inline-block;
+            width: 75px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            margin-right: 15px; }
+            .location .section-content article .table-wrap .table tr td > .details > li span.line-7 {
+              background-color: #576615; }
+            .location .section-content article .table-wrap .table tr td > .details > li span.line-2 {
+              background-color: #368d40; }
+            .location .section-content article .table-wrap .table tr td > .details > li span.green-bus {
+              background-color: #2dba3a; }
+            .location .section-content article .table-wrap .table tr td > .details > li span.blue-bus {
+              background-color: #448cf0; }
+  .location .section-content article.clinic .maps {
+    margin-top: 30px; }
+  .location .section-content article.traffic {
+    margin-top: 115px; }
+    .location .section-content article.traffic .table-wrap tbody tr th {
+      padding-top: 30px;
+      vertical-align: top; }
+
+.sum-list .section-header {
+  border-bottom: 1px solid #9b9da0; }
+  .sum-list .section-header .page-title {
+    padding-bottom: 65px; }
+.sum-list .section-content article .sub-title {
+  margin-bottom: 30px; }
+.sum-list .section-content article.basic {
+  padding-top: 100px; }
+.sum-list .section-content article.proof {
+  padding-top: 120px; }
+
+.partners .section-content {
+  padding-top: 90px; }
+  .partners .section-content .row .col-3 .details {
+    padding-bottom: 45px; }
+    .partners .section-content .row .col-3 .details .partner-logo {
+      display: table;
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #ddd; }
+      .partners .section-content .row .col-3 .details .partner-logo figure {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 100%;
+        height: 105px; }
+        .partners .section-content .row .col-3 .details .partner-logo figure img {
+          display: block;
+          margin: 0 auto;
+          max-height: 105px; }
+    .partners .section-content .row .col-3 .details > h3 {
+      font-size: 16px;
+      color: #666;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 25px; }
+
+.certificate .section-header {
+  border-bottom: 1px solid #9b9da0; }
+  .certificate .section-header .page-title {
+    padding-bottom: 65px; }
+.certificate .section-content article {
+  margin-top: 110px; }
+  .certificate .section-content article .step {
+    font-size: 0;
+    text-align: center; }
+    .certificate .section-content article .step > li {
+      position: relative;
+      display: inline-block;
+      width: 170px;
+      margin-right: 95px;
+      vertical-align: top; }
+      .certificate .section-content article .step > li:last-child {
+        margin-right: 0; }
+        .certificate .section-content article .step > li:last-child .item:after {
+          display: none; }
+      .certificate .section-content article .step > li .item {
+        height: 150px;
+        text-align: center;
+        padding-top: 25px;
+        border: 1px solid #d6d6d6;
+        background-color: #fff; }
+        .certificate .section-content article .step > li .item:after {
+          content: " ";
+          position: absolute;
+          top: 75px;
+          left: 100%;
+          display: inline-block;
+          width: 100%;
+          height: 2px;
+          background-image: url(/rehabilitate/assets/images/introduce/bg_steplist_after.png); }
+        .certificate .section-content article .step > li .item > p {
+          font-size: 16px;
+          color: #333;
+          font-weight: 500;
+          letter-spacing: -1px;
+          font-family: 'Maven Pro', sans-serif; }
+        .certificate .section-content article .step > li .item figure {
+          margin-top: 10px; }
+      .certificate .section-content article .step > li > h4 {
+        font-size: 16px;
+        color: #666;
+        font-weight: 400;
+        margin-top: 25px; }
+        .certificate .section-content article .step > li > h4 > i {
+          font-size: 14px;
+          font-style: normal;
+          margin-top: 10px; }
+  .certificate .section-content article.document .table-wrap .table tbody tr td {
+    line-height: 24px;
+    font-weight: 300;
+    padding: 30px 0; }
+    .certificate .section-content article.document .table-wrap .table tbody tr td:first-child {
+      color: #333;
+      font-weight: 400; }
+    .certificate .section-content article.document .table-wrap .table tbody tr td > .circle-list {
+      padding-left: 35px; }
+  .certificate .section-content article.document .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; }
+  .certificate .section-content article.expense .table-wrap .table.type-1 tbody tr td:first-child {
+    color: #333;
+    font-weight: 400; }
+  .certificate .section-content article.expense .table-wrap .table.type-1 tbody tr:nth-of-type(2) td {
+    background-color: #f8f8f8; }
+  .certificate .section-content article.expense .table-wrap .table.type-1 tbody tr:nth-of-type(3) td {
+    background-color: #fff; }
+
 /*# sourceMappingURL=introduce.css.map */

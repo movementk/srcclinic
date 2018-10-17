@@ -77,35 +77,57 @@ a {
   border-radius: 0;
   box-shadow: none !important; }
 
-.notice-list .board-list {
-  margin-top: 20px; }
-.notice-list .paging {
-  margin-top: 70px; }
+#content {
+  padding-top: 95px; }
+  #content .sub-title {
+    margin-bottom: 90px; }
+    #content .sub-title h3 {
+      font-size: 28px;
+      font-weight: 400;
+      padding-left: 15px;
+      line-height: 26px;
+      border-left: 3px solid #28b690; }
+      #content .sub-title h3:before {
+        display: none; }
+    #content .sub-title p {
+      font-size: 16px;
+      line-height: 32px;
+      padding-left: 0;
+      margin-top: 30px; }
+  #content .care > div .details > .circle-list > li {
+    line-height: 26px; }
+    #content .care > div .details > .circle-list > li span {
+      top: 5px; }
+  #content .slider {
+    margin-top: 120px; }
 
-.notice-view .btn-area {
-  margin-top: 30px;
-  text-align: right; }
-  .notice-view .btn-area p .btn {
-    width: 135px;
-    font-size: 14px;
-    line-height: 40px; }
+.teenager .page-intro {
+  background-image: url(/rehabilitate/assets/images/remedial/bg_intro_teenager.jpg); }
 
-.health-list .board-list {
-  margin-top: 20px; }
-.health-list .paging {
-  margin-top: 70px; }
+.adult .page-intro {
+  background-image: url(/rehabilitate/assets/images/remedial/bg_intro_adult.jpg); }
 
-.health-view .btn-area {
-  margin-top: 30px;
-  text-align: right; }
-  .health-view .btn-area p .btn {
-    width: 135px;
-    font-size: 14px;
-    line-height: 40px; }
+.speech-therapy .care .target .details .circle-list li {
+  display: inline-block;
+  width: 490px;
+  font-weight: 300;
+  vertical-align: top; }
+  .speech-therapy .care .target .details .circle-list li:nth-of-type(2) {
+    margin: 0; }
 
-.news-letter .page-title {
-  padding-bottom: 90px; }
-.news-letter .paging {
-  margin-top: 90px; }
+.teenager-physical .care > div .details > .circle-list > li ~ li {
+  margin-top: 45px; }
 
-/*# sourceMappingURL=notice.css.map */
+.teenager-occupational .care > div.contents .details .circle-list > li {
+  line-height: 22px;
+  margin-top: 10px; }
+  .teenager-occupational .care > div.contents .details .circle-list > li ~ li {
+    margin-top: 10px; }
+  .teenager-occupational .care > div.contents .details .circle-list > li:first-child {
+    margin-top: 0; }
+  .teenager-occupational .care > div.contents .details .circle-list > li span {
+    top: 6px; }
+.teenager-occupational .care > div .details > .circle-list > li ~ li {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=remedial.css.map */
