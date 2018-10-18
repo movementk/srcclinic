@@ -26,13 +26,13 @@
 					<a href="/rehabilitate/introduce/location.php">오시는길</a>
 				</li>
 				<li>
-					<a href="#">증명서 발급</a>
+					<a href="/rehabilitate/introduce/certificate.php">증명서 발급</a>
 				</li>
 				<li class="active">
 					<a href="/rehabilitate/introduce/sum_list.php">비급여 안내</a>
 				</li>
 				<li>
-					<a href="#">협력기관</a>
+					<a href="/rehabilitate/introduce/partners.php">협력기관</a>
 				</li>
 			</ul>
 		</div>
@@ -45,13 +45,13 @@
 				<div class="section-header">
 					<div class="page-title">
 						<h2>비급여 안내</h2>
-						<p>SRC병원 부설의원의 주요협력기관 입니다.</p>
+						<!--p>SRC병원 부설의원의 주요협력기관 입니다.</p-->
 					</div>
 				</div>
 				<div class="section-content">
 					<article class="basic">
 						<div class="sub-title">
-							<h3>기본항목 1</h3>
+							<h3>기본항목</h3>
 						</div>
 						<div class="table-wrap">
 							<table class="table type-1">

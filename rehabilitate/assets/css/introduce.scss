@@ -59,9 +59,29 @@
 	}
 }
 
-
-// 시설 안내
+// 부설의원 시설안내
 .facility {
+	.section-content {
+		margin-top: 80px;
+	}	
+}
+
+// 언어심리상담센터 시설안내
+.facility-speech {
+	.section-content {
+		margin-top: 80px;
+	}	
+}
+
+// 스포츠센터 시설안내
+.facility-sports {
+	.section-content {
+		margin-top: 80px;
+	}	
+}
+
+// 새롬학교 시설안내
+.facility-saerom {
 	.section-content {
 		margin-top: 80px;
 	}	
@@ -260,7 +280,7 @@
 							display: inline-block;
 							width: 100%;
 							height: 2px;
-							background-image: url(/rehabilitate/assets/images/introduce/bg_steplist_after.png);
+							border: 1px dashed #d7d7d7;
 						}
 						> p {
 							font-size: 16px;

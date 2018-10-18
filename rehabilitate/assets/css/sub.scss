@@ -1067,8 +1067,13 @@ body {
 			background-color: #5b5b5b;
 			&.slick-prev {
 				right: 650px;
-				background-color: #28b690;
 				z-index: 5;
+				border-right: 1px solid #7e7e7e;
+			}
+			&:hover, &:focus {
+				background-color: #28b690;
+				border-color: #28b690;
+				@include transition();
 			}
 		}
 	}

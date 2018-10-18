@@ -42,7 +42,7 @@
 	<!-- Content -->
 	<main id="content">
 		<div class="container">
-			<section class="facility"><!-- 페이지명 -->
+			<section class="facility-saerom"><!-- 페이지명 -->
 				<div class="section-header">
 					<div class="page-title">
 						<h2>시설안내</h2>
@@ -50,10 +50,10 @@
 					</div>
 					<nav class="page-tab">
 						<ul>
-							<li class="on"><a href="/rehabilitate/introduce/facility.php">SRC 부설의원</a></li>
+							<li><a href="/rehabilitate/introduce/facility.php">SRC 부설의원</a></li>
 							<li><a href="/rehabilitate/introduce/facility_speech.php">SRC 언어심리상담센터</a></li>
 							<li><a href="/rehabilitate/introduce/facility_sports.php">SRC 스포츠센터</a></li>
-							<li><a href="/rehabilitate/introduce/facility_saerom.php">SRC 새롬학교</a></li>
+							<li class="on"><a href="/rehabilitate/introduce/facility_saerom.php">SRC 새롬학교</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -64,8 +64,8 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
 									<figcaption>
-										<h4>SRC 부설의원1</h4>	
-										<p>도수치료, 수술 후 재활, 소아낮병동 등 통증 〮 재활치료를 전문으로 제공합니다.</p>
+										<h4>SRC 새롬학교1</h4>	
+										<p>유치원, 초등학교, 중학교, 순회학급으로 구성된 지체장애특수학교입니다.</p>
 									</figcaption>
 								</figure>
 							</li>
@@ -73,8 +73,8 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/img_facility_slider02.jpg" class="img-fluid" alt="">
 									<figcaption>
-										<h4>SRC 부설의원2</h4>	
-										<p>도수치료, 수술 후 재활, 소아낮병동 등 통증 〮 재활치료를 전문으로 제공합니다.</p>
+										<h4>SRC 새롬학교2</h4>	
+										<p>유치원, 초등학교, 중학교, 순회학급으로 구성된 지체장애특수학교입니다.</p>
 									</figcaption>
 								</figure>
 							</li>
@@ -82,8 +82,8 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
 									<figcaption>
-										<h4>SRC 부설의원3</h4>	
-										<p>도수치료, 수술 후 재활, 소아낮병동 등 통증 〮 재활치료를 전문으로 제공합니다.</p>
+										<h4>SRC 새롬학교3</h4>	
+										<p>유치원, 초등학교, 중학교, 순회학급으로 구성된 지체장애특수학교입니다.</p>
 									</figcaption>
 								</figure>
 							</li>
@@ -91,8 +91,8 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/img_facility_slider02.jpg" class="img-fluid" alt="">
 									<figcaption>
-										<h4>SRC 부설의원4</h4>	
-										<p>도수치료, 수술 후 재활, 소아낮병동 등 통증 〮 재활치료를 전문으로 제공합니다.</p>
+										<h4>SRC 새롬학교4</h4>	
+										<p>유치원, 초등학교, 중학교, 순회학급으로 구성된 지체장애특수학교입니다.</p>
 									</figcaption>
 								</figure>
 							</li>
@@ -100,8 +100,8 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/img_facility_slider01.jpg" class="img-fluid" alt="">
 									<figcaption>
-										<h4>SRC 부설의원5</h4>	
-										<p>도수치료, 수술 후 재활, 소아낮병동 등 통증 〮 재활치료를 전문으로 제공합니다.</p>
+										<h4>SRC 새롬학교5</h4>	
+										<p>유치원, 초등학교, 중학교, 순회학급으로 구성된 지체장애특수학교입니다.</p>
 									</figcaption>
 								</figure>
 							</li>
