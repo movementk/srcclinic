@@ -8,17 +8,17 @@
 		</div>
 		<ul class="page-menu">
 			<li>
-				<a href="#">
+				<a href="/rehabilitate/introduce/certificate.php">
 					증명서 발급
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/rehabilitate/introduce/sum_list.php">
 					비급여 안내
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/rehabilitate/introduce/location.php">
 					오시는 길
 				</a>
 			</li>
