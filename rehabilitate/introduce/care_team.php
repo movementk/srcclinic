@@ -17,22 +17,22 @@
 					<a href="#">의료/치료진</a>
 				</li>
 				<li>
-					<a href="#">시설안내</a>
+					<a href="/rehabilitate/introduce/facility.php">시설안내</a>
 				</li>
 				<li>
-					<a href="#">부서별 전화번호</a>
+					<a href="/rehabilitate/introduce/business_number.php">부서별 전화번호</a>
 				</li>
 				<li>
-					<a href="#">오시는길</a>
+					<a href="/rehabilitate/introduce/location.php">오시는길</a>
 				</li>
 				<li>
-					<a href="#">증명서 발급</a>
+					<a href="/rehabilitate/introduce/certificate.php">증명서 발급</a>
 				</li>
 				<li>
-					<a href="#">비급여 안내</a>
+					<a href="/rehabilitate/introduce/sum_list.php">비급여 안내</a>
 				</li>
 				<li>
-					<a href="#">협력기관</a>
+					<a href="/rehabilitate/introduce/partners.php">협력기관</a>
 				</li>
 			</ul>
 		</div>
@@ -45,7 +45,7 @@
 				<div class="section-header">
 					<div class="page-title">
 						<h2>의료/치료진</h2>
-						<p>SRC병원 부설의원의 의료/치료진을 소개합니다.</p>
+						<!--p>SRC병원 부설의원의 의료/치료진을 소개합니다.</p-->
 					</div>
 					<nav class="page-tab">
 						<ul>
@@ -62,10 +62,19 @@
 						<ul class="row">
 							<li class="col-3">
 								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list01.png" alt="">
+									<img src="/rehabilitate/assets/images/introduce/care_list03.png" alt="">
 									<figcaption>
-										<h3>고 은 별</h3>
-										<p>언어치료실 / 언어치료사</p>
+										<h3>박 정 미 <span>팀장</span></h3>
+										<p>물리치료실 / 물리치료사</p>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-3">
+								<figure>
+									<img src="/rehabilitate/assets/images/introduce/care_list06.png" alt="">
+									<figcaption>
+										<h3>이 지 예</h3>
+										<p>물리치료실 / 물리치료사</p>
 									</figcaption>
 								</figure>
 							</li>
@@ -74,15 +83,6 @@
 									<img src="/rehabilitate/assets/images/introduce/care_list02.png" alt="">
 									<figcaption>
 										<h3>김 선 우</h3>
-										<p>물리치료실 / 물리치료사</p>
-									</figcaption>
-								</figure>
-							</li>
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list03.png" alt="">
-									<figcaption>
-										<h3>박 정 미 <span>팀장</span></h3>
 										<p>물리치료실 / 물리치료사</p>
 									</figcaption>
 								</figure>
@@ -107,10 +107,10 @@
 							</li>
 							<li class="col-3">
 								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list06.png" alt="">
+									<img src="/rehabilitate/assets/images/introduce/care_list01.png" alt="">
 									<figcaption>
-										<h3>이 지 예</h3>
-										<p>물리치료실 / 물리치료사</p>
+										<h3>고 은 별</h3>
+										<p>언어치료실 / 언어치료사</p>
 									</figcaption>
 								</figure>
 							</li>

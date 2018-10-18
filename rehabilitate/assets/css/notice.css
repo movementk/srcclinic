@@ -77,35 +77,35 @@ a {
   border-radius: 0;
   box-shadow: none !important; }
 
-.notice-list .board-list {
+.notice-list .section-content .board-list {
   margin-top: 20px; }
-.notice-list .paging {
+.notice-list .section-content .paging {
   margin-top: 70px; }
 
-.notice-view .btn-area {
+.notice-view .section-content .btn-area {
   margin-top: 30px;
   text-align: right; }
-  .notice-view .btn-area p .btn {
+  .notice-view .section-content .btn-area p .btn {
     width: 135px;
     font-size: 14px;
     line-height: 40px; }
 
-.health-list .board-list {
+.health-list .section-content .board-list {
   margin-top: 20px; }
-.health-list .paging {
+.health-list .section-content .paging {
   margin-top: 70px; }
 
-.health-view .btn-area {
+.health-view .section-content .btn-area {
   margin-top: 30px;
   text-align: right; }
-  .health-view .btn-area p .btn {
+  .health-view .section-content .btn-area p .btn {
     width: 135px;
     font-size: 14px;
     line-height: 40px; }
 
-.news-letter .page-title {
+.news-letter .section-header .page-title {
   padding-bottom: 90px; }
-.news-letter .paging {
+.news-letter .section-content .paging {
   margin-top: 90px; }
 
 /*# sourceMappingURL=notice.css.map */

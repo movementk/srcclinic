@@ -842,8 +842,19 @@ body {
     background-color: #5b5b5b; }
     .facility-slider .facility-img > .slick-arrow.slick-prev {
       right: 650px;
+      z-index: 5;
+      border-right: 1px solid #7e7e7e; }
+    .facility-slider .facility-img > .slick-arrow:hover, .facility-slider .facility-img > .slick-arrow:focus {
       background-color: #28b690;
-      z-index: 5; }
+      border-color: #28b690;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
 .facility-slider .facility-nav {
   margin-top: 70px;
   text-align: center; }

@@ -17,22 +17,22 @@
 					<a href="#">의료/치료진</a>
 				</li>
 				<li>
-					<a href="#">시설안내</a>
+					<a href="/rehabilitate/introduce/facility.php">시설안내</a>
 				</li>
 				<li class="active">
 					<a href="/rehabilitate/introduce/business_number.php">부서별 전화번호</a>
 				</li>
 				<li>
-					<a href="#">오시는길</a>
+					<a href="/rehabilitate/introduce/location.php">오시는길</a>
 				</li>
 				<li>
-					<a href="#">증명서 발급</a>
+					<a href="/rehabilitate/introduce/certificate.php">증명서 발급</a>
 				</li>
 				<li>
-					<a href="#">비급여 안내</a>
+					<a href="/rehabilitate/introduce/sum_list.php">비급여 안내</a>
 				</li>
 				<li>
-					<a href="#">협력기관</a>
+					<a href="/rehabilitate/introduce/partners.php">협력기관</a>
 				</li>
 			</ul>
 		</div>
@@ -45,7 +45,7 @@
 				<div class="section-header">
 					<div class="page-title">
 						<h2>부서별 전화번호</h2>
-						<p>SRC부서별 전화 번호입니다. 문의사항시 문의해 주세요.</p>
+						<!--p>SRC부서별 전화 번호입니다. 문의사항시 문의해 주세요.</p-->
 					</div>
 				</div>
 				<div class="section-content">

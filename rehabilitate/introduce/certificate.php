@@ -45,7 +45,7 @@
 				<div class="section-header">
 					<div class="page-title">
 						<h2>제증명서 발급안내</h2>
-						<p>제증명서 발급방법을 안내해 드립니다.</p>
+						<!--p>제증명서 발급방법을 안내해 드립니다.</p-->
 					</div>
 				</div>
 				<div class="section-content">

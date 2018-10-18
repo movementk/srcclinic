@@ -108,6 +108,15 @@ a {
 .facility .section-content {
   margin-top: 80px; }
 
+.facility-speech .section-content {
+  margin-top: 80px; }
+
+.facility-sports .section-content {
+  margin-top: 80px; }
+
+.facility-saerom .section-content {
+  margin-top: 80px; }
+
 .location .section-content {
   padding-top: 90px; }
   .location .section-content article .table-wrap {
@@ -235,7 +244,7 @@ a {
           display: inline-block;
           width: 100%;
           height: 2px;
-          background-image: url(/rehabilitate/assets/images/introduce/bg_steplist_after.png); }
+          border: 1px dashed #d7d7d7; }
         .certificate .section-content article .step > li .item > p {
           font-size: 16px;
           color: #333;
