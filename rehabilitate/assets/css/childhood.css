@@ -122,32 +122,29 @@ a {
         padding: 20px 20px 20px 50px; }
 
 .faq .section-content {
-  /*.accordion {
+  /*.faq-list {
   	border-top: 1px solid #333;
-  	.card {
+  	.panel {
+  		margin: 0;
   		border: 0;
   		border-radius: 0;
-  		background: none;
-  		width: 100%;
-  		
-  		.card-header {
-  			padding: 0;
-  			border: 0;
+  		.pannel-header {
+  			position: relative;
   			border-radius: 0;
-  			background: none;
-  			width: 100%;
+  			background-color: none;
   			padding: 16px 20px 16px 25px;
   			border-bottom: 1px solid #ccc;
   			&.active {
-  					background-color: #fff;
-  					border-bottom: 1px dashed #ccc;
-  				h5 {
-  				}
+  				background-color: #fff;
   			}
-  			h5 {
+  			> a {
   				width: 100%;
   				height: inherit;
   				font-size: 16px;
+  				color: #282828;
+  				font-weight: 400;
+  				line-height: 44px;
+  				vertical-align: top;
   				&:before {
   					content: "";
   					display: inline-block;
@@ -160,73 +157,85 @@ a {
   					background-repeat: no-repeat;
   					background-position: 50% 50%;
   				}
-  				.btn-link {
-  					color: #282828;
-  					line-height: 44px;
-  					margin-left: 30px;
-  					vertical-align: top;
-  					&:hover, &:focus {
-  						color: #28b690;
-  						text-decoration: none;
-  						@include transition();
-  					}
-  				}
+  			}
+  			&:first-child {
+  				border-top: 0;
   			}
   		}
-  		.collapsing {
-  			transition: none !important;
-  		}
-  		.collapse {
-  			.card-body {
-  				padding: 0;
-  				padding: 25px 20px 25px 100px;
+  		.panel-collapse {
+  			> .panel-body {
   				font-size: 16px;
   				color: #666;
-  				line-height: 24px;
-  				font-weight: 300;
-  				background-color: #fff;
+  				border-top: 1px solid #ccc;
   			}
   		}
   	}
   }*/ }
-  .faq .section-content .faq-list {
+  .faq .section-content .accordion {
     border-top: 1px solid #333; }
-    .faq .section-content .faq-list .panel {
-      margin: 0;
+    .faq .section-content .accordion .card {
       border: 0;
-      border-radius: 0; }
-      .faq .section-content .faq-list .panel .pannel-header {
-        position: relative;
+      border-radius: 0;
+      background: none;
+      width: 100%; }
+      .faq .section-content .accordion .card .card-header {
+        width: 100%;
+        padding: 0;
+        border: 0;
         border-radius: 0;
-        background-color: none;
-        padding: 16px 20px 16px 25px;
-        border-bottom: 1px solid #ccc; }
-        .faq .section-content .faq-list .panel .pannel-header.active {
-          background-color: #fff; }
-        .faq .section-content .faq-list .panel .pannel-header > a {
+        background: none; }
+        .faq .section-content .accordion .card .card-header h5 {
           width: 100%;
           height: inherit;
-          font-size: 16px;
-          color: #282828;
-          font-weight: 400;
-          line-height: 44px;
-          vertical-align: top; }
-          .faq .section-content .faq-list .panel .pannel-header > a:before {
-            content: "";
-            display: inline-block;
-            width: 44px;
-            height: 44px;
+          font-size: 16px; }
+          .faq .section-content .accordion .card .card-header h5 .btn-link {
+            position: relative;
+            width: 100%;
+            text-align: left;
+            color: #28b690;
+            text-decoration: none;
             line-height: 44px;
-            border-radius: 50%;
-            background-color: #28b690;
-            background-image: url(/rehabilitate/assets/images/introduce/icon_faq_question.png);
-            background-repeat: no-repeat;
-            background-position: 50% 50%; }
-        .faq .section-content .faq-list .panel .pannel-header:first-child {
-          border-top: 0; }
-      .faq .section-content .faq-list .panel .panel-collapse > .panel-body {
+            vertical-align: top;
+            padding: 16px 20px 16px 85px;
+            border-bottom: 1px dashed #ccc;
+            background-color: #fff; }
+            .faq .section-content .accordion .card .card-header h5 .btn-link:before {
+              position: absolute;
+              top: 50%;
+              left: 25px;
+              margin-top: -22px;
+              content: "";
+              display: inline-block;
+              width: 44px;
+              height: 44px;
+              line-height: 44px;
+              border-radius: 50%;
+              background-color: #28b690;
+              background-image: url(/rehabilitate/assets/images/introduce/icon_faq_question.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%; }
+            .faq .section-content .accordion .card .card-header h5 .btn-link:hover {
+              color: #28b690;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+            .faq .section-content .accordion .card .card-header h5 .btn-link.collapsed {
+              color: #282828;
+              background: none;
+              border-bottom: 1px solid #ccc; }
+      .faq .section-content .accordion .card .card-body {
+        padding: 0;
+        padding: 25px 20px 25px 100px;
         font-size: 16px;
         color: #666;
-        border-top: 1px solid #ccc; }
+        line-height: 24px;
+        font-weight: 300;
+        background-color: #fff; }
 
 /*# sourceMappingURL=childhood.css.map */

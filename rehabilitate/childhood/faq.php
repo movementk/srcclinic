@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="section-content">
-					<div class="panel-group faq-list" id="accordion" role="tablist" aria-multiselectable="true">
+					<!--<div class="panel-group faq-list" id="accordion" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-default">
 							<div class="pannel-header" role="tab" id="faqTwo">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-2" aria-expanded="false" aria-controls="faq-list-2">
@@ -119,12 +119,12 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- <div class="accordion" id="accordionExample">
+					</div>-->
+					<div class="accordion" id="accordionExample">
 						<div class="card active">
 							<div class="card-header" id="headingOne">
 								<h5>
-									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="ture" aria-controls="collapseOne">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="ture" aria-controls="collapseOne">
 										낮병동이란 무엇인가요?
 									</button>
 								</h5>
@@ -138,7 +138,7 @@
 						<div class="card">
 							<div class="card-header" id="headingTwo">
 								<h5>
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 										낮병동 접수절차는 어떻게 진행되나요?
 									</button>
 								</h5>
@@ -247,7 +247,7 @@
 								</div>
 							</div>
 						</div>
-					</div>-->
+					</div>
 				</div>
 			</div>
 		</section>
