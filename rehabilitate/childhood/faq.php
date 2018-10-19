@@ -34,97 +34,11 @@
 					</div>
 				</div>
 				<div class="section-content">
-					<!--<div class="panel-group faq-list" id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqTwo">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-2" aria-expanded="false" aria-controls="faq-list-2">
-									기부금의 용도를 지정할수 있습니까?
-								</a>
-							</div>
-							<div id="faq-list-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqTwo" aria-expanded="false" style="height: 0px;">
-								<div class="panel-body">
-									일반발전기금 및 지정발전기금 중에서 지정하실 수 있습니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqThree">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-3" aria-expanded="false" aria-controls="faq-list-3">
-									기부를 하려면 어떻게 해야 합니까?
-								</a>
-							</div>
-							<div id="faq-list-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqThree" aria-expanded="false" style="height: 0px;">
-								<div class="panel-body">
-									전화나 이메일, 게시판에 문의를 주시거나 온라인으로 직접 약정 후 기부가 가능합니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqFour">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-4" aria-expanded="false" aria-controls="faq-list-4">
-									금액이 적어도 기부를 할 수 있습니까?
-								</a>
-							</div>
-							<div id="faq-list-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqFour" aria-expanded="false" style="height: 0px;">
-								<div class="panel-body">
-									10,000원 이상의 금액부터 기부가 가능합니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqFive">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-5" aria-expanded="false" aria-controls="faq-list-5">
-									기부금 납부시 약정서를 작성해야만 합니까?
-								</a>
-							</div>
-							<div id="faq-list-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqFive" aria-expanded="false" style="height: 0px;">
-								<div class="panel-body">
-									약정서 작성 후 기부금 납입을 하셔야 기부금영수증을 받으실 수 있습니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqSix">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-6" aria-expanded="false" aria-controls="faq-list-6">
-									기부자에 대한 혜택이 있습니까?
-								</a>
-							</div>
-							<div id="faq-list-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSix" aria-expanded="false">
-								<div class="panel-body">
-									누적 기부금액에 따라 다양한 혜택이 있습니다. 홈페이지 상단의 [기부자-기부자예우]에서 확인하실 수 있습니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqSeven">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-7" aria-expanded="false" aria-controls="faq-list-7">
-									기부금 영수증은 받을 수 있습니까?
-								</a>
-							</div>
-							<div id="faq-list-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSeven" aria-expanded="false">
-								<div class="panel-body">
-									무기명 기부를 제외하고는 담당자의 기부금 납입 확인 후 홈페이지 상단의 [마이페이지-기부내역조회-영수증 출력]에서 출력하실 수 있으며, 홈페이지 출력이 어려우신 경우에는 전화 문의 주시면 우편, e-mail, 팩스 등 원하시는 방법으로 보내드립니다.
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="pannel-header" role="tab" id="faqSeven">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-8" aria-expanded="false" aria-controls="faq-list-8">
-									개인정보 변경 시 어떻게 해야 합니까?
-								</a>
-							</div>
-							<div id="faq-list-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSeven" aria-expanded="false">
-								<div class="panel-body">
-									홈페이지 상단의 [마이페이지-개인정보변경] 에서 변경 가능하시며, 주소 및 연락처와 같은 정보의 변경이 있으실 경우 수정을 해주셔야만 기부자예우의 혜택을 받으실 수 있습니다.
-								</div>
-							</div>
-						</div>
-					</div>-->
 					<div class="accordion" id="accordionExample">
 						<div class="card active">
 							<div class="card-header" id="headingOne">
 								<h5>
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="ture" aria-controls="collapseOne">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 										낮병동이란 무엇인가요?
 									</button>
 								</h5>
@@ -254,29 +168,5 @@
 	</main>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/docfoot.php'); ?>
-	<script>
-		(function($) {
-			$(document).on('click', function() {
-
-				/*if ($(this).parent().hasClass('active')) {
-					$(this).parent().removeClass('active');
-				} else {
-					$(this).parent().siblings('active').removeClass('active');
-					$(this).parent().addClass('active');
-				}*/
-			});
-		})(jQuery);
-		
-		/*(function($) {
-			$(document).on('click', '.pannel-header a', function() {
-				if ($(this).parent().hasClass('active')) {
-					$(this).parent().removeClass('active');
-				} else {
-					$(this).parent().siblings('active').removeClass('active');
-					$(this).parent().addClass('active');
-				}
-			});
-		})(jQuery);*/
-	</script>
 </body>
 </html>
