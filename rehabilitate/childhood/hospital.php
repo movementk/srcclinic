@@ -10,7 +10,7 @@
 	<nav class="page-link">
 		<div class="container">
 			<ul class="nav">
-				<li><a href="#">낮병동소개</a></li>
+				<li><a href="/rehabilitate/childhood/daytime_ward.php">낮병동소개</a></li>
 				<li class="active">
 					<a href="/rehabilitate/childhood/hospital.php">입원안내</a>
 				</li>

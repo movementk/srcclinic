@@ -12,10 +12,10 @@
 		<div class="container">
 			<ul class="nav">
 				<li>
-					<a href="#">병원소개</a>
+					<a href="/rehabilitate/introduce/introduction.php">병원소개</a>
 				</li>
 				<li>
-					<a href="#">의료/치료진</a>
+					<a href="/rehabilitate/introduce/doctors.php">의료/치료진</a>
 				</li>
 				<li class="active">
 					<a href="/rehabilitate/introduce/facility.php">시설안내</a>

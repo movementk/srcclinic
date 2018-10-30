@@ -1,19 +1,20 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 @import url("https://fonts.googleapis.com/css?family=Exo+2:400,700,800");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 @font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
-@font-face {
-  font-family: 'Noto Sans KR';
+  font-family: 'Godo';
   font-style: normal;
   font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff") format("woff"); }
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff") format("woff"); }
 /* 초기화 */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -76,6 +77,9 @@ a {
 .form-control {
   border-radius: 0;
   box-shadow: none !important; }
+
+.introduce .space {
+  padding-bottom: 0 !important; }
 
 .care-team .section-content {
   margin-top: 75px; }
@@ -281,5 +285,140 @@ a {
     background-color: #f8f8f8; }
   .certificate .section-content article.expense .table-wrap .table.type-1 tbody tr:nth-of-type(3) td {
     background-color: #fff; }
+
+.introduction .section-content article.seoul {
+  padding: 215px 0 190px;
+  background-image: url(/rehabilitate/assets/images/introduce/bg_seoul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .introduction .section-content article.seoul h3 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Godo', sans-serif;
+    font-weight: bold; }
+  .introduction .section-content article.seoul b {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500; }
+    .introduction .section-content article.seoul b i {
+      font-style: normal;
+      color: #e9193a; }
+  .introduction .section-content article.seoul p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    word-break: keep-all;
+    margin-top: 60px; }
+.introduction .section-content article.gwangju {
+  padding: 135px 0 170px;
+  background-image: url(/rehabilitate/assets/images/introduce/bg_others.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .introduction .section-content article.gwangju ol > li {
+    overflow: hidden; }
+    .introduction .section-content article.gwangju ol > li ~ li {
+      margin-top: 30px; }
+    .introduction .section-content article.gwangju ol > li > div {
+      width: 50%; }
+      .introduction .section-content article.gwangju ol > li > div figure img {
+        display: inline-block; }
+      .introduction .section-content article.gwangju ol > li > div.summary {
+        color: #fff; }
+        .introduction .section-content article.gwangju ol > li > div.summary h3 {
+          font-size: 40px;
+          font-weight: bold;
+          font-family: 'Godo', sans-serif; }
+        .introduction .section-content article.gwangju ol > li > div.summary small {
+          font-size: 16px;
+          display: inline-block;
+          margin-top: 20px;
+          margin-bottom: 70px; }
+          .introduction .section-content article.gwangju ol > li > div.summary small i {
+            font-style: normal;
+            color: #cb3246;
+            opacity: .9; }
+        .introduction .section-content article.gwangju ol > li > div.summary h4 {
+          font-size: 36px;
+          font-weight: 400;
+          margin-bottom: 40px; }
+          .introduction .section-content article.gwangju ol > li > div.summary h4 span {
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 48px; }
+        .introduction .section-content article.gwangju ol > li > div.summary p {
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: 300;
+          letter-spacing: -.5px;
+          opacity: .8;
+          white-space: nowrap; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(1) .item-img {
+      margin-left: -20px; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(1) .summary {
+      padding-top: 50px; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(2) .summary {
+      padding-top: 255px; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(3) {
+      margin-top: 130px; }
+      .introduction .section-content article.gwangju ol > li:nth-of-type(3) .summary {
+        padding-top: 100px; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(odd) .item-img {
+      float: left; }
+      .introduction .section-content article.gwangju ol > li:nth-of-type(odd) .item-img figure {
+        text-align: left; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(odd) .summary {
+      text-align: right;
+      float: right; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(even) .item-img {
+      float: right; }
+      .introduction .section-content article.gwangju ol > li:nth-of-type(even) .item-img figure {
+        text-align: right; }
+    .introduction .section-content article.gwangju ol > li:nth-of-type(even) .summary {
+      text-align: left;
+      float: left; }
+
+.doctors .section-content {
+  margin-top: 125px;
+  background-image: url(/rehabilitate/assets/images/introduce/bg_doctors.png);
+  background-repeat: no-repeat;
+  background-position: 100% 20px; }
+  .doctors .section-content .article-header small {
+    display: block;
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 20px; }
+  .doctors .section-content .article-header h3 {
+    font-size: 55px;
+    color: #333;
+    font-weight: bold; }
+  .doctors .section-content .article-content {
+    margin-top: 130px; }
+    .doctors .section-content .article-content h4 {
+      font-size: 24px;
+      color: #333;
+      line-height: 24px;
+      font-weight: 400;
+      padding-left: 15px;
+      border-left: 3px solid #28b690; }
+      .doctors .section-content .article-content h4 ~ h4 {
+        margin-top: 85px; }
+    .doctors .section-content .article-content ul {
+      margin-top: 35px; }
+      .doctors .section-content .article-content ul li {
+        font-size: 16px;
+        color: #666;
+        line-height: 30px;
+        font-weight: 400;
+        position: relative;
+        padding-left: 15px; }
+        .doctors .section-content .article-content ul li:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "\E800";
+          font-family: "fontello"; }
 
 /*# sourceMappingURL=introduce.css.map */

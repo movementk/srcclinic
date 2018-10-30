@@ -108,6 +108,113 @@ body {
 	}
 }
 
+//부설의원 정보
+.information {
+    height: 330px;
+    padding: 50px 0;
+    background-color: #fff;
+    article {
+        > .info-title {
+            font-size: 20px;
+            color: #333;
+            letter-spacing: -1px;
+            margin-bottom: 30px;
+        }
+        &.company-info {
+            strong {
+                display: inline-block;
+                font-size: 35px;
+                color: #e9193a;
+                @include exo();
+            }
+            address {
+                font-size: 13px;
+                color: #333;
+                line-height: 22px;
+                margin-top: 20px;
+            }
+            > ul {
+                font-size: 0;
+                margin-top: 25px;
+                li {
+                    display: inline-block;
+                    /*line-height: 20px;*/
+                    &:first-child {
+                        dl {
+                            dd {
+                                &:after {
+                                    position: relative;
+                                    top: -2px;
+                                    content: "|";
+                                    font-size: 10px;
+                                    margin: 0 10px;
+                                }
+                            }
+                        }
+                    }
+                    dl {
+                        font-size: 0;
+                        dt {
+                            display: inline-block;
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 400;
+                            &:after {
+                                content: ":";
+                                margin: 0 3px;
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 13px;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+        }
+        &.hours {
+            ul {
+                li {
+                    line-height: 34px;
+                    dl {
+                        overflow: hidden;
+                        dt {
+                            float: left;
+                            clear: both;
+                            width: 100px;
+                            font-size: 14px;
+                            color: #777;
+                        }
+                        dd {
+                            float: left;
+                            font-size: 15px;
+                            color: #333;
+                            font-weight: 400;
+                            @include exo();
+                        }
+                    }
+                }
+            }
+            .attention {
+                font-size: 12px;
+                color: #666;
+                margin-top: 47px;
+                &:before {
+                    content: "※";
+                    display: inline-block;
+                    margin-right: 5px;
+                }
+            }
+        }
+        &.location {
+            .info-title {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
 //footer
 #footer {
 /*	position: absolute;
@@ -338,217 +445,3 @@ body {
 		}
     }
 }
-
-
-.service {
-    background-color: #fffbf4;
-	&.action {
-		.section-header {
-			h3 {
-				top: 0;
-				opacity: 1;
-				strong {
-					top: 0;
-					opacity: 1;
-				}
-			}
-			p {
-				top: 0;
-				opacity: 1;
-			}
-		}
-		 .section-content {
-			> article {
-				.details {
-					h4 {
-						top: 0;
-						opacity: 1;
-					}
-					> p {
-						top: 0;
-						opacity: 1;
-					}
-					.btn-area {
-						top: 0;
-						opacity: 1;
-					}
-				}
-				&.speech {
-					figure {
-						.img-fluid {
-							right: 0;
-							opacity: 1;
-						}
-					}
-				}
-				&.sports {
-					figure {
-						.img-fluid {
-							left: 0;
-							opacity: 1;
-						}
-					}
-				}				
-			}
-		}
-	}
-    .section-header {
-        text-align: center;
-        padding: 100px 0 90px;
-        h3 {
-			position: relative;
-			top: -30px;
-			opacity: 0;
-            font-size: 37px;
-            color: #2b2b2b;
-            font-weight: 600;
-            letter-spacing: -2px;
-			@include transition($duration: 1s, $delay: .5s);
-            strong {
-                display: block;
-                font-size: 46px;
-                color: #e9193a;
-                font-weight: bold;
-                letter-spacing: 0;
-                @include exo();
-            }
-        }
-        p {
-			position: relative;
-			top: -30px;
-			opacity: 0;
-            font-size: 17px;
-            color: #999;
-            font-weight: 300;
-            margin-top: 20px;
-			@include transition($duration: 1s, $delay: .5s);
-        }
-    }
-    .section-content {
-        display: table;
-        width: 100%;
-        padding-right: 95px;
-        table-layout: fixed;
-        > article {
-            position: relative;
-            display: table-cell;
-            width: 50%;
-            padding: 60px 0 40px;
-            vertical-align: middle;
-            figure {
-				overflow: hidden;
-                position: absolute;
-                bottom: 0;
-                z-index: 1;
-                .img-fluid {
-					position: relative; 
-                    max-width: 740px;
-                    min-width: 740px;
-                }
-            }
-            .details {
-                position: relative;
-                z-index: 2;
-                h4 {
-					position: relative;
-					top: 30px;
-					opacity: 0;
-					font-size: 28px;
-					color: #fff;
-                    letter-spacing: -1px;
-					font-weight: bold;
-                    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: 2.5s);
-				}
-				> p {
-					position: relative;
-					top: 30px;
-					opacity: 0;
-					font-size: 16px;
-					color: #fff;
-                    letter-spacing: -.5px;
-					line-height: 28px;
-					font-weight: 300;
-					margin-top: 25px;
-                    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: 2.5s);
-				}
-				.btn-area {
-					position: relative;
-					top: 30px;
-					opacity: 0;
-					margin-top: 35px;
-					@include transition($duration: 1s, $delay: 2.5s);
-					p {
-						.btn-default {
-							display: inline-block;
-							width: 155px;
-							line-height: 40px;
-							font-size: 13px;
-							color: #fff;
-							text-align: center;
-							border: 1px solid #fff;
-							&:hover {
-								background-color: #e9193a;
-								border-color: #e9193a;
-								color: #fff;
-							}
-						}
-					}
-				}
-            }
-            &.speech {
-                text-align: right;
-                padding-right: 60px;
-                background-color: #ebaf3c;
-                figure {
-                    left: 0;
-                    padding-right: 95px;
-					.img-fluid {
-						right: 140px;
-						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);
-					}
-                }
-            }
-            &.sports {
-                padding-left: 60px;
-                text-align: left;
-                background-color: #4b85c3;
-                figure {
-                    right: 0px;
-                    padding-left: 95px;
-					.img-fluid {
-						left: 140px;
-						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);
-					}
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

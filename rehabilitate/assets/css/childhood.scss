@@ -193,7 +193,60 @@
 	}
 }
 
-
+// daytime-ward
+.daytime-ward {
+    .page-title {
+        padding-bottom: 60px;
+    }
+    .section-content {
+        padding-top: 60px;
+        border-top: 1px solid #9b9da0;
+        .sub-title {
+            margin-bottom: 40px;
+        }
+        ol {
+            li {
+                figure {
+                    figcaption {
+                        margin-top: 35px;
+                        h4 {
+                            font-size: 18px;
+                            color: #333;
+                            line-height: 20px;
+                            margin-bottom: 25px;
+                            span {
+                                display: inline-block;
+                                margin-right: 5px;
+                                width: 20px;
+                                vertical-align: top;
+                                height: 20px;
+                                line-height: 20px;
+                                font-weight: 400;
+                                text-align: center;
+                                color: #fff;
+                                font-size: 12px;
+                                @include maven();
+                                border-radius: 50%;
+                                background-color: #28b690;
+                            }
+                        }
+                        p {
+                            font-size: 16px;
+                            color: #666;
+                            font-weight: 400;
+                            line-height: 28px;
+                        }
+                    }
+                }
+                &:nth-of-type(2) ~ li {
+                    figure {
+                        margin-top: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

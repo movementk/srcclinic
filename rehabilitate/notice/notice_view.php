@@ -17,7 +17,7 @@
 					<a href="/rehabilitate/notice/news_letter.php">SRC뉴스레터</a>
 				</li>
 				<li>
-					<a href="#">사회공헌사업</a>
+					<a href="/rehabilitate/notice/social_contribution.php">사회공헌사업</a>
 				</li>
 				<li>
 					<a href="/rehabilitate/notice/health_list.php">재활/건강정보</a>

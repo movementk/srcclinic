@@ -11,10 +11,10 @@
 		<div class="container">
 			<ul class="nav">
 				<li>
-					<a href="#">병원소개</a>
+					<a href="/rehabilitate/introduce/introduction.php">병원소개</a>
 				</li>
 				<li class="active">
-					<a href="#">의료/치료진</a>
+					<a href="/rehabilitate/introduce/doctors.php">의료/치료진</a>
 				</li>
 				<li>
 					<a href="/rehabilitate/introduce/facility.php">시설안내</a>
@@ -41,11 +41,11 @@
 	<!-- Content -->
 	<main id="content">
 		<div class="container">
-			<section class="care-team"><!-- 페이지명 -->
+			<section class="care-team">
 				<div class="section-header">
 					<div class="page-title">
 						<h2>의료/치료진</h2>
-						<!--p>SRC병원 부설의원의 의료/치료진을 소개합니다.</p-->
+						<p>SRC병원 부설의원의 의료/치료진을 소개합니다.</p>
 					</div>
 					<nav class="page-tab">
 						<ul>

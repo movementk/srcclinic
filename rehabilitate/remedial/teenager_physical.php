@@ -37,9 +37,9 @@
 		<nav class="intro-tab">
 			<div class="container">
 				<ul class="menu">
-					<li><a href="#">SRC청소년치료실 소개</a></li>
+					<li><a href="/rehabilitate/remedial/teenager_intro.php">SRC청소년치료실 소개</a></li>
 					<li class="on"><a href="/rehabilitate/remedial/teenager_physical.php">물리치료</a></li>
-					<li><a href="#">작업치료</a></li>
+					<li><a href="/rehabilitate/remedial/teenager_occupational.php">작업치료</a></li>
 				</ul>
 			</div>
 		</nav>

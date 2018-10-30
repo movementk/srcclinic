@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>SRC 소아 낮병동</title>
+		<title>SRC 병원 부설의원 재활</title>
 		<link rel="stylesheet" href="/rehabilitate/assets/fontello/css/fontello.css">
 		<link rel="stylesheet" href="/rehabilitate/assets/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/rehabilitate/assets/css/default.css">  
