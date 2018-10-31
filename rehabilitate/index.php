@@ -24,7 +24,7 @@
 				</p>
 				<div class="btn-area">
 					<p>
-						<a href="#" class="btn btn-default" role="button">소아 낮병동 바로가기</a>
+						<a href="/rehabilitate/childhood/daytime_ward.php" class="btn btn-default" role="button">소아 낮병동 바로가기</a>
 					</p>
 				</div>
 			</div>
@@ -69,15 +69,15 @@
 			<div class="section-content">
 				<ul>
 					<li>
-						<a href="#">
+						<a href="/rehabilitate/remedial/child_physical.php">
 							<div class="items">
 								<div class="hover-box"></div>
 							</div>
-							<p>소화재활</p>
+							<p>소아재활</p>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/rehabilitate/remedial/teenager_intro.php">
 							<div class="items">
 								<div class="hover-box"></div>
 							</div>
@@ -85,7 +85,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/rehabilitate/remedial/adult_physical.php">
 							<div class="items">
 								<div class="hover-box"></div>
 							</div>
@@ -93,7 +93,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/rehabilitate/remedial/sensory_integration.php">
 							<div class="items">
 								<div class="hover-box"></div>
 							</div>
@@ -101,7 +101,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/rehabilitate/remedial/speech_therapy.php">
 							<div class="items">
 								<div class="hover-box"></div>
 							</div>
@@ -124,7 +124,7 @@
 							국내 유일의 독일 도수의학 클리닉을 운영하고 있는 SRC병원 부설의원에는 
 							독일근골격의학회(DGMSM)의 도수의학·도수치료 자격을 취득한 전문가들이 작은 통증까지 세심하게 치료하고 있습니다. 
 						</p>
-						<a href="#" class="p-txt">
+						<a href="/rehabilitate/notice/notice_list.php" class="p-txt">
 							<p>자세히보기</p>
 							<span></span>
 						</a>
@@ -137,7 +137,7 @@
 								<div class="news-card">
 									<small>NEWLETTER</small>
 									<h3>SRC NEWSLETTER 40호:2018년 07월발행</h3>
-									<a href="#" class="p-txt02">
+									<a href="/rehabilitate/notice/news_letter.php" class="p-txt02">
 										<p>자세히보기</p>
 										<span></span>
 									</a>
@@ -149,7 +149,7 @@
 								<div class="news-card">
 									<small>SOCIAL CONTRIBUTION</small>
 									<h3>사회공헌 게시글의 타이틀이 노출 되는 영역입니다.</h3>
-									<a href="#" class="p-txt02">
+									<a href="/rehabilitate/notice/social_contribution.php" class="p-txt02">
 										<p>자세히보기</p>
 										<span></span>
 									</a>
@@ -161,7 +161,7 @@
 								<div class="news-card">
 									<small>INFORMATION</small>
 									<h3>[재활] 건강정보 게시글 타이틀이 노출되는 영역입니다.</h3>
-									<a href="#" class="p-txt02">
+									<a href="/rehabilitate/notice/health_list.php" class="p-txt02">
 										<p>자세히보기</p>
 										<span></span>
 									</a>
@@ -177,7 +177,7 @@
 				<ul class="row"> 
 					<li class="col-4">
 						<div class="info blog">
-							<a href="#">
+							<a href="https://blog.naver.com/srcdream" target="_blank">
 								<div class="icon"></div>
 								<div class="summary">
 									<h4>SRC병원 부설의원</h4>
@@ -188,7 +188,7 @@
 					</li>
 					<li class="col-4">
 						<div class="info fb">
-							<a href="#">
+							<a href="https://www.facebook.com/srcgivedreams/" target="_blank">
 								<div class="icon"></div>
 								<div class="summary">
 									<h4>SRC병원 부설의원</h4>
@@ -199,7 +199,7 @@
 					</li>
 					<li class="col-4">
 						<div class="info yt">
-							<a href="#">
+							<a href="https://www.youtube.com/channel/UCNj73RbM-is0pqoqvHc-ysA" target="_blank">
 								<div class="icon"></div>
 								<div class="summary">
 									<h4>SRC병원 부설의원</h4>
@@ -229,7 +229,7 @@
 							</p>
 							<div class="btn-area">
 								<p>
-									<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
+									<a href="http://speech.srchospital.com" target="_blank" class="btn btn-default" role="button">사이트 바로가기</a>
 								</p>
 							</div>
 					</div>
@@ -246,7 +246,7 @@
 						</p>
 						<div class="btn-area">
 							<p>
-								<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
+								<a href="http://www.srcsportscenter.com/" target="_blank" class="btn btn-default" role="button">사이트 바로가기</a>
 							</p>
 						</div>
 					</div>

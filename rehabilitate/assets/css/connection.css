@@ -338,14 +338,14 @@ section .header {
     .speech .section-content figure {
       position: absolute;
       bottom: 0;
-      width: 50%; }
+      width: 63%; }
       .speech .section-content figure.left-img {
         left: 0;
-        width: 40%; }
+        width: 50%; }
       .speech .section-content figure.right-img {
         right: 0; }
   .speech .programs {
-    padding: 55px 0 130px; }
+    padding-top: 55px; }
     .speech .programs p {
       font-size: 18px;
       color: #666;
@@ -362,7 +362,7 @@ section .header {
     .speech .programs dl dd {
       padding-top: 40px;
       width: 100%;
-      height: 206px; }
+      height: 246px; }
       .speech .programs dl dd ul {
         display: inline-block;
         margin: 0 auto;
@@ -370,18 +370,26 @@ section .header {
         .speech .programs dl dd ul li {
           font-size: 16px;
           color: #666; }
+          .speech .programs dl dd ul li:before {
+            font-family: "fontello";
+            content: "\E800";
+            margin-right: 10px; }
     .speech .programs dl.individual dt {
       background-color: #28b690; }
     .speech .programs dl.individual dd {
       border: 1px solid #28b690;
       border-top: 0; }
       .speech .programs dl.individual dd ul {
-        padding: 0 40px; }
+        padding: 0 50px; }
         .speech .programs dl.individual dd ul li {
           float: left;
           width: 33.33%; }
+          .speech .programs dl.individual dd ul li:before {
+            color: #28b690; }
           .speech .programs dl.individual dd ul li:nth-of-type(3) ~ li {
             margin-top: 20px; }
+          .speech .programs dl.individual dd ul li:nth-of-type(3n + 3) {
+            padding-left: 30px; }
     .speech .programs dl.group dt {
       background-color: #404040; }
     .speech .programs dl.group dd {
@@ -392,7 +400,59 @@ section .header {
         .speech .programs dl.group dd ul li {
           float: left;
           width: 50%; }
+          .speech .programs dl.group dd ul li:before {
+            color: #404040; }
           .speech .programs dl.group dd ul li:nth-of-type(2) ~ li {
             margin-top: 20px; }
+          .speech .programs dl.group dd ul li:nth-of-type(2n + 2) {
+            padding-left: 20px; }
+
+.sportscenter {
+  background-image: url(/rehabilitate/assets/images/connection/bg_speech.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover; }
+  .sportscenter .section-content {
+    text-align: center;
+    background-image: url(/rehabilitate/assets/images/connection/bg_sportscenter_content.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 65px 0 80px; }
+    .sportscenter .section-content p {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 36px;
+      margin-bottom: 80px; }
+    .sportscenter .section-content ul > li figure {
+      display: block;
+      width: 230px;
+      height: 230px;
+      margin: 0 auto;
+      padding-top: 75px;
+      border-radius: 50%;
+      background-color: #fff; }
+      .sportscenter .section-content ul > li figure img {
+        display: block;
+        margin: 0 auto; }
+      .sportscenter .section-content ul > li figure figcaption {
+        font-size: 20px;
+        color: #000;
+        font-weight: 400;
+        margin-top: 30px; }
+    .sportscenter .section-content ul > li > ul {
+      display: inline-block;
+      margin: 40px auto 0; }
+      .sportscenter .section-content ul > li > ul > li {
+        color: #fff;
+        font-size: 17px;
+        line-height: 36px;
+        font-weight: 400;
+        text-align: left; }
+        .sportscenter .section-content ul > li > ul > li:before {
+          font-family: "fontello";
+          content: "\E800";
+          margin-right: 10px; }
 
 /*# sourceMappingURL=connection.css.map */

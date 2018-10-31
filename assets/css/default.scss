@@ -142,21 +142,32 @@ body {
 				}
 			}
 		}
-        .next-btn {
+        .icon-scroll {
             position: fixed;
             bottom: 120px;
             left: 50%;
             margin-left: -28px;
             display: block;
-            z-index: 200;
-        }
-		.icon-down-open-big {
-			color: #fff;
+            z-index: 1;
+			letter-spacing: 1.5px;
 			width: 56px;
 			font-size: 13px;
-			font-style: normal;
-			text-align: center;
-			letter-spacing: 1.5px;
+            color: #fff;
+            text-align: center;
+            .icon-down-open-big {
+                position: relative;
+                top: -15px;
+                display: inline-block;
+                opacity: 1;
+                @include transition($duration: .5s);
+            }
+            &.on {
+                .icon-down-open-big {
+                    top: 0px;
+                }
+            }
+        }
+		.icon-down-open-big {
 			@include maven();
 			&:before {
 				display: block;
@@ -174,6 +185,7 @@ body {
 				width: 50%;
 				height: 100%;
 				padding: 4% 4%;
+                z-index: 2;
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: 100% 100%;
@@ -370,7 +382,11 @@ body {
 }
 
 
-
+/*.fp-viewing-1 {
+    .icon-scroll {
+        display: none !important;
+    }
+}*/
 
 
 

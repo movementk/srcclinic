@@ -30,9 +30,10 @@
 		<div id="fullpage">
 			<section class="section">
 				<!--jumbotrons slider -->
-                <a href="#" class="next-btn">
-                    <i class="icon-down-open-big">SCROLL</i>
-                </a>
+                <p class="icon-scroll">
+                    <i class="icon-down-open-big"></i>
+                    SCROLL
+                </p>
 				<div class="jumbotron">
 					<ul class="slide-wrap">
 						<li>
@@ -127,44 +128,8 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-		
 		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="/assets/fullpage/vendors/easings.min.js"></script>
-		<script src="/assets/fullpage/vendors/scrolloverflow.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
-		<script>
-			(function($){
-				// full page 사용
-				$(document).ready(function() {
-                    $('#fullpage').fullpage({
-                        autoScrolling: true,
-                        scrollHorizontally: true
-                    });
-                });
-                
-                // introduce 효과
-                $("html, body").on("mousewheel DOMMouseScroll", function(e){
-                    $(".introduce").addClass("on");
-                });
-
-				// slick slider
-				$(document).ready(function(){ 
-					$('.jumbotron ul').slick({
-						dots: false,
-						infinite: true,
-						speed: 300,
-						fade: true,
-						autoplay: true,
-						cssEase: 'ease'
-						/*cssEase: 'linear'*/
-					});	
-				});
-				$('.jumbotron ul').on('init', function(event,slick){
-					setTimeout(function(){ 
-						$('.slick-slide').addClass('action'); 
-					});
-				});
-			})(jQuery);
-		</script>
+		<script src="/assets/js/common.js"></script>
 	</body>
 </html>

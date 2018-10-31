@@ -187,20 +187,34 @@ body {
               background-image: url(/assets/images/bg_slider03.jpg); }
       #fullpage .section .jumbotron .slide-wrap .slick-arrow {
         display: none !important; }
-  #fullpage .section .next-btn {
+  #fullpage .section .icon-scroll {
     position: fixed;
     bottom: 120px;
     left: 50%;
     margin-left: -28px;
     display: block;
-    z-index: 200; }
-  #fullpage .section .icon-down-open-big {
-    color: #fff;
+    z-index: 1;
+    letter-spacing: 1.5px;
     width: 56px;
     font-size: 13px;
-    font-style: normal;
-    text-align: center;
-    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center; }
+    #fullpage .section .icon-scroll .icon-down-open-big {
+      position: relative;
+      top: -15px;
+      display: inline-block;
+      opacity: 1;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+    #fullpage .section .icon-scroll.on .icon-down-open-big {
+      top: 0px; }
+  #fullpage .section .icon-down-open-big {
     font-family: 'Maven Pro', sans-serif; }
     #fullpage .section .icon-down-open-big:before {
       display: block;
@@ -216,6 +230,7 @@ body {
       width: 50%;
       height: 100%;
       padding: 4% 4%;
+      z-index: 2;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 100% 100%;
@@ -381,5 +396,11 @@ body {
         background-color: #fff; }
         #footer .footer-info .dropdown .dropdown-menu .dropdown-item:hover {
           background-color: #f6f6f6; }
+
+/*.fp-viewing-1 {
+    .icon-scroll {
+        display: none !important;
+    }
+}*/
 
 /*# sourceMappingURL=default.css.map */

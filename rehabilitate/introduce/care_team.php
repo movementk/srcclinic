@@ -49,7 +49,7 @@
 					</div>
 					<nav class="page-tab">
 						<ul>
-							<li><a href="#">의료진</a></li>
+							<li><a href="/rehabilitate/introduce/doctors.php">의료진</a></li>
 							<li class="on"><a href="/rehabilitate/introduce/care_team.php">치료진</a></li>
 						</ul>
 					</nav>

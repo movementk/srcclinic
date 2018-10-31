@@ -87,7 +87,16 @@
 		                        <dt>개별치료 프로그램</dt>
 		                        <dd>
 		                            <ul>
-		                                <li></li>
+		                                <li>언어치료</li>
+		                                <li>아동심리치료</li>
+		                                <li>발달놀이치료</li>
+		                                <li>인지치료</li>
+		                                <li>음악치료</li>
+		                                <li>심리운동치료</li>
+		                                <li>미술치료</li>
+		                                <li>부모교육 및 상담</li>
+		                                <li>심리 평가 </li>
+		                                <li>심리상담</li>
 		                            </ul>
 		                        </dd>
 		                    </dl>
@@ -97,7 +106,12 @@
 		                        <dt>집단치료 프로그램</dt>
 		                        <dd>
 		                            <ul>
-		                                <li></li>
+		                                <li>언어ㆍ사회성 그룹치료</li>
+		                                <li>자존감 향상 프로그램</li>
+		                                <li>사회성 증진 프로그램</li>
+		                                <li>주의집중력 강화 프로그램</li>
+		                                <li>자기조절 학습</li>
+		                                <li>학교준비반 프로그램</li>
 		                            </ul>
 		                        </dd>
 		                    </dl>
@@ -124,12 +138,12 @@
 							</p>
 							<div class="btn-area">
 								<p>
-									<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
+									<a href="http://speech.srchospital.com" target="_blank" class="btn btn-default" role="button">사이트 바로가기</a>
 								</p>
 							</div>
 					</div>
 					<figure>
-						<img src="/rehabilitate/assets/images/connection/img_speech.png" class="img-fluid" alt="">
+						<img src="/rehabilitate/assets/images/img_speech.png" class="img-fluid" alt="">
 					</figure>
 				</article>
 				<article class="sports">
@@ -141,12 +155,12 @@
 						</p>
 						<div class="btn-area">
 							<p>
-								<a href="#" class="btn btn-default" role="button">사이트 바로가기</a>
+								<a href="http://www.srcsportscenter.com/" target="_blank" class="btn btn-default" role="button">사이트 바로가기</a>
 							</p>
 						</div>
 					</div>
 					<figure>
-						<img src="/rehabilitate/assets/images/connection/img_sports.png" class="img-fluid" alt="">
+						<img src="/rehabilitate/assets/images/img_sports.png" class="img-fluid" alt="">
 					</figure>
 				</article>
 			</div>

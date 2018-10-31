@@ -25,10 +25,10 @@
 		</ul>
 		<ul class="center-link">
 			<li class="speech">
-				<a href="http://speech.srchospital.com/" target="_blank">언어심리센터</a>
+				<a href="http://speech.srchospital.com" target="_blank">언어심리센터</a>
 			</li>
 			<li class="sports">
-				<a href="http://www.srcsportscenter.com/" target="_blank">스포츠센터</a>
+				<a href="http://www.srcsportscenter.com" target="_blank">스포츠센터</a>
 			</li>
 		</ul>
 		<div class="quick-top">
