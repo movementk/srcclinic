@@ -250,49 +250,16 @@ body {
   .pain .summary {
     padding-top: 25px; }
     .pain .summary small {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s;
       display: block;
       font-size: 12px;
       color: #fff;
       font-weight: 300; }
     .pain .summary h3 {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      margin-top: 20px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0.4s;
-      transition-delay: 0.4s; }
+      margin-top: 20px; }
       .pain .summary h3 img {
         display: block; }
     .pain .summary .btn-area {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      margin-top: 30px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0.8s;
-      transition-delay: 0.8s; }
+      margin-top: 30px; }
       .pain .summary .btn-area .btn-default {
         width: 120px;
         height: 35px;
@@ -313,49 +280,16 @@ body {
   .rehabilitate .summary {
     padding-top: 25px; }
     .rehabilitate .summary small {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s;
       display: block;
       font-size: 12px;
       color: #fff;
       font-weight: 300; }
     .rehabilitate .summary h3 {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      margin-top: 20px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0.4s;
-      transition-delay: 0.4s; }
+      margin-top: 20px; }
       .rehabilitate .summary h3 img {
         display: block; }
     .rehabilitate .summary .btn-area {
-      position: relative;
-      top: -30px;
-      opacity: 0;
-      margin-top: 30px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.8s;
-      transition-duration: 0.8s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0.8s;
-      transition-delay: 0.8s; }
+      margin-top: 30px; }
       .rehabilitate .summary .btn-area .btn-default {
         width: 120px;
         height: 35px;
