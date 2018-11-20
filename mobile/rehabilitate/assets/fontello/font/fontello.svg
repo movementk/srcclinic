@@ -10,9 +10,7 @@
 
 <glyph glyph-name="dot" unicode="&#xe801;" d="M110 460q46 0 78-32t32-78q0-44-32-77t-78-33-78 33-32 77q0 46 32 78t78 32z" horiz-adv-x="220" />
 
-<glyph glyph-name="plus-1" unicode="&#xe802;" d="M729 454q44 0 74-31t31-73-31-73-74-30l-208 3 0-212q0-43-30-73t-75-31-73 31-30 73l3 212-212-3q-44 0-74 30t-30 73 30 73 74 31l212 0-3 209q0 42 30 73t73 31 75-31 30-73l0-209 208 0z" horiz-adv-x="834" />
-
-<glyph glyph-name="minus" unicode="&#xe803;" d="M729 455q44 0 74-32t31-73-31-74-74-30l-625 0q-44 0-74 30t-30 74q0 43 31 74t73 31l625 0z" horiz-adv-x="834" />
+<glyph glyph-name="minus" unicode="&#xe803;" d="M550 400q30 0 30-50t-30-50l-520 0q-30 0-30 50t30 50l520 0z" horiz-adv-x="580" />
 
 <glyph glyph-name="down-open" unicode="&#xe804;" d="M564 422l-234-224q-18-18-40-18t-40 18l-234 224q-16 16-16 41t16 41q38 38 78 0l196-188 196 188q40 38 78 0 16-16 16-41t-16-41z" horiz-adv-x="580" />
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
@@ -133,12 +134,14 @@ body {
   font-size: 12px;
   color: #333;
   font-weight: 400;
-  font-family: 'Noto Sans KR', sans-serif; }
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 70px; }
 
 #header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 200;
   width: 100%;
   background-color: #fff; }
   #header .quick-link a {
@@ -197,11 +200,93 @@ body {
         top: -2px;
         transform: rotate(135deg); }
 
-#content {
-  display: block;
-  width: 100%;
-  height: 400px;
-  background-color: orange; }
+#gnb {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 0;
+  z-index: 100;
+  padding: 70px 0 100px;
+  height: 100%;
+  overflow: auto;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  background-color: #fff; }
+  #gnb .gnb-menu {
+    border-top: 1px solid #28b690; }
+    #gnb .gnb-menu > ul > li {
+      border-top: 1px solid #7d7d7d; }
+      #gnb .gnb-menu > ul > li > a {
+        display: block;
+        font-size: 15px;
+        color: #333;
+        line-height: 50px;
+        padding: 0 20px; }
+        #gnb .gnb-menu > ul > li > a:after {
+          font-size: 20px;
+          color: #4a4a4a;
+          float: right;
+          font-family: "fontello";
+          content: "\E804"; }
+      #gnb .gnb-menu > ul > li > ul {
+        display: none; }
+        #gnb .gnb-menu > ul > li > ul > li > a {
+          display: block;
+          font-size: 14px;
+          color: #333;
+          line-height: 40px;
+          padding: 0 20px;
+          border-top: 1px solid #bee9de;
+          background-color: #e9f8f5; }
+          #gnb .gnb-menu > ul > li > ul > li > a:after {
+            float: right;
+            font-family: "fontello";
+            content: "\E800";
+            color: rgba(51, 51, 51, 0.5); }
+        #gnb .gnb-menu > ul > li > ul > li > ul {
+          display: none;
+          padding: 10px 0;
+          border-top: 1px solid #bee9de; }
+          #gnb .gnb-menu > ul > li > ul > li > ul > li > a {
+            display: block;
+            font-size: 13px;
+            color: #333;
+            font-weight: 300;
+            padding: 0 20px;
+            line-height: 30px; }
+            #gnb .gnb-menu > ul > li > ul > li > ul > li > a:before {
+              content: "- ";
+              margin-right: 5px; }
+      #gnb .gnb-menu > ul > li.active {
+        border-color: #28b690; }
+        #gnb .gnb-menu > ul > li.active > a {
+          color: #fff;
+          background-color: #28b690; }
+          #gnb .gnb-menu > ul > li.active > a:after {
+            color: #fff;
+            content: "\E806"; }
+        #gnb .gnb-menu > ul > li.active > ul {
+          display: block; }
+          #gnb .gnb-menu > ul > li.active > ul > li.on > a:after {
+            content: "\E803"; }
+          #gnb .gnb-menu > ul > li.active > ul > li.on > ul {
+            display: block; }
+      #gnb .gnb-menu > ul > li:first-child {
+        border-top: 0; }
+      #gnb .gnb-menu > ul > li:last-child {
+        border-bottom: 1px solid #7d7d7d; }
+
+.opened {
+  overflow: hidden; }
+  .opened #gnb {
+    width: 100%;
+    right: 0; }
 
 #footer {
   border-top: 1px solid #dfdfdf;
@@ -236,18 +321,18 @@ body {
       margin-top: 15px; }
       #footer > .contact ul li {
         display: inline-block; }
-        #footer > .contact ul li dl {
+        #footer > .contact ul li > dl {
           display: inline-block; }
-          #footer > .contact ul li dl dt {
+          #footer > .contact ul li > dl > dt {
             display: inline-block;
             font-size: 12px;
             color: #666;
             font-weight: 300;
             line-height: 18px; }
-            #footer > .contact ul li dl dt:after {
+            #footer > .contact ul li > dl > dt:after {
               margin: 0 3px;
               content: ":"; }
-          #footer > .contact ul li dl dd {
+          #footer > .contact ul li > dl > dd {
             display: inline-block;
             font-size: 12px;
             color: #666;
@@ -263,6 +348,28 @@ body {
           margin: 0 10px; }
         #footer > .contact ul li:last-child {
           display: block; }
+    #footer > .contact .date > dt {
+      float: left;
+      clear: both;
+      width: 75px;
+      font-size: 12px;
+      color: #777;
+      font-weight: 400;
+      line-height: 20px; }
+    #footer > .contact .date > dd {
+      font-size: 12px;
+      color: #333;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: .5px;
+      font-family: 'Exo 2', sans-serif; }
+    #footer > .contact .attention {
+      font-size: 10px;
+      color: #666;
+      font-weight: 400;
+      margin-top: 10px; }
+      #footer > .contact .attention:before {
+        content: "※ "; }
   #footer > .foot-info {
     text-align: center;
     padding: 30px 0; }

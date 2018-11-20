@@ -19,18 +19,6 @@
       "src": "entypo"
     },
     {
-      "uid": "1gf923f9wvaezxmfon515dglxa3drf0e",
-      "css": "plus-1",
-      "code": 59394,
-      "src": "typicons"
-    },
-    {
-      "uid": "qab5uvjyoc3uu4d2pvt8soshtgkuvpak",
-      "css": "minus",
-      "code": 59395,
-      "src": "typicons"
-    },
-    {
       "uid": "8704cd847a47b64265b8bb110c8b4d62",
       "css": "down-open",
       "code": 59396,
@@ -52,6 +40,12 @@
       "uid": "9c7ff134960bb5a82404e4aeaab366d9",
       "css": "up-open",
       "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "1256e3054823e304d7e452a589cf8bb8",
+      "css": "minus",
+      "code": 59395,
       "src": "entypo"
     }
   ]
