@@ -211,40 +211,65 @@ a {
       font-weight: 300;
       background-color: #fff; }
 
-.daytime-ward .page-title {
-  padding-bottom: 60px; }
-.daytime-ward .section-content {
-  padding-top: 60px;
-  border-top: 1px solid #9b9da0; }
-  .daytime-ward .section-content .sub-title {
-    margin-bottom: 40px; }
-  .daytime-ward .section-content ol li figure figcaption {
-    margin-top: 35px; }
-    .daytime-ward .section-content ol li figure figcaption h4 {
-      font-size: 18px;
+.daytime-ward {
+  /*.page-title {
+      padding-bottom: 60px;
+  }*/ }
+  .daytime-ward .page-header {
+    padding: 100px 0 90px;
+    background-image: url(/rehabilitate/assets/images/childhood/bg_daytime_ward.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+    .daytime-ward .page-header h2 {
+      font-size: 60px;
       color: #333;
-      line-height: 20px;
-      margin-bottom: 25px; }
-      .daytime-ward .section-content ol li figure figcaption h4 span {
-        display: inline-block;
-        margin-right: 5px;
-        width: 20px;
-        vertical-align: top;
-        height: 20px;
-        line-height: 20px;
-        font-weight: 400;
-        text-align: center;
-        color: #fff;
-        font-size: 12px;
-        font-family: 'Maven Pro', sans-serif;
-        border-radius: 50%;
-        background-color: #28b690; }
-    .daytime-ward .section-content ol li figure figcaption p {
+      font-weight: 500;
+      margin-top: 50px; }
+      .daytime-ward .page-header h2 img {
+        display: block;
+        margin-bottom: 25px; }
+      .daytime-ward .page-header h2 b {
+        font-weight: bold;
+        color: #51c3a5; }
+    .daytime-ward .page-header p {
       font-size: 16px;
-      color: #666;
-      font-weight: 400;
-      line-height: 28px; }
-  .daytime-ward .section-content ol li:nth-of-type(2) ~ li figure {
-    margin-top: 60px; }
+      color: #333;
+      line-height: 30px;
+      word-break: keep-all;
+      margin-top: 80px; }
+  .daytime-ward .section-content {
+    padding-top: 60px;
+    border-top: 1px solid #9b9da0; }
+    .daytime-ward .section-content .sub-title {
+      margin-bottom: 40px; }
+    .daytime-ward .section-content ol li figure figcaption {
+      margin-top: 35px; }
+      .daytime-ward .section-content ol li figure figcaption h4 {
+        font-size: 18px;
+        color: #333;
+        line-height: 20px;
+        margin-bottom: 25px; }
+        .daytime-ward .section-content ol li figure figcaption h4 span {
+          display: inline-block;
+          margin-right: 5px;
+          width: 20px;
+          vertical-align: top;
+          height: 20px;
+          line-height: 20px;
+          font-weight: 400;
+          text-align: center;
+          color: #fff;
+          font-size: 12px;
+          font-family: 'Maven Pro', sans-serif;
+          border-radius: 50%;
+          background-color: #28b690; }
+      .daytime-ward .section-content ol li figure figcaption p {
+        font-size: 16px;
+        color: #666;
+        font-weight: 400;
+        line-height: 28px; }
+    .daytime-ward .section-content ol li:nth-of-type(2) ~ li figure {
+      margin-top: 60px; }
 
 /*# sourceMappingURL=childhood.css.map */

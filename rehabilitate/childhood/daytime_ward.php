@@ -26,19 +26,32 @@
 	
 	<!-- Content -->
 	<main id="content">
-        <div class="container">
-            <section class="daytime-ward">
-                <div class="page-title">
-                    <h2>낮병동소개</h2>
-                    <p>
-                        낮시간 동안 입원하여 재활치료를 받고, 저녁에는 가정으로 돌아가 생활하는 형태로, 집중적인 재활치료 프로그램을 <br>
-                        통한 치료 효과 증대 및 가족 유대감 강화와 정서적인 안정 효과를 기대할 수 있는 장점이 있습니다. <br>
-                        재활치료 프로그램에는 재활의학과 전문의, 재활간호사, 물리치료사, 작업치료사, 언어치료사 등 각 분야의 전문가들이 <br>아동에 맞는 1:1 치료를 시행하게 되어 장애 개선에 큰 도움을 줄 수 있습니다. 
-                    </p>
+        <section class="daytime-ward">
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <figure>
+                                <img src="/rehabilitate/assets/images/childhood/img_daytime_header.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-6">
+                            <h2>
+                                <img src="/rehabilitate/assets/images/childhood/logo.png" alt="logo">
+                                <b>낮병동</b>이란?
+                            </h2>
+                            <p>
+                                낮시간 동안 입원하여 재활치료를 받고, 저녁에는 가정으로 돌아가 생활하는 형태로, 집중적인 재활치료 프로그램을 통한 치료 효과 증대 및 가족 유대감 강화와 정서적인 안정 효과를 기대할 수 있는 장점이 있습니다. <br><br>
+                                재활치료 프로그램에는 재활의학과 전문의, 재활간호사, 물리치료사, 작업치료사, 언어치료사 등 각 분야의 전문가들이 아동에 맞는 1:1 치료를 시행하게 되어 장애 개선에 큰 도움을 줄 수 있습니다. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="section-content">
+            </div>
+            <div class="section-content">
+                <div class="container">
                     <div class="sub-title">
-                        <h3>소아전담 치료진</h3>
+                        <h3>SRC 소아낮병동</h3>
                     </div>
                     <ol class="row">
                         <li class="col-6">
@@ -109,8 +122,8 @@
                         </li>
                     </ol>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 	</main>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/rehabilitate/inc/docfoot.php'); ?>

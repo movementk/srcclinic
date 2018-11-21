@@ -15,6 +15,15 @@
 				margin-top: 125px;
 			}
 		}
+        .team-title {
+            font-size: 20px;
+            color: #28b690;
+            font-weight: 400;
+            margin-bottom: 30px;
+            & ~ .team-title {
+                margin-top: 100px;
+            }
+        }
 		.member {
 			ul {
 				li {
@@ -427,7 +436,7 @@
                             &.summary {
                                 color: #fff;
                                 h3 {
-                                    font-size: 40px;
+                                    font-size: 50px;
                                     font-weight: bold;
                                     @include godo();
                                 }
@@ -435,7 +444,7 @@
                                     font-size: 16px;
                                     display: inline-block;
                                     margin-top: 20px;
-                                    margin-bottom: 70px;
+                                    margin-bottom: 50px;
                                     i {
                                         font-style: normal;
                                         color: #cb3246;
@@ -445,7 +454,7 @@
                                 h4 {
                                     font-size: 36px;
                                     font-weight: 400;
-                                    margin-bottom: 40px;
+                                    margin-bottom: 25px;
                                     span {
                                         @include titi();
                                         font-size: 48px;
@@ -545,7 +554,7 @@
                 }
             }
             ul {
-                margin-top: 35px;
+                margin-top: 20px;
                 li {
                     font-size: 16px;
                     color: #666;

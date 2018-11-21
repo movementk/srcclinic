@@ -85,6 +85,13 @@ a {
   margin-top: 75px; }
   .care-team .section-content .sub-title ~ .sub-title {
     margin-top: 125px; }
+  .care-team .section-content .team-title {
+    font-size: 20px;
+    color: #28b690;
+    font-weight: 400;
+    margin-bottom: 30px; }
+    .care-team .section-content .team-title ~ .team-title {
+      margin-top: 100px; }
   .care-team .section-content .member ul li figure figcaption h3 span {
     display: inline-block;
     font-size: 15px;
@@ -329,14 +336,14 @@ a {
       .introduction .section-content article.gwangju ol > li > div.summary {
         color: #fff; }
         .introduction .section-content article.gwangju ol > li > div.summary h3 {
-          font-size: 40px;
+          font-size: 50px;
           font-weight: bold;
           font-family: 'Godo', sans-serif; }
         .introduction .section-content article.gwangju ol > li > div.summary small {
           font-size: 16px;
           display: inline-block;
           margin-top: 20px;
-          margin-bottom: 70px; }
+          margin-bottom: 50px; }
           .introduction .section-content article.gwangju ol > li > div.summary small i {
             font-style: normal;
             color: #cb3246;
@@ -344,7 +351,7 @@ a {
         .introduction .section-content article.gwangju ol > li > div.summary h4 {
           font-size: 36px;
           font-weight: 400;
-          margin-bottom: 40px; }
+          margin-bottom: 25px; }
           .introduction .section-content article.gwangju ol > li > div.summary h4 span {
             font-family: 'Titillium Web', sans-serif;
             font-size: 48px; }
@@ -406,7 +413,7 @@ a {
       .doctors .section-content .article-content h4 ~ h4 {
         margin-top: 85px; }
     .doctors .section-content .article-content ul {
-      margin-top: 35px; }
+      margin-top: 20px; }
       .doctors .section-content .article-content ul li {
         font-size: 16px;
         color: #666;

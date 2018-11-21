@@ -1,9 +1,5 @@
 @import 'common';
 
-#content {
-    
-}
-
 // jumbotron
 .jumbotron {
     position: relative;
@@ -12,12 +8,12 @@
     border: 0;
     margin: 0;
     background: none;
-    > ul {
-        > li {
+    ul {
+        li {
+            outline: none;
             figure {
                 .img-fluid {
                     display: block;
-                    width: 100%;
                     margin: 0 auto;
                 }
             }
@@ -32,6 +28,7 @@
         > li {
             display: inline-block;
             button {
+                outline: none;
                 width: 10px;
                 height: 10px;
                 display: block;

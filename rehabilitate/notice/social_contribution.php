@@ -31,7 +31,6 @@
         <div class="page-title">
             <div class="container">
                 <h2>사회공헌사업</h2>
-                <p>src병원 부설의원의 SRC뉴스레터를 알려드립니다.</p>
             </div>
             <div class="visual-content">
                 <div class="container">

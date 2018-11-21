@@ -45,7 +45,6 @@
 				<div class="section-header">
 					<div class="page-title">
 						<h2>의료/치료진</h2>
-                        <p>SRC병원 부설의원의 의료/치료진을 소개합니다.</p>
 					</div>
 					<nav class="page-tab">
 						<ul>

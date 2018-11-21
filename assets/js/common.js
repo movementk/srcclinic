@@ -11,6 +11,7 @@
         $('#fullpage').fullpage({
             autoScrolling: true,
             scrollHorizontally: true
+            /*navigation: true*/
         });
     });
 
@@ -24,8 +25,8 @@
         $('.jumbotron ul').slick({
             dots: false,
             infinite: true,
-            speed: 300,
             fade: true,
+            autoplaySpeed: 6000,
             autoplay: true,
             cssEase: 'ease'
             /*cssEase: 'linear'*/

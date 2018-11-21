@@ -44,7 +44,6 @@
             <div class="page-title">
                 <div class="container">
                     <h2>병원소개</h2>
-                    <p>src병원 부설의원을 소개합니다.</p>
                 </div>
             </div>
             <div class="section-content">

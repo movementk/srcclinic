@@ -195,8 +195,36 @@
 
 // daytime-ward
 .daytime-ward {
-    .page-title {
+    /*.page-title {
         padding-bottom: 60px;
+    }*/
+    .page-header {
+        padding: 100px 0 90px;
+        background-image: url(/rehabilitate/assets/images/childhood/bg_daytime_ward.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        h2 {
+            font-size: 60px;
+            color: #333;
+            font-weight: 500;
+            margin-top: 50px;
+            img {
+                display: block;
+                margin-bottom: 25px;
+            }
+            b {
+                font-weight: bold;
+                color: #51c3a5;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 30px;
+            word-break: keep-all;
+            margin-top: 80px;
+        }
     }
     .section-content {
         padding-top: 60px;

@@ -143,10 +143,11 @@ body {
   border: 0;
   margin: 0;
   background: none; }
-  .jumbotron > ul > li figure .img-fluid {
-    display: block;
-    width: 100%;
-    margin: 0 auto; }
+  .jumbotron ul li {
+    outline: none; }
+    .jumbotron ul li figure .img-fluid {
+      display: block;
+      margin: 0 auto; }
   .jumbotron .slick-dots {
     position: absolute;
     bottom: 20px;
@@ -156,6 +157,7 @@ body {
     .jumbotron .slick-dots > li {
       display: inline-block; }
       .jumbotron .slick-dots > li button {
+        outline: none;
         width: 10px;
         height: 10px;
         display: block;

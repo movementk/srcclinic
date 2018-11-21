@@ -32,30 +32,30 @@
 				<ol>
 					<li>
 						<strong>01</strong>
-						<p><b>친절함과 철저한 위생관리</b>로 치료에 최선을 다합니다.</p>
+						<p><b>소아 중심 독립적 치료실</b></p>
 						<figure>
 							<img src="/rehabilitate/assets/images/img_benefit01.jpg" alt="">
 						</figure>
 					</li>
 					<li>
 						<strong>02</strong>
-						<p>쾌적하고 <b>이용이 편리한 입원/치료환경</b>을 제공합니다.</p>
+						<p><b>소아 전담 치료진</b></p>
 						<figure>
 							<img src="/rehabilitate/assets/images/img_benefit02.jpg" alt="">
 						</figure>
 					</li>
 					<li>
 						<strong>03</strong>
-						<p>부담없는 <b>무료 프로그램</b>을 지원합니다.</p>
+						<p><b>쾌적하고 위생적인 입원환경</b></p>
 						<figure>
 							<img src="/rehabilitate/assets/images/img_benefit03.jpg" alt="">
 						</figure>
 					</li>
 					<li>
 						<strong>04</strong>
-						<p><b>친절함과 철저한 위생관리</b>로 치료에 최선을 다합니다.</p>
+						<p><b>ALL IN ONE SERVIES</b></p>
 						<figure>
-							<img src="/rehabilitate/assets/images/img_benefit01.jpg" alt="">
+							<img src="/rehabilitate/assets/images/img_benefit04.jpg" alt="">
 						</figure>
 					</li>
 				</ol>

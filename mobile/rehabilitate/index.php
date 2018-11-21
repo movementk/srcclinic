@@ -228,10 +228,5 @@
     <script src="/mobile/rehabilitate/assets/js/main.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/mobile/rehabilitate/assets/scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
-    <script>
-        (function($){
-            
-        })(jQuery);
-    </script>
 </body>
 </html>

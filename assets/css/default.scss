@@ -154,7 +154,7 @@ body {
 			font-size: 13px;
             color: #fff;
             text-align: center;
-            .icon-down-open-big {
+            img {
                 position: relative;
                 top: -15px;
                 display: inline-block;
@@ -162,7 +162,7 @@ body {
                 @include transition($duration: .5s);
             }
             &.on {
-                .icon-down-open-big {
+                img {
                     top: 0px;
                 }
             }
@@ -381,19 +381,29 @@ body {
 	}
 }
 
-
-/*.fp-viewing-1 {
-    .icon-scroll {
-        display: none !important;
+/*#fp-nav {
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    > ul {
+        > li {
+            > a {
+                position: fixed !important;
+                top: 0 !important;
+                left: 0 !important;
+                display: block !important;
+                opacity: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+                z-index: 1;
+                &.active {
+                    display: none;
+                }
+            }
+        }
     }
 }*/
-
-
-
-
-
-
-
-
-
 

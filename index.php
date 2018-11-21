@@ -31,7 +31,7 @@
 			<section class="section">
 				<!--jumbotrons slider -->
                 <p class="icon-scroll">
-                    <i class="icon-down-open-big"></i>
+                    <img src="/assets/images/icon_mouse.png" alt="">
                     SCROLL
                 </p>
 				<div class="jumbotron">
@@ -94,9 +94,9 @@
 					<div class="details">
 						<small>소아재활 낮병동, 청소년 재활치료, 감각통합치료, 언어치료</small>
 						<h3>
-							우리 아이가<br>
-							<strong>아픔없이 환하게 웃는</strong><br>
-							그날을 위하여
+							관악구 최초 소아재활 낮병동<br>
+							<strong>소아치료에 전문화된 전담치료진의</strong><br>
+							맞춤형 의료시스템
 						</h3>
 						<div class="btn-area">
 							<p>

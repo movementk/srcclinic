@@ -53,7 +53,7 @@
 							<li><a href="/rehabilitate/introduce/facility.php">SRC 부설의원</a></li>
 							<li><a href="/rehabilitate/introduce/facility_speech.php">SRC 언어심리상담센터</a></li>
 							<li><a href="/rehabilitate/introduce/facility_sports.php">SRC 스포츠센터</a></li>
-							<li class="on"><a href="/rehabilitate/introduce/facility_saerom.php">SRC 새롬학교</a></li>
+							<!--<li class="on"><a href="/rehabilitate/introduce/facility_saerom.php">SRC 새롬학교</a></li>-->
 						</ul>
 					</nav>
 				</div>

@@ -5,7 +5,7 @@
                 <article class="company-info">
                     <h4 class="info-title">SRC병원 부설의원</h4>
                     <strong>02-871-3636</strong>
-                    <address>서울특별시 관악구 보라매로 44(봉천동722-19)<br>  SRC병원 부설의원</address>
+                    <address>서울특별시 관악구 보라매로 44(봉천동722-19)<br>  SRC병원 부설의원 1~3층</address>
                     <ul>
                         <li>
                             <dl>
@@ -15,14 +15,14 @@
                         </li>
                         <li>
                             <dl>
-                                <dt>센터장</dt>
-                                <dd>민병일</dd>
+                                <dt>대표자</dt>
+                                <dd>이영상</dd>
                             </dl>
                         </li>
                         <li>
                             <dl>
-                                <dt>사업자등록번호</dt>
-                                <dd>233-82-00339</dd>
+                                <dt>고유번호증</dt>
+                                <dd>129-82-11729</dd>
                             </dl>
                         </li>
                     </ul>
