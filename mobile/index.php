@@ -118,8 +118,8 @@
         </div>
         <!-- scroll-down -->
         <div class="scroll-down">
-            <i class="icon-down-open"></i>
             <p>SCROLL</p>
+            <img src="/mobile/assets/images/icon_scroll.png" alt="SCROLL">
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

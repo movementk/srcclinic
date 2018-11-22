@@ -9,9 +9,10 @@ body {
         z-index: 1;
         width: 100%;
         text-align: center;
-        .icon-down-open {
+        img {
             position: relative;
-            top: -10px;
+            top: -50px;
+            width: 14px;
             display: inline-block;
             font-size: 20px;
             color: #fff;
@@ -25,8 +26,8 @@ body {
             @include maven();
         }
         &.on {
-            .icon-down-open {
-                top: 0;
+            img {
+                top: -40px;
             }
         }
     }

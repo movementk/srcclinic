@@ -26,7 +26,7 @@
             <li>
                 <a href="#">병원소개</a>
                 <ul>
-                    <li><a href="#">병원소개</a></li>
+                    <li><a href="/mobile/rehabilitate/introduce/introduction.php">병원소개</a></li>
                     <li>
                         <a href="#">의료/치료진</a>
                         <ul>

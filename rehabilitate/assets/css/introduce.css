@@ -118,15 +118,23 @@ a {
 
 .facility .section-content {
   margin-top: 80px; }
+  .facility .section-content .facility-slider .slick-list {
+    overflow: visible !important; }
 
 .facility-speech .section-content {
   margin-top: 80px; }
+  .facility-speech .section-content .facility-slider .slick-list {
+    overflow: visible !important; }
 
 .facility-sports .section-content {
   margin-top: 80px; }
+  .facility-sports .section-content .facility-slider .slick-list {
+    overflow: visible !important; }
 
 .facility-saerom .section-content {
   margin-top: 80px; }
+  .facility-saerom .section-content .facility-slider .slick-list {
+    overflow: visible !important; }
 
 .location .section-content {
   padding-top: 90px; }

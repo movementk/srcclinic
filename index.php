@@ -28,7 +28,7 @@
 			</h1>
 		</header>
 		<div id="fullpage">
-			<section class="section">
+			<section class="section firstpage">
 				<!--jumbotrons slider -->
                 <p class="icon-scroll">
                     <img src="/assets/images/icon_mouse.png" alt="">

@@ -130,9 +130,10 @@ body {
     z-index: 1;
     width: 100%;
     text-align: center; }
-    body .scroll-down .icon-down-open {
+    body .scroll-down img {
       position: relative;
-      top: -10px;
+      top: -50px;
+      width: 14px;
       display: inline-block;
       font-size: 20px;
       color: #fff;
@@ -150,8 +151,8 @@ body {
       letter-spacing: 1px;
       text-decoration: none;
       font-family: 'Maven Pro', sans-serif; }
-    body .scroll-down.on .icon-down-open {
-      top: 0; }
+    body .scroll-down.on img {
+      top: -40px; }
 
 .page-intro {
   position: relative; }
