@@ -1,0 +1,231 @@
+@import 'common';
+
+.remedial {
+    .page-header {
+        margin-bottom: 30px;
+        .page-intro {
+            padding: 50px 0 55px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            h3 {
+                font-size: 24px;
+                color: #fff;
+                font-weight: 500;
+            }
+            p {
+                font-size: 12px;
+                color: #fff;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: 30px;
+                word-break: keep-all;
+            }
+        }
+    }
+}
+
+// 공통 슬라이드
+.content-slide {
+    .facility-slide {
+        position: relative;
+        overflow: hidden;
+        .slick-arrow {
+            position: absolute;
+            top: 40%;
+            width: 36px;
+            height: 36px;
+            z-index: 1;
+            font-size: 14px;
+            color: $kcolor;
+            border: 0;
+            padding: 0;
+            margin-top: -18px;
+            outline: none;
+            border-radius: 50%;
+            background-color: #f7f7f7;
+            &.slick-prev {
+                left: -18px;
+                text-align: right;
+                padding-right: 2px;
+                box-shadow: -3px 1px 5px 0px rgba(0, 0, 0, 0.13);
+            }
+            &.slick-next {
+                right: -18px;
+                text-align: left;
+                padding-left: 2px;
+                box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.13);
+            }
+        }
+        li {
+            outline: none;
+            figure {
+                .img-fluid {
+                    width: 100%;
+                }
+            }
+            .details {
+                text-align: center;
+                color: #fff;
+                padding: 15px 10px;
+                background-color: #b2b2b2;
+                h4 {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+    .slider-nav {
+        margin-top: 10px;
+        .slick-track {
+            transform: translate3d(0px, 0px, 0px) !important;
+        }
+        ul {
+            overflow: hidden;
+            width: 100% !important;
+            li {
+                outline: none;
+                float: left; 
+                width: 50% !important;
+                &:nth-of-type(2n + 1) {
+                    clear: both;
+                    padding-right: 5px;
+                }
+                &:nth-of-type(2n + 2) {
+                    padding-left: 5px;
+                }
+                &:nth-of-type(2) ~ li {
+                    margin-top: 10px;
+                }
+                figure {
+
+                }
+            }
+        }
+    }
+}
+
+// 소아
+.child {
+    .page-header {
+        .page-intro {
+            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_child_page_header.jpg);
+        }
+    }
+    .section-content {
+        margin-top: 35px;
+    }
+}
+
+// child-physical
+.child-common {
+    .section-content {
+        .remedial-treatment {
+            padding-bottom: 80px;
+            .summary {
+                font-size: 13px;
+                color: #666;
+                line-height: 24px;
+                font-weight: 300;
+                word-break: keep-all;
+            }
+            .article-content {
+                padding-top: 35px;
+                > ul {
+                    > li {
+                        padding-left: 110px;
+                        background-repeat: no-repeat;
+                        background-position: 0 0;
+                        background-size: 90px auto;
+                        > dl {
+                            > dt {
+                                font-size: 16px;
+                                color: #333;
+                                font-weight: 400;
+                                margin-bottom: 15px;
+                            }
+                            > dd {
+                                font-size: 12px;
+                                color: #666;
+                                font-weight: 300;
+                                line-height: 18px;
+                                word-break: keep-all;
+                                .circle-list {
+                                    li {
+                                        font-size: 12px;
+                                        font-weight: 300;
+                                        line-height: 18px;
+                                        word-break: keep-all;
+                                    }
+                                }
+                            }
+                        }
+                        &~ li {
+                            margin-top: 60px;
+                        }
+                        &:nth-of-type(1) {
+                            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_treatment01.jpg);
+                        }
+                        &:nth-of-type(2) {
+                            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_treatment02.jpg);
+                        }
+                        &:nth-of-type(3) {
+                            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_treatment03.jpg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

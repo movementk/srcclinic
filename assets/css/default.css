@@ -267,8 +267,9 @@ body {
           color: #fff;
           font-weight: 200; }
         #fullpage .section .fp-tableCell article .details h3 {
-          font-size: 58px;
+          font-size: 50px;
           color: #fff;
+          height: 195px;
           font-weight: 200;
           line-height: 65px;
           letter-spacing: -5px;
@@ -281,7 +282,7 @@ body {
           position: relative;
           top: 30px;
           opacity: 0;
-          margin-top: 70px;
+          margin-top: 60px;
           -webkit-transition-property: all;
           transition-property: all;
           -webkit-transition-duration: 0.85s;

@@ -79,8 +79,7 @@
 						<h3>
 							국내 유일 독일 도수의학<sup><img src="/assets/images/img_germany_sup.jpg" alt="독일국기"></sup><br>
 							<strong>
-								전문의가 직접 시행하는 <br>
-								도수치료
+								전문의가 직접 시행하는 <br>도수치료
 							</strong>
 						</h3>
 						<div class="btn-area">
@@ -95,8 +94,7 @@
 						<small>소아재활 낮병동, 청소년 재활치료, 감각통합치료, 언어치료</small>
 						<h3>
 							관악구 최초 소아재활 낮병동<br>
-							<strong>소아치료에 전문화된 전담치료진의</strong><br>
-							맞춤형 의료시스템
+							<strong>소아치료에 특화된 전담치료진</strong><br>
 						</h3>
 						<div class="btn-area">
 							<p>
