@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <section class="child-common child-physical">
+        <section class="remedial-common child-physical">
             <div class="container">
                 <div class="section-header">
                     <div class="tab-menu">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="section-content">
                     <article class="remedial-treatment">
-                        <h4 class="sub-title">소아물리치료</h4>
+                        <h4 class="sub-title">소아 물리치료</h4>
                         <p class="summary">
                             소아물리치료 프로그램에서는 보바스치료, 기능적 건기자극치료 등을 동하여 아동의 정상적인 자세화 움직임을 유도하며, 아동이 안정된 발달을 할 수 있도록 하는데 초점을 두고 있습니다. 모든 아이들은 출생, 출생 전 후 에 대한 시기적 차이와 뇌의 손상부위와 정도, 자세긴장과 움직임, 나이, 성격, 가정환경 등 이와 같은 다양한 요인으로 서로 다른 모습들을 가지고 있습니다.<br>
                             아동의 비정상적인 움직임이나 자세를 올바르고 정상적인 움직임의 형태로 아동에게 가르쳐 스스로 조절할 수  있도록 다양한 치료방법과 치료기구를 사용하여 치료합니다. 

@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff") format("woff"); }
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff") format("woff"); }
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+figure {
+  margin: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+  dl dd {
+    margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+label {
+  font-weight: 400;
+  margin-bottom: 0; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+.btn {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  box-shadow: none !important; }
+
+.form-group {
+  margin: 0; }
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none !important; }
+
+.container {
+  max-width: 100% !important;
+  padding: 0 10px !important; }
+  .container .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .container .row .col-1,
+    .container .row .col-md-1,
+    .container .row .col-lg-1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-2,
+    .container .row .col-md-2,
+    .container .row .col-lg-2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-3,
+    .container .row .col-md-3,
+    .container .row .col-lg-3 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-4,
+    .container .row .col-md-4,
+    .container .row .col-lg-4 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-5,
+    .container .row .col-md-5,
+    .container .row .col-lg-5 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-6,
+    .container .row .col-md-6,
+    .container .row .col-lg-6 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-7,
+    .container .row .col-md-7,
+    .container .row .col-lg-7 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-8,
+    .container .row .col-md-8,
+    .container .row .col-lg-8 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-9,
+    .container .row .col-md-9,
+    .container .row .col-lg-9 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-10,
+    .container .row .col-md-10,
+    .container .row .col-lg-10 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-11,
+    .container .row .col-md-11,
+    .container .row .col-lg-11 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-12,
+    .container .row .col-md-12,
+    .container .row .col-lg-12 {
+      padding-left: 5px;
+      padding-right: 5px; }
+
+body {
+  min-width: 320px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 70px; }
+
+.childhood .page-header .page-intro {
+  border-bottom: 1px solid #9fa1a4; }
+.childhood .section-content .sub-title {
+  margin: 40px 0 30px; }
+  .childhood .section-content .sub-title ~ .sub-title {
+    margin-top: 50px; }
+
+.daytime-ward .section-header {
+  padding: 30px 10px 40px;
+  background-image: url(/mobile/rehabilitate/assets/images/childhood/bg_daytime_ward.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .daytime-ward .section-header figure {
+    margin: 0 -10px; }
+  .daytime-ward .section-header h4 {
+    font-size: 30px;
+    color: #333;
+    margin-top: 40px;
+    font-weight: bold; }
+    .daytime-ward .section-header h4 img {
+      width: 56px;
+      display: block;
+      margin-bottom: 10px; }
+    .daytime-ward .section-header h4 i {
+      color: #28b690;
+      font-style: normal; }
+  .daytime-ward .section-header p {
+    font-size: 13px;
+    color: #333;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 40px; }
+.daytime-ward .section-content {
+  margin-top: 40px; }
+  .daytime-ward .section-content .sub-title {
+    margin-top: 0; }
+  .daytime-ward .section-content .decimal-list {
+    margin-top: 30px; }
+    .daytime-ward .section-content .decimal-list li ~ li {
+      margin-top: 40px; }
+    .daytime-ward .section-content .decimal-list li figure {
+      margin-bottom: 20px; }
+    .daytime-ward .section-content .decimal-list li h6 {
+      position: relative;
+      font-size: 13px;
+      color: #333;
+      font-weight: 500;
+      padding-left: 20px;
+      margin-bottom: 15px; }
+      .daytime-ward .section-content .decimal-list li h6 > span {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 14px;
+        height: 14px;
+        line-height: 13px;
+        display: block;
+        font-size: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 50%;
+        background-color: #28b690;
+        font-family: 'Maven Pro', sans-serif; }
+    .daytime-ward .section-content .decimal-list li p {
+      font-size: 12px;
+      color: #666;
+      font-weight: 300;
+      line-height: 18px; }
+
+.hospital .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+  width: 90px; }
+.hospital .section-content .table-wrap .table tbody tr td a {
+  color: #e9193a; }
+.hospital .section-content .table-wrap .table tbody tr td .circle-list li:before {
+  background-color: #969696; }
+
+.treatment .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+  width: 90px; }
+.treatment .section-content .table-wrap .table tbody tr td a {
+  color: #e9193a; }
+.treatment .section-content .table-wrap .table tbody tr td .circle-list li:before {
+  background-color: #969696; }
+.treatment .section-content .table-wrap:nth-of-type(2) .table thead tr th:nth-of-type(1) {
+  width: 55px; }
+.treatment .section-content .table-wrap:nth-of-type(2) .table thead tr th:nth-of-type(2) {
+  width: 55px; }
+.treatment .section-content .table-wrap:nth-of-type(2) .table tbody tr td {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: none; }
+  .treatment .section-content .table-wrap:nth-of-type(2) .table tbody tr td:last-child {
+    text-align: left; }
+.treatment .section-content .table-wrap:nth-of-type(2) .table tbody tr.bg-gray td {
+  background-color: #f8f8f8; }
+
+/*# sourceMappingURL=childhood.css.map */

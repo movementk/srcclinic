@@ -23,6 +23,9 @@
             }
         }
     }
+    .section-content {
+        margin-top: 35px;
+    }
 }
 
 // 공통 슬라이드
@@ -119,13 +122,72 @@
             background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_child_page_header.jpg);
         }
     }
-    .section-content {
-        margin-top: 35px;
+}
+
+// 청소년
+.teenager {
+    .page-header {
+        .page-intro {
+            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_teenager_page_header.jpg);
+        }
+    }
+    .section-header {
+        .tab-menu {
+            > ul {
+                > li {
+                    width: 33.33%;
+                    &:nth-of-type(2) {
+                        > a {
+                            border-right: 0;
+                        }
+                        &.active {
+                            > a {
+                                border-color: $kcolor;
+                            }
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        &.active {
+                            > a {
+                                border-color: $kcolor;
+                            }
+                        }
+                        > a {
+                            border-top: 1px solid #e9e9e9;
+                            border-right: 1px solid #e9e9e9;
+                        }
+                    }
+                    &.space {
+                        > a {
+                            line-height: 16px;
+                            padding: 1px 0;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
-// child-physical
-.child-common {
+// 성인
+.adult {
+    .page-header {
+        .page-intro {
+            background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_adult_page_header.jpg);
+        }
+    }
+    .section-header {
+        .tab-menu {
+            > ul {
+                > li {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+// remedial-common
+.remedial-common {
     .section-content {
         .remedial-treatment {
             padding-bottom: 80px;
@@ -140,6 +202,7 @@
                 padding-top: 35px;
                 > ul {
                     > li {
+                        min-height: 90px;
                         padding-left: 110px;
                         background-repeat: no-repeat;
                         background-position: 0 0;
@@ -158,11 +221,26 @@
                                 line-height: 18px;
                                 word-break: keep-all;
                                 .circle-list {
+                                    
                                     li {
                                         font-size: 12px;
                                         font-weight: 300;
                                         line-height: 18px;
                                         word-break: keep-all;
+                                        > dl {
+                                            overflow: hidden;
+                                            > dt {
+                                                font-weight: 300;
+                                                float: left;
+                                                &:after {
+                                                    margin: 0 3px;
+                                                    content: ":";
+                                                }
+                                            }
+                                            > dd {
+                                                font-weight: 300;
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -186,46 +264,78 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// teenager-intro
+.teenager-intro {
+    .section-content {
+        margin-top: 50px;
+        article {
+            .article-header {
+                figure {
+                    .img-fluid {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 25px;
+                padding-top: 55px;
+                background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_teenager_intro.png);
+                background-repeat: no-repeat;
+                background-position: 100% 0;
+                background-size: 125px auto;
+                h4 {
+                    font-size: 24px;
+                    color: #333;
+                    font-weight: 400;
+                    line-height: 34px;
+                    letter-spacing: -1px;
+                    img {
+                        width: 56px;
+                        display: block;
+                    }
+                    strong {
+                        color: $kcolor;
+                        font-size: 30px;
+                        i {
+                            font-style: normal;
+                        }
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 24px;
+                    word-break: keep-all;
+                    margin-top: 30px;
+                    b {
+                        font-style: normal;
+                        font-weight: 400;
+                        color: $kcolor;
+                    }
+                }
+            }
+            &.reason {
+                .article-content {
+                    padding-bottom: 90px;
+                    h4 {
+                        strong {
+                            display: block;
+                            color: #333;
+                            padding-left: 90px;
+                            i {
+                                color: $kcolor;
+                            }
+                        }
+                    }
+                }
+            }
+            &.advantage {
+                .article-content {
+                    padding-top: 90px;
+                }
+            }
+        }
+    }
+}

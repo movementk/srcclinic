@@ -1,0 +1,255 @@
+ @import 'common';
+
+// 공통
+.childhood {
+    .page-header {
+        .page-intro {
+            border-bottom: 1px solid #9fa1a4;
+        }
+    }
+    .section-content {
+        .sub-title {
+            margin: 40px 0 30px;
+            & ~ .sub-title {
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+// daytime-ward
+.daytime-ward {
+    .section-header {
+        padding: 30px 10px 40px;
+        background-image: url(/mobile/rehabilitate/assets/images/childhood/bg_daytime_ward.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        figure {
+            margin: 0 -10px;
+        }
+        h4 {
+            font-size: 30px;
+            color: #333;
+            margin-top: 40px;
+            font-weight: bold;
+            img {
+                width: 56px;
+                display: block;
+                margin-bottom: 10px;
+            }
+            i {
+                color: $kcolor;
+                font-style: normal;
+            }
+        }
+        p {
+            font-size: 13px;
+            color: #333;
+            line-height: 24px;
+            font-weight: 300;
+            margin-top: 40px;
+        }
+    }
+    .section-content {
+        margin-top: 40px;
+        .sub-title {
+            margin-top: 0;
+        }
+        .decimal-list {
+            margin-top: 30px;
+            li {
+                & ~ li {
+                    margin-top: 40px;
+                }
+                figure {
+                    margin-bottom: 20px;
+                }
+                h6 {
+                    position: relative;
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 500;
+                    padding-left: 20px;
+                    margin-bottom: 15px;
+                    > span {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        width: 14px;
+                        height: 14px;
+                        line-height: 13px;
+                        display: block;
+                        font-size: 10px;
+                        text-align: center;
+                        color: #fff;
+                        font-weight: bold;
+                        border-radius: 50%;
+                        background-color: $kcolor;
+                        @include maven();
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+
+// hospital
+.hospital {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            &:nth-of-type(1) {
+                                width: 90px;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            a {
+                                color: #e9193a;
+                            }
+                            .circle-list {
+                                li {
+                                    &:before {
+                                        background-color: #969696;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// treatment
+.treatment {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            &:nth-of-type(1) {
+                                width: 90px;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            a {
+                                color: #e9193a;
+                            }
+                            .circle-list {
+                                li {
+                                    &:before {
+                                        background-color: #969696;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:nth-of-type(1) {
+                                    width: 55px;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 55px;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                text-align: center;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                background: none;
+                                &:last-child {
+                                    text-align: left;
+                                }
+                            }
+                            &.bg-gray {
+                                td {
+                                    background-color: #f8f8f8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

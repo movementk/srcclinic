@@ -7,35 +7,35 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/rehabilitate/inc/header.php'); ?>
     
     <!-- Content Start -->
-    <main id="content" class="child">
+    <main id="content" class="adult">
         <div class="page-header">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/rehabilitate/remedial/_lnb_list.php'); ?>
             <div class="page-intro">
                 <div class="container">
-                    <h3>소아 재활치료</h3>
+                    <h3>성인 재활치료</h3>
                     <p>
                         팔 다리 신체기능에 장애가 발생한 경우 운동장애를 가진 환우분들에게  전문과정을 이수한 전문치료사들이 1:1로 다양하고 정확한 평가 후 치료를 실시합니다.
                     </p>
                 </div>
             </div>
         </div>
-        <section class="remedial-common child-occupational">
+        <section class="remedial-common adult-physical">
             <div class="container">
                 <div class="section-header">
                     <div class="tab-menu">
                         <ul>
-                            <li><a href="/mobile/rehabilitate/remedial/child_physical.php">물리치료</a></li>
-                            <li class="active"><a href="/mobile/rehabilitate/remedial/child_occupational.php">작업치료</a></li>
-                            <li><a href="/mobile/rehabilitate/remedial/sensory_integration.php">감각통합치료</a></li>
-                            <li><a href="/mobile/rehabilitate/remedial/speech_therapy.php">언어치료</a></li>
+                            <li><a href="/mobile/rehabilitate/remedial/adult_physical.php">물리치료</a></li>
+                            <li class="active"><a href="/mobile/rehabilitate/remedial/adult_occupational.php">작업치료</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="section-content">
                     <article class="remedial-treatment">
-                        <h4 class="sub-title">소아 작업치료</h4>
+                        <h4 class="sub-title">성인 작업치료</h4>
                         <p class="summary">
-                            여러가지 목적있는 활동과 감각 활동을 제공하여, 정상적인 움직임과 감각의 발달을 경험시켜 감각 운동기능, 지각 인지기능, 일상생활 활동 (식사, 옷 입고 벗기, 그리기 및 쓰기활동,개인위해 등), 놀이기술 등을 향상시킵니다.  <br> 또한 적절한 보조도구 및 가구를 제공하여 변형을 예방하고, 독립적인 생활과 치료의 효과를 높이며, 보호자 교육을 통하여 아동이 가정이나 유치원, 학교에서 올바로 양육되고, 치료와 연결될 수 있게 합니다.
+                            작업치료는 신체적 정신적인 장애나 발달장애가 있는 환자들이 일상생활 중 요구되는 활동을 스스로 수행할 수 있도록 그  기능의 회복을 도와주는 치료 프로그램입니다.<br>
+                            적절하고 의미있고 유용한 작업을 수행함으로써 불완전한 기능을 보다 나은 상태로 만들고, 더 이상의 악화를 예방하고자 실시합니다. <br>
+                            환자분들의 발달 및 장애 상태직업이나 활동영역 등을 고려하여, 장애는 교정을 통해 최소화시키고 남아있는 신체 기능은 반복훈련을 통해 최대한 끌어내 약화된 일상생활활동을 수행할 수 있도록 개개인의 능력에 맞게 서비스를 제공하는 것입니다. 
                         </p>
                         <div class="article-content">
                             <ul>
@@ -43,10 +43,7 @@
                                     <dl>
                                         <dt>치료대상</dt>
                                         <dd>
-                                            <ol class="circle-list">
-                                                <li>발달지연, 뇌성마비, 외상성 뇌손상, 척수손상, 근육질환, 염색체 이상 등으로 발달에 문제가 있는 아동</li>
-                                                <li>감각통합에 어려움이 있는 아동, 학습장애아동, 발달장애아동, 기타 일상생활의 작업 수행에 어려움이 있는 아동</li>
-                                            </ol>
+                                            뇌졸증, 외상성 뇌손상, 척수손상, 심폐질환, 근골격계 질환(근육질환, 화상, 절단), 노인성 질환(치매, 퇴행성 질환), 정신과 질환(우울증, 신경증) 등을 대상으로 실시합니다.
                                         </dd>
                                     </dl>
                                 </li>
@@ -54,7 +51,32 @@
                                     <dl>
                                         <dt>평가항목</dt>
                                         <dd>
-                                            발달평가, 일상생활수행능력평가, 손기능 평가, 인지평가, 시지각 발당평가
+                                            <ol class="circle-list">
+                                                <li>
+                                                    <dl>
+                                                        <dt>수지기능검사</dt>
+                                                        <dd>쥐는 힘, 다양한 쥐기 능력, 손안에서의 물체를 다루는 능력</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>감각검사 </dt>
+                                                        <dd>촉각, 통증/온도 감각, 구별감각(고유수용성감각 등)</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>인지 및 시지각 검사</dt>
+                                                        <dd>시지각, 신체인지, 지남력, 주의집중력, 기억력, 판별력, 문제해결능력, 수리력</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>일상생활수행능력 평가</dt>
+                                                        <dd>개인위생, 먹기, 입기, 화장실 사용, 이동방법, 휠체어의 사용, 의사소통 가사활동, 여가생활 등을 평가합니다.</dd>
+                                                    </dl>
+                                                </li>
+                                            </ol>
                                         </dd>
                                     </dl>
                                 </li>
@@ -62,16 +84,7 @@
                                     <dl>
                                         <dt>치료내용</dt>
                                         <dd>
-                                            <ol class="circle-list">
-                                                <li>
-                                                    중추신경게 및 근골격계 장애를 가진 아동들의 대상으로 신체 재활치료를 실시하고 있습니다. <br>
-                                                    개별 아동의 신체기능 평가를 통하여 해당 아동의 문제점을 질적으로 연구 분석하고 그에 따라 신경발달적 접근치료법을 사용하기 때문에 매우 효과적입니다
-                                                </li>
-                                                <li>
-                                                    구체적인 치료방법으로는 감각자극, 지각의 발달을 위한 치료, 인지치료, 세밀한 균형감각과 협응능력 증진을 위한 치료, 손 기능의 향상을 위한 치료, 구강기능의 향상을 위한 치료, 보조도구의 제작과 적용, 감각통합 치료, 보호자 교육 등이 있습니다. <br> 
-                                                    각 아동의 문제에 따라 적합한 프로그램으로 진행되는 1:1 개별 치료를 기본으로 하며, 필요와 목적 에 따라 다양한 치료를 제공합니다.
-                                                </li>
-                                            </ol>
+                                            상지기능향상 훈련, 근력증진, 지구력 증진, 미세운동협응 훈련, 균형 훈련, 시지각 훈련 및 인지기능 향상 훈련 등, 환자의 손상된 기능 회복과 관련된 치료와 일상생활동작 증진을 통한 삶의 질 향상을 목적으로 환자의 특성에 맞는 다양한 훈련을 진행합니다.
                                         </dd>
                                     </dl>
                                 </li>

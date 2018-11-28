@@ -7,35 +7,34 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/rehabilitate/inc/header.php'); ?>
     
     <!-- Content Start -->
-    <main id="content" class="child">
+    <main id="content" class="teenager">
         <div class="page-header">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/rehabilitate/remedial/_lnb_list.php'); ?>
             <div class="page-intro">
                 <div class="container">
-                    <h3>소아 재활치료</h3>
+                    <h3>청소년 재활치료</h3>
                     <p>
                         팔 다리 신체기능에 장애가 발생한 경우 운동장애를 가진 환우분들에게  전문과정을 이수한 전문치료사들이 1:1로 다양하고 정확한 평가 후 치료를 실시합니다.
                     </p>
                 </div>
             </div>
         </div>
-        <section class="remedial-common child-occupational">
+        <section class="remedial-common teenager-occupational">
             <div class="container">
                 <div class="section-header">
                     <div class="tab-menu">
                         <ul>
-                            <li><a href="/mobile/rehabilitate/remedial/child_physical.php">물리치료</a></li>
-                            <li class="active"><a href="/mobile/rehabilitate/remedial/child_occupational.php">작업치료</a></li>
-                            <li><a href="/mobile/rehabilitate/remedial/sensory_integration.php">감각통합치료</a></li>
-                            <li><a href="/mobile/rehabilitate/remedial/speech_therapy.php">언어치료</a></li>
+                            <li class="space"><a href="/mobile/rehabilitate/remedial/teenager_intro.php">SRC청소년<br> 치료실 소개</a></li>
+                            <li><a href="/mobile/rehabilitate/remedial/teenager_physical.php">물리치료</a></li>
+                            <li class="active"><a href="/mobile/rehabilitate/remedial/teenager_occupational.php">작업치료</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="section-content">
                     <article class="remedial-treatment">
-                        <h4 class="sub-title">소아 작업치료</h4>
+                        <h4 class="sub-title">청소년 작업치료</h4>
                         <p class="summary">
-                            여러가지 목적있는 활동과 감각 활동을 제공하여, 정상적인 움직임과 감각의 발달을 경험시켜 감각 운동기능, 지각 인지기능, 일상생활 활동 (식사, 옷 입고 벗기, 그리기 및 쓰기활동,개인위해 등), 놀이기술 등을 향상시킵니다.  <br> 또한 적절한 보조도구 및 가구를 제공하여 변형을 예방하고, 독립적인 생활과 치료의 효과를 높이며, 보호자 교육을 통하여 아동이 가정이나 유치원, 학교에서 올바로 양육되고, 치료와 연결될 수 있게 합니다.
+                            상지 관절운동 및 연하치료, 시지각 활동 및 인지활동, 일상생활에 관련된 활동의 연습 및 실제에 적용하기 등이 이루어집니다. 
                         </p>
                         <div class="article-content">
                             <ul>
@@ -43,10 +42,7 @@
                                     <dl>
                                         <dt>치료대상</dt>
                                         <dd>
-                                            <ol class="circle-list">
-                                                <li>발달지연, 뇌성마비, 외상성 뇌손상, 척수손상, 근육질환, 염색체 이상 등으로 발달에 문제가 있는 아동</li>
-                                                <li>감각통합에 어려움이 있는 아동, 학습장애아동, 발달장애아동, 기타 일상생활의 작업 수행에 어려움이 있는 아동</li>
-                                            </ol>
+                                            13~19살까지의 학령기 장애아동
                                         </dd>
                                     </dl>
                                 </li>
@@ -54,7 +50,20 @@
                                     <dl>
                                         <dt>평가항목</dt>
                                         <dd>
-                                            발달평가, 일상생활수행능력평가, 손기능 평가, 인지평가, 시지각 발당평가
+                                            <ol class="circle-list">
+                                                <li>
+                                                    지기능검사(상지의 관절가동범위 및 근력, 잡기, 집기와 같은 기능적 움직임 평가)
+                                                </li>
+                                                <li>
+                                                    페그보드검사(세밀한 손 동작 및 집기능력과 같은 소근육 기능 평가)
+                                                </li>
+                                                <li>
+                                                    일상생활동작검사(일상생활활동에 대한 자립도 검사)
+                                                </li>
+                                                <li>
+                                                    작업치료평가지(수행배경, 수행요소, 지각 및 인지적인 요소 분석)
+                                                </li>
+                                            </ol>
                                         </dd>
                                     </dl>
                                 </li>
@@ -64,12 +73,13 @@
                                         <dd>
                                             <ol class="circle-list">
                                                 <li>
-                                                    중추신경게 및 근골격계 장애를 가진 아동들의 대상으로 신체 재활치료를 실시하고 있습니다. <br>
-                                                    개별 아동의 신체기능 평가를 통하여 해당 아동의 문제점을 질적으로 연구 분석하고 그에 따라 신경발달적 접근치료법을 사용하기 때문에 매우 효과적입니다
+                                                    학습과 관련한 다양한 부분 평가 및 중재 (글쓰기, 읽기, 그리기, 가위질 하기, 계산하기 등)
                                                 </li>
                                                 <li>
-                                                    구체적인 치료방법으로는 감각자극, 지각의 발달을 위한 치료, 인지치료, 세밀한 균형감각과 협응능력 증진을 위한 치료, 손 기능의 향상을 위한 치료, 구강기능의 향상을 위한 치료, 보조도구의 제작과 적용, 감각통합 치료, 보호자 교육 등이 있습니다. <br> 
-                                                    각 아동의 문제에 따라 적합한 프로그램으로 진행되는 1:1 개별 치료를 기본으로 하며, 필요와 목적 에 따라 다양한 치료를 제공합니다.
+                                                    대근육 운동기술, 소근육 운동기술, 시지각기능, 인지기능, 연하기능 등 아동 개개인에 맞는 작업수행 및 수행기능 향상을 위한 활동
+                                                </li>
+                                                <li>
+                                                    과제의 반복 수행을 통하여 수행능력 향상 및 과제 난이도 향상
                                                 </li>
                                             </ol>
                                         </dd>
