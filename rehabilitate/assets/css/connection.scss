@@ -7,65 +7,10 @@
 }
 
 .service {
-    /*background-color: #fffbf4;*/
-	/*&.action {
-		.section-header {
-			h3 {
-				top: 0;
-				opacity: 1;
-				strong {
-					top: 0;
-					opacity: 1;
-				}
-			}
-			p {
-				top: 0;
-				opacity: 1;
-			}
-		}
-		 .section-content {
-			> article {
-				.details {
-					h4 {
-						top: 0;
-						opacity: 1;
-					}
-					> p {
-						top: 0;
-						opacity: 1;
-					}
-					.btn-area {
-						top: 0;
-						opacity: 1;
-					}
-				}
-				&.speech {
-					figure {
-						.img-fluid {
-							right: 0;
-							opacity: 1;
-						}
-					}
-				}
-				&.sports {
-					figure {
-						.img-fluid {
-							left: 0;
-							opacity: 1;
-						}
-					}
-				}				
-			}
-		}
-	}*/
     .section-header {
         text-align: center;
         padding: 100px 0 90px;
         h3 {
-			/*position: relative;
-			top: -30px;
-			opacity: 0;
-			@include transition($duration: 1s, $delay: .5s);*/
             font-size: 37px;
             color: #2b2b2b;
             font-weight: 600;
@@ -80,10 +25,6 @@
             }
         }
         p {
-			/*position: relative;
-			top: -30px;
-			opacity: 0;
-			@include transition($duration: 1s, $delay: .5s);*/
             font-size: 17px;
             color: #999;
             font-weight: 300;
@@ -116,10 +57,6 @@
                 position: relative;
                 z-index: 2;
                 h4 {
-					/*position: relative;
-					top: 30px;
-					opacity: 0;
-					@include transition($duration: 1s, $delay: 2.5s);*/
 					font-size: 28px;
 					color: #fff;
                     letter-spacing: -1px;
@@ -127,10 +64,6 @@
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
 				}
 				> p {
-					/*position: relative;
-					top: 30px;
-					opacity: 0;
-					@include transition($duration: 1s, $delay: 2.5s);*/
 					font-size: 16px;
 					color: #fff;
                     letter-spacing: -.5px;
@@ -140,10 +73,6 @@
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
 				}
 				.btn-area {
-					/*position: relative;
-					top: 30px;
-					opacity: 0;
-					@include transition($duration: 1s, $delay: 2.5s);*/
 					margin-top: 35px;
 					p {
 						.btn-default {
@@ -166,15 +95,11 @@
             &.speech {
                 text-align: right;
                 padding-right: 60px;
+                background: none;
                 background-color: #ebaf3c;
                 figure {
                     left: 0;
                     padding-right: 95px;
-					.img-fluid {
-						/*right: 140px;
-						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);*/
-					}
                 }
             }
             &.sports {
@@ -184,11 +109,6 @@
                 figure {
                     right: 0px;
                     padding-left: 95px;
-					.img-fluid {
-						/*left: 140px;
-						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);*/
-					}
                 }
             }
         }
@@ -218,7 +138,7 @@ section {
 
 // speech
 .speech {
-    background-image: url(/rehabilitate/assets/images/connection/bg_speech.png);
+    /*background-image: url(/rehabilitate/assets/images/connection/bg_speech.png);*/
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -310,10 +230,15 @@ section {
             &.left-img {
                 left: 0;
                 width: 50%;
+                .img-fluid {
+                    float: left;
+                }
             }
             &.right-img {
                 right: 0;
-                
+                .img-fluid {
+                    float: right;
+                }
             }
         }
     }
@@ -410,7 +335,7 @@ section {
 
 
 .sportscenter {
-    background-image: url(/rehabilitate/assets/images/connection/bg_speech.png);
+    /*background-image: url(/rehabilitate/assets/images/connection/bg_speech.png);*/
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;

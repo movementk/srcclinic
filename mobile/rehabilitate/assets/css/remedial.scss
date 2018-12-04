@@ -35,7 +35,7 @@
         overflow: hidden;
         .slick-arrow {
             position: absolute;
-            top: 40%;
+            top: 50%;
             width: 36px;
             height: 36px;
             z-index: 1;
@@ -85,9 +85,24 @@
             }
         }
     }
-    .slider-nav {
+    .slider-nav-2 {
         margin-top: 10px;
-        .slick-track {
+        ul {
+            > li {
+                figure {
+                    img {
+                        width: 100%;
+                    }
+                }
+                &:nth-of-type(2) ~ li {
+                    figure {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        /*.slick-track {
+            width: 100% !important;
             transform: translate3d(0px, 0px, 0px) !important;
         }
         ul {
@@ -110,8 +125,11 @@
                 figure {
 
                 }
+                .slick-arrow {
+                    display: none !important;
+                }
             }
-        }
+        }*/
     }
 }
 

@@ -101,25 +101,25 @@
 			</article>
 			<div class="slider">
 				<ul class="slider-main">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>4</li>
-					<li>5</li>
-					<li>6</li>
-					<li>7</li>
-					<li>8</li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
+					<li style="background-image: url(/rehabilitate/assets/images/sub/img_slider_list01.jpg);"></li>
 				</ul>
-				<nav class="slider-nav">
+				<nav class="slider-nav-2">
 					<ul>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_01.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_02.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_03.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_04.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_05.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_06.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_07.jpg" alt=""></li>
-						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_08.jpg" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_01.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_02.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_03.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_04.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_05.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_06.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_07.jpg" class="img-fluid" alt=""></li>
+						<li><img src="/rehabilitate/assets/images/sub/img_slider_nav_08.jpg" class="img-fluid" alt=""></li>
 					</ul>
 				</nav>
 			</div>
@@ -136,17 +136,7 @@
 				arrows: true,
 				fade: true,
 				prevArrow: '<button class="slick-prev"><i class="icon-left-open"></i></button>',
-            	nextArrow: '<button class="slick-next"><i class="icon-right-open"></i></button>',
-				asNavFor: '.slider-nav ul'
-			});
-			$('.slider-nav ul').slick({
-			  slidesToShow: 8,
-			  slidesToScroll: 1, 
-			  asNavFor: '.slider-main',
-			  dots: false,
-			  arrows: false,	
-			  centerMode: true,
-			  focusOnSelect: true,
+            	nextArrow: '<button class="slick-next"><i class="icon-right-open"></i></button>'
 			});
 		})(jQuery);
 	</script>

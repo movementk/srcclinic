@@ -106,12 +106,13 @@
 								</figure>
 							</li>
 						</ul>
-						<nav class="facility-nav">
+						<nav class="facility-nav-2">
 							<ul>
 								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav03.jpg" class="img-fluid" alt=""></li>
 								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav01.jpg" class="img-fluid" alt=""></li>
 								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav02.jpg" class="img-fluid" alt=""></li>
 								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav04.jpg" class="img-fluid" alt=""></li>
+								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav05.jpg" class="img-fluid" alt=""></li>
 								<li><img src="/rehabilitate/assets/images/introduce/img_facility_nav05.jpg" class="img-fluid" alt=""></li>
 							</ul>
 						</nav>
@@ -125,24 +126,14 @@
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script>
 		(function($){
-			$('.facility-img').slick({
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				arrows: true,
-				fade: true,
-				prevArrow: '<button class="slick-prev"><i class="icon-left-open"></i></button>',
-            	nextArrow: '<button class="slick-next"><i class="icon-right-open"></i></button>',
-				asNavFor: '.facility-nav ul'
-			});
-			$('.facility-nav ul').slick({
-			  slidesToShow: 8,
-			  slidesToScroll: 1, 
-			  asNavFor: '.facility-img',
-			  dots: false,
-			  arrows: false,	
-			  centerMode: true,
-			  focusOnSelect: true,
-			});
+            $('.facility-img').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                prevArrow: '<button class="slick-prev"><i class="icon-left-open"></i></button>',
+                nextArrow: '<button class="slick-next"><i class="icon-right-open"></i></button>'
+            });
 		})(jQuery);
 	</script>
 </body>

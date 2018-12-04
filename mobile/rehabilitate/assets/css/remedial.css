@@ -162,7 +162,7 @@ body {
   overflow: hidden; }
   .content-slide .facility-slide .slick-arrow {
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: 36px;
     height: 36px;
     z-index: 1;
@@ -201,24 +201,41 @@ body {
         font-size: 12px;
         font-weight: 300;
         line-height: 18px; }
-.content-slide .slider-nav {
-  margin-top: 10px; }
-  .content-slide .slider-nav .slick-track {
-    transform: translate3d(0px, 0px, 0px) !important; }
-  .content-slide .slider-nav ul {
-    overflow: hidden;
-    width: 100% !important; }
-    .content-slide .slider-nav ul li {
-      outline: none;
-      float: left;
-      width: 50% !important; }
-      .content-slide .slider-nav ul li:nth-of-type(2n + 1) {
-        clear: both;
-        padding-right: 5px; }
-      .content-slide .slider-nav ul li:nth-of-type(2n + 2) {
-        padding-left: 5px; }
-      .content-slide .slider-nav ul li:nth-of-type(2) ~ li {
-        margin-top: 10px; }
+.content-slide .slider-nav-2 {
+  margin-top: 10px;
+        /*.slick-track {
+            width: 100% !important;
+            transform: translate3d(0px, 0px, 0px) !important;
+        }
+        ul {
+            overflow: hidden;
+            width: 100% !important;
+            li {
+                outline: none;
+                float: left; 
+                width: 50% !important;
+                &:nth-of-type(2n + 1) {
+                    clear: both;
+                    padding-right: 5px;
+                }
+                &:nth-of-type(2n + 2) {
+                    padding-left: 5px;
+                }
+                &:nth-of-type(2) ~ li {
+                    margin-top: 10px;
+                }
+                figure {
+
+                }
+                .slick-arrow {
+                    display: none !important;
+                }
+            }
+        }*/ }
+  .content-slide .slider-nav-2 ul > li figure img {
+    width: 100%; }
+  .content-slide .slider-nav-2 ul > li:nth-of-type(2) ~ li figure {
+    margin-top: 10px; }
 
 .child .page-header .page-intro {
   background-image: url(/mobile/rehabilitate/assets/images/remedial/bg_child_page_header.jpg); }

@@ -47,16 +47,14 @@
 						<h2>의료/치료진</h2>
 					</div>
 					<nav class="page-tab">
-						<ul class="row">
+						<ul>
 							<li><a href="/rehabilitate/introduce/doctors.php">의료진</a></li>
 							<li class="on"><a href="/rehabilitate/introduce/care_team.php">치료진</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="section-content">
-					<div class="sub-title">
-						<h3>소아전담 치료진</h3>
-					</div>
+                    <div class="content-title"><h3>소아전담 치료진</h3></div>
 					<h4 class="team-title">물리치료실</h4>
 					<article class="member">
 						<ul class="row">
@@ -125,6 +123,7 @@
 							</li>
                         </ul>
                     </article>
+                    <hr>
                     <h4 class="team-title">작업치료실</h4>
                     <article class="member">
                         <ul class="row">
@@ -159,7 +158,6 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/care_list11.png" alt="">
 									<figcaption>
-										<!--<p>작업치료사</p>-->
 										<h3>방 은 지</h3>
 									</figcaption>
 								</figure>
@@ -168,115 +166,131 @@
 								<figure>
 									<img src="/rehabilitate/assets/images/introduce/care_list12.png" alt="">
 									<figcaption>
-										<!--<p>작업치료사</p>-->
 										<h3>이 은 경</h3>
 									</figcaption>
 								</figure>
 							</li>
 						</ul>
 					</article>
-					<h4 class="team-title">감각통합치료실</h4>
-                    <article class="member">
-                        <ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list13.png" alt="">
-									<figcaption>
-										<p>작업치료사</p>
-										<h3>김 민 경</h3>
-									</figcaption>
-								</figure>
-							</li>
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list14.png" alt="">
-									<figcaption>
-										<p>작업치료사</p>
-										<h3>박 하 향</h3>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
-					<h4 class="team-title">언어치료실</h4>
-                    <article class="member">
-                        <ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list15.png" alt="">
-									<figcaption>
-										<p>언어치료사</p>
-										<h3>고 은 별</h3>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
+					<hr>
 					
-					<div class="sub-title">
-						<h3>청소년 치료진</h3>
+					<div class="row">
+					    <div class="col-6">
+                            <h4 class="team-title">감각통합치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_list13.png" alt="">
+                                            <figcaption>
+                                                <p>작업치료사</p>
+                                                <h3>김 민 경</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_list14.png" alt="">
+                                            <figcaption>
+                                                <p>작업치료사</p>
+                                                <h3>박 하 향</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					    </div>
+					    <div class="col-6">
+                            <h4 class="team-title">언어치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_list15.png" alt="">
+                                            <figcaption>
+                                                <p>언어치료사</p>
+                                                <h3>고 은 별</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					    </div>
 					</div>
-					<h4 class="team-title">물리치료실</h4>
-					<article class="member">
-                        <ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
-									<figcaption>
-										<p>물리치료사</p>
-										<h3>이 민 성</h3>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
 					
-					<h4 class="team-title">작업치료실</h4>
-					<article class="member">
-                        <ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
-									<figcaption>
-										<p>작업치료사</p>
-										<h3>김 선 아</h3>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
-					
-					<div class="sub-title">
-						<h3>성인 치료진</h3>
+					<div class="content-title"><h3>청소년 치료진</h3></div>
+					<div class="row">
+					    <div class="col-6">
+                            <h4 class="team-title">물리치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
+                                            <figcaption>
+                                                <p>물리치료사</p>
+                                                <h3>이 민 성</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					    </div>
+					    <div class="col-6">
+                            <h4 class="team-title">작업치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
+                                            <figcaption>
+                                                <p>작업치료사</p>
+                                                <h3>김 선 아</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					    </div>
 					</div>
-					<h4 class="team-title">물리치료실</h4>
-					<article class="member">
-						<ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
-									<figcaption>
-										<p>물리치료사</p>
-										<h3>전 유 진</h3>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
-					<h4 class="team-title">작업치료실</h4>
-					<article class="member">
-						<ul class="row">
-							<li class="col-3">
-								<figure>
-									<img src="/rehabilitate/assets/images/introduce/care_list16.png" alt="">
-									<figcaption>
-										<h3>최 지 혜</h3>
-										<p>작업치료사</p>
-									</figcaption>
-								</figure>
-							</li>
-						</ul>
-					</article>
+                    
+					
+					<div class="content-title"><h3>성인 치료진</h3></div>
+					<div class="row">
+					    <div class="col-6">
+                            <h4 class="team-title">물리치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_none_img.png" alt="">
+                                            <figcaption>
+                                                <p>물리치료사</p>
+                                                <h3>전 유 진</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					        
+					    </div>
+					    <div class="col-6">
+                            <h4 class="team-title">작업치료실</h4>
+                            <article class="member">
+                                <ul class="row">
+                                    <li class="col-6">
+                                        <figure>
+                                            <img src="/rehabilitate/assets/images/introduce/care_list16.png" alt="">
+                                            <figcaption>
+                                                <h3>최 지 혜</h3>
+                                                <p>작업치료사</p>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </article>
+					    </div>
+					</div>
 				</div>
 			</section>
 		</div>

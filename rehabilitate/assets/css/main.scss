@@ -55,9 +55,10 @@
 			}
 			.slick-dots {
 				position: absolute;
-				left: 50%;
-				margin-left: -53px;
-				bottom: 30px;
+                left: 0;
+                bottom: 30px;
+                width: 100%;
+                text-align: center;
 				li {
 					display: inline-block;
 					margin-right: 10px;
@@ -771,7 +772,7 @@
             color: #2b2b2b;
             font-weight: 600;
             letter-spacing: -2px;
-			@include transition($duration: 1s, $delay: .5s);
+			@include transition($duration: .5s, $delay: .5s);
             strong {
                 display: block;
                 font-size: 46px;
@@ -789,7 +790,7 @@
             color: #999;
             font-weight: 300;
             margin-top: 20px;
-			@include transition($duration: 1s, $delay: .5s);
+			@include transition($duration: .5s, $delay: .5s);
         }
     }
     .section-content {
@@ -826,7 +827,7 @@
                     letter-spacing: -1px;
 					font-weight: bold;
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: 2.5s);
+					@include transition($duration: .5s, $delay: 2.5s);
 				}
 				> p {
 					position: relative;
@@ -839,14 +840,14 @@
 					font-weight: 300;
 					margin-top: 25px;
                     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-					@include transition($duration: 1s, $delay: 2.5s);
+					@include transition($duration: .5s, $delay: 2.5s);
 				}
 				.btn-area {
 					position: relative;
 					top: 30px;
 					opacity: 0;
 					margin-top: 35px;
-					@include transition($duration: 1s, $delay: 2.5s);
+					@include transition($duration: .5s, $delay: 2.5s);
 					p {
 						.btn-default {
 							display: inline-block;
@@ -875,7 +876,7 @@
 					.img-fluid {
 						right: 140px;
 						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);
+						@include transition($duration: .5s, $delay: 1.5s);
 					}
                 }
             }
@@ -889,7 +890,7 @@
 					.img-fluid {
 						left: 140px;
 						opacity: 0;
-						@include transition($duration: 1s, $delay: 1.5s);
+						@include transition($duration: .5s, $delay: 1.5s);
 					}
                 }
             }

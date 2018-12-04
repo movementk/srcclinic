@@ -2,6 +2,7 @@
 
 .introduce {
     .space {
+        border-bottom: 0;
         padding-bottom: 0 !important;
     }
 }
@@ -10,18 +11,54 @@
 .care-team {
 	.section-content {
 		margin-top: 75px;
-		.sub-title {
-			& ~ .sub-title {
-				margin-top: 125px;
-			}
+		.content-title {
+            position: relative;
+            display: block;
+            text-align: center;
+            margin-bottom: 70px;
+            h3 {
+                position: relative;
+                font-size: 28px;
+                color: #333;
+                display: inline-block;
+                text-align: center;
+                padding: 0 25px;
+                z-index: 2;
+                background-color: #f7f7f7;
+            }
+            &:after {
+                position: absolute;
+                top: 15px;
+                left: 0;
+                z-index: 1;
+                content: "";
+                width: 100%;
+                height: 3px;
+                background-color: #28b690;
+            }
+            & ~ .content-title {
+                margin-top: 120px;
+            }
 		}
+        hr {
+            margin: 80px 0;
+            border-top: 1px solid #d2d3d4;
+        }
         .team-title {
+            position: relative;
             font-size: 20px;
             color: #28b690;
             font-weight: 400;
-            margin-bottom: 30px;
-            & ~ .team-title {
-                margin-top: 100px;
+            padding-left: 15px;
+            margin-bottom: 40px;
+            &:before {
+                position: absolute;
+                top: 10px;
+                left: 0;
+                content: "";
+                width: 5px;
+                height: 5px;
+                background-color: #28b690;
             }
         }
 		.member {
@@ -74,53 +111,13 @@
 	}
 }
 
-// 부설의원 시설안내
-.facility {
+// 시설안내 공통
+.facility, .facility-saerom, .facility-speech, .facility-sports {
 	.section-content {
 		margin-top: 80px;
-        .facility-slider {
-            .slick-list {
-                overflow: visible !important;
-            }
-        }
 	}	
 }
 
-// 언어심리상담센터 시설안내
-.facility-speech {
-	.section-content {
-		margin-top: 80px;
-        .facility-slider {
-            .slick-list {
-                overflow: visible !important;
-            }
-        }
-	}	
-}
-
-// 스포츠센터 시설안내
-.facility-sports {
-	.section-content {
-		margin-top: 80px;
-        .facility-slider {
-            .slick-list {
-                overflow: visible !important;
-            }
-        }
-	}	
-}
-
-// 새롬학교 시설안내
-.facility-saerom {
-	.section-content {
-		margin-top: 80px;
-        .facility-slider {
-            .slick-list {
-                overflow: visible !important;
-            }
-        }
-	}	
-}
 
 // 오시는 길
 .location {

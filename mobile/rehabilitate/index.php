@@ -48,21 +48,21 @@
                     <strong>02</strong>
                     <h3>쾌적하고 <b>이용이 편리한<br> 입원/치료환경</b>을 제공합니다.</h3>
                     <figure>
-                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit01.jpg" class="img-fluid" alt="">
+                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit02.jpg" class="img-fluid" alt="">
                     </figure>
                 </li>
                 <li>
                     <strong>03</strong>
                     <h3>부담없는 <b>무료 프로그램을</b>을<br> 진행합니다.</h3>
                     <figure>
-                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit01.jpg" class="img-fluid" alt="">
+                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit03.jpg" class="img-fluid" alt="">
                     </figure>
                 </li>
                 <li>
                     <strong>04</strong>
                     <h3><b>친절함과 철저한 위생관리</b>로<br> 치료에 최선을 다합니다.</h3>
                     <figure>
-                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit01.jpg" class="img-fluid" alt="">
+                        <img src="/mobile/rehabilitate/assets/images/main/img_benefit04.jpg" class="img-fluid" alt="">
                     </figure>
                 </li>
             </ol>

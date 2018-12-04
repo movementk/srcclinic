@@ -130,6 +130,81 @@
 .care-team {
     .section-content {
         margin-top: 40px;
+        article {
+            & ~ article {
+                margin-top: 60px;
+            }
+            .care-title {
+                position: relative;
+                display: block;
+                width: 100%;
+                margin-bottom: 30px;
+                text-align: center;
+                &:after {
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                    z-index: 1;
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 3px;
+                    background-color: $kcolor;
+                }
+                h4 {
+                    position: relative;
+                    z-index: 2;
+                    font-size: 17px;
+                    color: #333;
+                    display: inline-block;
+                    padding: 0 15px;
+                    background-color: #fff;
+                }
+            }
+            .square-title {
+                color: $kcolor;
+                margin-bottom: 20px;
+            }
+            ul {
+                li {
+                    figure {
+                        text-align: center;
+                        .img-fluid {
+                            width: 100%;
+                            display: block;
+                        }
+                        figcaption {
+                            margin-top: 15px;
+                            p {
+                                font-size: 12px;
+                                color: #999;
+                                font-weight: lighter;
+                                margin-bottom: 5px;
+                            }
+                            h6 {
+                                font-size: 14px;
+                                color: #333;
+                                font-weight: 400;
+                                small {
+                                    font-size: 11px;
+                                    font-weight: lighter;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) ~ li {
+                        figure {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            hr {
+                display: block;
+                margin: 30px 0;
+                border-top: 1px solid #d9d9db;
+            }
+        }
     }
 }
 
@@ -210,9 +285,24 @@
                 }
             }
         }
-        .slider-nav {
+        .slider-nav-2 {
             margin-top: 10px;
-            .slick-track {
+            ul {
+                > li {
+                    figure {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    &:nth-of-type(2) ~ li {
+                        figure {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            /*.slick-track {
+                width: 100% !important;
                 transform: translate3d(0px, 0px, 0px) !important;
             }
             ul {
@@ -235,8 +325,11 @@
                     figure {
                         
                     }
+                    .slick-arrow {
+                        display: none !important;
+                    }
                 }
-            }
+            }*/
         }
     }
 }

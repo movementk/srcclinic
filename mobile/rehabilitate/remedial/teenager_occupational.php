@@ -127,24 +127,24 @@
                                 </div>
                             </li>
                         </ul>
-                        <nav class="slider-nav">
-                            <ul>
-                                <li>
+                        <nav class="slider-nav-2">
+                            <ul class="row">
+                                <li class="col-6">
                                     <figure>
                                         <img src="/mobile/rehabilitate/assets/images/introduce/img_facility_slide01.jpg" class="img-fluid" alt="">
                                     </figure>
                                 </li>
-                                <li>
+                                <li class="col-6">
                                     <figure>
                                         <img src="/mobile/rehabilitate/assets/images/introduce/img_facility_slide02.jpg" class="img-fluid" alt="">
                                     </figure>
                                 </li>
-                                <li>
+                                <li class="col-6">
                                     <figure>
                                         <img src="/mobile/rehabilitate/assets/images/introduce/img_facility_slide01.jpg" class="img-fluid" alt="">
                                     </figure>
                                 </li>
-                                <li>
+                                <li class="col-6">
                                     <figure>
                                         <img src="/mobile/rehabilitate/assets/images/introduce/img_facility_slide02.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -169,16 +169,7 @@
                     autoPlay: true,
                     autoplaySpeed: 6000,
                     prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-left-open-big"></i></button>',
-                    nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-right-open-big"></i></button>',
-                    asNavFor: '.slider-nav ul'
-                });
-                $('.slider-nav ul').slick({
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    asNavFor: '.facility-slide',
-                    dots: false,
-                    centerMode: false,
-                    focusOnSelect: true
+                    nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-right-open-big"></i></button>'
                 });
             });
         })(jQuery);

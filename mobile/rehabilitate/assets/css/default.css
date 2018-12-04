@@ -263,6 +263,8 @@ body {
             #gnb .gnb-menu > ul > li > ul > li > ul > li > a:before {
               content: "- ";
               margin-right: 5px; }
+        #gnb .gnb-menu > ul > li > ul > li.child-none > a:after {
+          display: none; }
       #gnb .gnb-menu > ul > li.active {
         border-color: #28b690; }
         #gnb .gnb-menu > ul > li.active > a {
@@ -273,8 +275,10 @@ body {
             content: "\E806"; }
         #gnb .gnb-menu > ul > li.active > ul {
           display: block; }
-          #gnb .gnb-menu > ul > li.active > ul > li.on > a:after {
-            content: "\E803"; }
+          #gnb .gnb-menu > ul > li.active > ul > li.on > a {
+            color: #28b690; }
+            #gnb .gnb-menu > ul > li.active > ul > li.on > a:after {
+              content: "\E803"; }
           #gnb .gnb-menu > ul > li.active > ul > li.on > ul {
             display: block; }
       #gnb .gnb-menu > ul > li:first-child {

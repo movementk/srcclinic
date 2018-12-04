@@ -84,7 +84,7 @@
 						</h3>
 						<div class="btn-area">
 							<p>
-								<a href="#" class="btn btn-default" role="button">통증 클리닉 바로가기</a>
+								<a href="/pain/index.php" class="btn btn-default" role="button">통증 클리닉 바로가기</a>
 							</p> 
 						</div>
 					</div>

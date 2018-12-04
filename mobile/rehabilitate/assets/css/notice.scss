@@ -1,0 +1,360 @@
+@import 'common';
+
+// 공통
+// list
+.common-board-list {
+    .article-content {
+        margin-top: 30px;
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+
+// view
+.common-board-view {
+    .article-content {
+        .btn-area {
+            text-align: right;
+            margin: 30px 0 40px;
+            p {
+                .btn-sm {
+                    display: inline-block;
+                    width: 90px;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #fff;
+                    line-height: 40px;
+                    &.btn-blue {
+                        background-color: $kcolor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// news-letter
+.news-letter {
+    .article-content {
+        > ul {
+            > li {
+                > a {
+                    display: block;
+                    > figure {
+                        .img-fluid {
+                            position: relative;
+                            z-index: 1;
+                            width: 100%;
+                            box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+                        }
+                        figcaption {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            line-height: 18px;
+                            text-align: center;
+                            word-break: keep-all;
+                            margin-top: 25px;
+                        }
+                    }
+                }
+                &:nth-of-type(2) ~ li {
+                    > a {
+                        margin-top: 45px;
+                    }
+                }
+                &:nth-of-type(2n + 1) {
+                    a {
+                        padding-right: 10px;
+                    }
+                }
+                &:nth-of-type(2n + 2) {
+                    a {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 50px;
+        }
+    }
+}
+
+// social-contribution
+.social-contribution {
+    .section-header {
+        .summary {
+            position: relative;
+            margin-top: -55px;
+            padding: 15px 20px 30px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, .75);
+            h4 {
+                font-size: 0;
+                img {
+                    display: block;
+                    width: 140px;
+                    margin: 0 auto;
+                }
+            }
+            p {
+                font-size: 12px;
+                color: #fff;
+                line-height: 24px;
+                font-weight: 300;
+                word-break: keep-all;
+                margin-top: 35px;
+            }
+            .btn-area {
+                margin-top: 30px;
+                .btn-link {
+                    display: inline-block;
+                    width: 170px;
+                    height: 40px;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #606060;
+                    font-weight: 400;
+                    line-height: 40px;
+                    border-radius: 30px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .section-content {
+        article {
+            margin-top: 40px;
+            .sub-title {
+                margin-bottom: 25px;
+            }
+            &.need {
+                .circle-list {
+                    li {
+                        word-break: keep-all;
+                        h6 {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 500;
+                            margin-bottom: 15px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+            &.support-business {
+                > ol {
+                    > li {
+                        figure {
+                            .img-fluid {
+                                width: 100%;
+                            }
+                            figcaption {
+                                margin-top: 20px;
+                                h6 {
+                                    position: relative;
+                                    font-size: 13px;
+                                    color: #333;
+                                    font-weight: 500;
+                                    line-height: 18px;
+                                    padding-left: 20px;
+                                    margin-bottom: 15px;
+                                    span {
+                                        position: absolute;
+                                        top: 2px;
+                                        left: 0;
+                                        display: block;
+                                        width: 14px;
+                                        color: #fff;
+                                        height: 14px;
+                                        font-size: 10px;
+                                        line-height: 13px;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        border-radius: 50%;
+                                        @include maven();
+                                        background-color: $kcolor;
+                                    }
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color: #666;
+                                    line-height: 20px;
+                                    font-weight: 300;
+                                }
+                            }
+                        }
+                        & ~ li {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+            &.campaign {
+                > ul {
+                    > li {
+                        .circle-item {
+                            overflow: hidden;
+                            border-radius: 10px;
+                            border: 1px solid #eee;
+                            .img-fluid {
+                                width: 100%;
+                            }
+                            h6 {
+                                font-size: 12px;
+                                color: #333;
+                                text-align: center;
+                                line-height: 40px;
+                            }
+                        }
+                        &:nth-of-type(2) ~ li {
+                            .circle-item {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.support-information {
+                > .support-list {
+                    overflow: hidden;
+                    > li {
+                        float: left;
+                        width: 50%;
+                        height: 185px;
+                        color: #fff;
+                        padding: 25px 0 0 15px;
+                        background-repeat: no-repeat;
+                        background-position: 90% 100%;
+                        background-size: 40% auto;
+                        &:nth-of-type(2n + 1) {
+                            clear: both;
+                        }
+                        &:nth-of-type(1) {
+                            background-color: #e91a3b;
+                            background-image: url(/mobile/rehabilitate/assets/images/notice/bg_support_list01.jpg);
+                        }
+                        &:nth-of-type(2) {
+                            background-color: #776042;
+                            background-image: url(/mobile/rehabilitate/assets/images/notice/bg_support_list02.jpg);
+                        }
+                        &:nth-of-type(3) {
+                            background-color: #28b690;
+                            background-image: url(/mobile/rehabilitate/assets/images/notice/bg_support_list03.jpg);
+                        }
+                        &:nth-of-type(4) {
+                            background-color: #2d65a8;
+                            background-image: url(/mobile/rehabilitate/assets/images/notice/bg_support_list04.jpg);
+                        }
+                        h6 {
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        p {
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-weight: lighter;
+                            margin-top: 15px;
+                            letter-spacing: -1px;
+                        }
+                    }
+                }
+                > .square-list {
+                    margin-top: 25px;
+                    > li {
+                        position: relative;
+                        padding-left: 15px;
+                        & ~ li {
+                            margin-top: 20px;
+                        }
+                        &:before {
+                            position: absolute;
+                            top: 6px;
+                            left: 0;
+                            width: 5px;
+                            height: 5px;
+                            content: "";
+                            background-color: $kcolor;
+                        }
+                        dl {
+                            font-size: 0;
+                            dt {
+                                display: inline-block;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #333;
+                                font-weight: 400;
+                                &:after {
+                                    content: ":";
+                                    margin: 0 2px;
+                                }
+                            }
+                            dd {
+                                display: inline-block;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #999;
+                                font-weight: lighter;
+                                &.line {
+                                    border-bottom: 1px solid #999;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

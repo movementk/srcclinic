@@ -3,11 +3,11 @@
 	$(document).ready(function(){ 
 		$('.jumbotron ul').slick({
 			dots: true,
-			infinite: true,
-			speed: 300,
+			autoplaySpeed: 3000,
 			autoplay: true,
-			prevArrow: '<button class="slick-prev" type="button"><i class="icon-left-open-big"></i></button>',
-			nextArrow: '<button class="slick-next" type="button"><i class="icon-right-open-big"></i></button>'
+            arrows: false
+			/*prevArrow: '<button class="slick-prev" type="button"><i class="icon-left-open-big"></i></button>',
+			nextArrow: '<button class="slick-next" type="button"><i class="icon-right-open-big"></i></button>'*/
 		});	
 	});
 
@@ -29,25 +29,10 @@
 
 	// text 효과 관련
 	$(window).on('scroll', function() {
-		$('.benefit').each(function(index, elem) {
-			if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.5)) {
-				$(elem).addClass('action');  
-			}
-		});
-		 $('.rehabilitate').each(function(index, elem) {
-			if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
-				$(elem).addClass('action');  
-			}
-		});
-		$('.news').each(function(index, elem) {
-			if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.6)) {
-				$(elem).addClass('action');  
-			}
-		});
-		$('.service').each(function(index, elem) {
-			if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.3)) {
-				$(elem).addClass('action');  
-			}
-		});
+        $('.benefit, .rehabilitate, .news, .service').each(function(index, elem) {
+            if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.5)) {
+                $(elem).addClass('action');  
+            }
+        });
 	});
 })(jQuery);

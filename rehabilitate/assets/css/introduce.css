@@ -79,19 +79,54 @@ a {
   box-shadow: none !important; }
 
 .introduce .space {
+  border-bottom: 0;
   padding-bottom: 0 !important; }
 
 .care-team .section-content {
   margin-top: 75px; }
-  .care-team .section-content .sub-title ~ .sub-title {
-    margin-top: 125px; }
+  .care-team .section-content .content-title {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 70px; }
+    .care-team .section-content .content-title h3 {
+      position: relative;
+      font-size: 28px;
+      color: #333;
+      display: inline-block;
+      text-align: center;
+      padding: 0 25px;
+      z-index: 2;
+      background-color: #f7f7f7; }
+    .care-team .section-content .content-title:after {
+      position: absolute;
+      top: 15px;
+      left: 0;
+      z-index: 1;
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: #28b690; }
+    .care-team .section-content .content-title ~ .content-title {
+      margin-top: 120px; }
+  .care-team .section-content hr {
+    margin: 80px 0;
+    border-top: 1px solid #d2d3d4; }
   .care-team .section-content .team-title {
+    position: relative;
     font-size: 20px;
     color: #28b690;
     font-weight: 400;
-    margin-bottom: 30px; }
-    .care-team .section-content .team-title ~ .team-title {
-      margin-top: 100px; }
+    padding-left: 15px;
+    margin-bottom: 40px; }
+    .care-team .section-content .team-title:before {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: #28b690; }
   .care-team .section-content .member ul li figure figcaption h3 span {
     display: inline-block;
     font-size: 15px;
@@ -116,25 +151,8 @@ a {
       font-style: normal;
       color: #e9193a; }
 
-.facility .section-content {
+.facility .section-content, .facility-saerom .section-content, .facility-speech .section-content, .facility-sports .section-content {
   margin-top: 80px; }
-  .facility .section-content .facility-slider .slick-list {
-    overflow: visible !important; }
-
-.facility-speech .section-content {
-  margin-top: 80px; }
-  .facility-speech .section-content .facility-slider .slick-list {
-    overflow: visible !important; }
-
-.facility-sports .section-content {
-  margin-top: 80px; }
-  .facility-sports .section-content .facility-slider .slick-list {
-    overflow: visible !important; }
-
-.facility-saerom .section-content {
-  margin-top: 80px; }
-  .facility-saerom .section-content .facility-slider .slick-list {
-    overflow: visible !important; }
 
 .location .section-content {
   padding-top: 90px; }

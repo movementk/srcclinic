@@ -1,0 +1,394 @@
+@import 'common';
+
+// all-in-one
+.all-in-one {
+    background-color: #fffbf4;
+    .section-header {
+        text-align: center;
+        padding: 40px 0 30px;
+        h3 {
+            font-size: 18px;
+            color: #2b2b2b;
+            font-weight: bold;
+            line-height: 22px;
+            letter-spacing: -.5px;
+            i {
+                display: block;
+                font-style: normal;
+                color: #e9193a;
+                @include exo();
+                font-weight: bolder;
+                letter-spacing: 1px;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #999;
+            font-weight: 300;
+            line-height: 18px;
+            margin-top: 15px;
+        }
+    }
+    .section-content {
+        article {
+            color: #fff;
+            padding: 30px 0;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            dl {
+                dt {
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                    b {
+                        font-style: normal;
+                        @include exo();
+                        font-weight: bold;
+                    }
+                }
+                dd {
+                    font-size: 11px;
+                    font-weight: 300;
+                    line-height: 18px;
+                }
+            }
+            .btn-area {
+                margin-top: 20px;
+                .btn-more {
+                    display: inline-block;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #fff;
+                    font-weight: 400;
+                    width: 100px;
+                    line-height: 33px;
+                    border: 1px solid #fff;
+                }
+            }
+            &.spirit-language {
+                text-align: right;
+                background-color: #ebaf3c;
+                background-image: url(/mobile/pain/assets/images/main/bg_spirit_language.png);
+                background-size: auto 150px;
+                background-position: 0 100%;
+            }
+            &.sport {
+                text-align: left;
+                background-color: #4b85c3;
+                background-image: url(/mobile/pain/assets/images/main/bg_sport.png);
+                background-size: auto 143px;
+                background-position: 100% 100%;
+            }
+        }
+    }
+}
+
+// 공통
+.connection {
+    .page-header {
+        .page-intro {
+            h3 {
+                small {
+                    display: block;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: lighter;
+                    letter-spacing: .5px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+// sportscenter
+.sportscenter {
+    .page-header {
+        .lnb-list {
+            .dropdown {
+                .btn-secondary {
+                    background-color: #4b85c3 !important;
+                }
+            }
+        }
+    }
+    .program {
+        color: #fff;
+        padding: 50px 0 60px;
+        background-image: url(/mobile/pain/assets/images/connection/bg_sportscenter.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        .summary {
+            font-size: 13px;
+            line-height: 22px;
+            font-weight: 400;
+            word-break: keep-all;
+        }
+        div {
+            text-align: center;
+            figure {
+                width: 170px;
+                height: 170px;
+                padding: 43px 0;
+                border-radius: 50%;
+                margin: 0 auto;
+                background-color: #fff;
+                figcaption {
+                    font-size: 14px;
+                    color: #000;
+                    font-weight: 400;
+                    margin-top: 25px;
+                }
+            }
+            > ul {
+                text-align: left;
+                margin-top: 30px;
+                li {
+                    position: relative;
+                    font-size: 13px;
+                    font-weight: lighter;
+                    padding-left: 15px;
+                    line-height: 20px;
+                    & ~ li {
+                        margin-top: 15px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 7px;
+                        left: 0;
+                        width: 5px;
+                        height: 5px;
+                        content: "";
+                        display: block;
+                        border-radius: 50%;
+                        background-color: #fff;
+                    }
+                }
+            }
+            &.swim-program {
+                padding-top: 60px;
+                figure {
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+            &.underwater-program {
+                padding-top: 70px;
+                figure {
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// speech
+.speech {
+    .program {
+        .article-header {
+            color: #fff;
+            text-align: center;
+            padding: 60px 0 85px;
+            background-image: url(/mobile/pain/assets/images/connection/bg_speech.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            background-size: cover;
+            .circle-list {
+                display: inline-block;
+                margin: 0 auto 50px;
+                text-align: left;
+                > li {
+                    color: #fff;
+                    padding-left: 25px;
+                    font-weight: 500;
+                    &:before {
+                        color: #ebaf3c;
+                        background-color: #fff;
+                    }
+                    & ~ li {
+                        margin-top: 15px;
+                    }
+                }
+            }
+            ul {
+                > li {
+                    figure {
+                        width: 170px;
+                        height: 170px;
+                        padding: 43px 0;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                        background-color: #fff;
+                        figcaption {
+                            font-size: 14px;
+                            color: #000;
+                            font-weight: 400;
+                            margin-top: 25px;
+                        }
+                    }
+                    & ~ li {
+                        margin-top: 20px;
+                    }
+                    &:nth-of-type(1) {
+                        figure {
+                            img {
+                                width: 40px;
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        figure {
+                            img {
+                                width: 50px;
+                            }
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        figure {
+                            img {
+                                width: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            padding-top: 30px;
+            .summary {
+                font-size: 13px;
+                color: #666;
+                font-weight: 300;
+                line-height: 22px;
+                margin-bottom: 40px;
+                word-break: keep-all;
+            }
+            dl {
+                & ~ dl {
+                    margin-top: 20px;
+                }
+                dt {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 13px;
+                    line-height: 38px;
+                    font-weight: 400;
+                }
+                dd {
+                    padding: 20px 0 25px;
+                    .dott-list {
+                        text-align: left;
+                        padding-left: 40px;
+                        overflow: hidden;
+                        li {
+                            position: relative;
+                            float: left;
+                            width: 50%;
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: lighter;
+                            line-height: 18px;
+                            padding-left: 10px;
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: "\E801";
+                                font-family: "fontello";
+                            }
+                            &:nth-of-type(2) ~ li {
+                                margin-top: 10px;
+                            }
+                            /*@media(min-width: 430px) {
+                                br {
+                                    display: none;
+                                }
+                                &:nth-of-type(2n + 2) {
+                                    margin-left: 40px;
+                                }
+                            }*/
+                        }
+                    }
+                }
+                &.individual-program {
+                    border: 1px solid $kcolor;
+                    dt {
+                        background-color: $kcolor;
+                    }
+                    dd {
+                        .dott-list {
+                            &:before {
+                                color: $kcolor;
+                            }
+                        }
+                    }
+                }
+                &.collective-program {
+                    border: 1px solid #404040;
+                    dt {
+                        background-color: #404040;
+                    }
+                    dd {
+                        .dott-list {
+                            &:before {
+                                color: #404040;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

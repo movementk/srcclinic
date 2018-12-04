@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff") format("woff"); }
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff") format("woff"); }
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+figure {
+  margin: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+  dl dd {
+    margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+label {
+  font-weight: 400;
+  margin-bottom: 0; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+.btn {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  box-shadow: none !important; }
+
+.form-group {
+  margin: 0; }
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none !important; }
+
+.container {
+  max-width: 100% !important;
+  padding: 0 10px !important; }
+  .container .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .container .row .col-1,
+    .container .row .col-md-1,
+    .container .row .col-lg-1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-2,
+    .container .row .col-md-2,
+    .container .row .col-lg-2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-3,
+    .container .row .col-md-3,
+    .container .row .col-lg-3 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-4,
+    .container .row .col-md-4,
+    .container .row .col-lg-4 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-5,
+    .container .row .col-md-5,
+    .container .row .col-lg-5 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-6,
+    .container .row .col-md-6,
+    .container .row .col-lg-6 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-7,
+    .container .row .col-md-7,
+    .container .row .col-lg-7 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-8,
+    .container .row .col-md-8,
+    .container .row .col-lg-8 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-9,
+    .container .row .col-md-9,
+    .container .row .col-lg-9 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-10,
+    .container .row .col-md-10,
+    .container .row .col-lg-10 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-11,
+    .container .row .col-md-11,
+    .container .row .col-lg-11 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-12,
+    .container .row .col-md-12,
+    .container .row .col-lg-12 {
+      padding-left: 5px;
+      padding-right: 5px; }
+
+body {
+  min-width: 320px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 70px; }
+
+.all-in-one {
+  background-color: #fffbf4; }
+  .all-in-one .section-header {
+    text-align: center;
+    padding: 40px 0 30px; }
+    .all-in-one .section-header h3 {
+      font-size: 18px;
+      color: #2b2b2b;
+      font-weight: bold;
+      line-height: 22px;
+      letter-spacing: -.5px; }
+      .all-in-one .section-header h3 i {
+        display: block;
+        font-style: normal;
+        color: #e9193a;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1px; }
+    .all-in-one .section-header p {
+      font-size: 12px;
+      color: #999;
+      font-weight: 300;
+      line-height: 18px;
+      margin-top: 15px; }
+  .all-in-one .section-content article {
+    color: #fff;
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%; }
+    .all-in-one .section-content article dl dt {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 20px; }
+      .all-in-one .section-content article dl dt b {
+        font-style: normal;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bold; }
+    .all-in-one .section-content article dl dd {
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 18px; }
+    .all-in-one .section-content article .btn-area {
+      margin-top: 20px; }
+      .all-in-one .section-content article .btn-area .btn-more {
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 400;
+        width: 100px;
+        line-height: 33px;
+        border: 1px solid #fff; }
+    .all-in-one .section-content article.spirit-language {
+      text-align: right;
+      background-color: #ebaf3c;
+      background-image: url(/mobile/pain/assets/images/main/bg_spirit_language.png);
+      background-size: auto 150px;
+      background-position: 0 100%; }
+    .all-in-one .section-content article.sport {
+      text-align: left;
+      background-color: #4b85c3;
+      background-image: url(/mobile/pain/assets/images/main/bg_sport.png);
+      background-size: auto 143px;
+      background-position: 100% 100%; }
+
+.connection .page-header .page-intro h3 small {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  font-weight: lighter;
+  letter-spacing: .5px;
+  margin-bottom: 10px; }
+
+.sportscenter .page-header .lnb-list .dropdown .btn-secondary {
+  background-color: #4b85c3 !important; }
+.sportscenter .program {
+  color: #fff;
+  padding: 50px 0 60px;
+  background-image: url(/mobile/pain/assets/images/connection/bg_sportscenter.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .sportscenter .program .summary {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    word-break: keep-all; }
+  .sportscenter .program div {
+    text-align: center; }
+    .sportscenter .program div figure {
+      width: 170px;
+      height: 170px;
+      padding: 43px 0;
+      border-radius: 50%;
+      margin: 0 auto;
+      background-color: #fff; }
+      .sportscenter .program div figure figcaption {
+        font-size: 14px;
+        color: #000;
+        font-weight: 400;
+        margin-top: 25px; }
+    .sportscenter .program div > ul {
+      text-align: left;
+      margin-top: 30px; }
+      .sportscenter .program div > ul li {
+        position: relative;
+        font-size: 13px;
+        font-weight: lighter;
+        padding-left: 15px;
+        line-height: 20px; }
+        .sportscenter .program div > ul li ~ li {
+          margin-top: 15px; }
+        .sportscenter .program div > ul li:before {
+          position: absolute;
+          top: 7px;
+          left: 0;
+          width: 5px;
+          height: 5px;
+          content: "";
+          display: block;
+          border-radius: 50%;
+          background-color: #fff; }
+    .sportscenter .program div.swim-program {
+      padding-top: 60px; }
+      .sportscenter .program div.swim-program figure img {
+        width: 70px; }
+    .sportscenter .program div.underwater-program {
+      padding-top: 70px; }
+      .sportscenter .program div.underwater-program figure img {
+        width: 60px; }
+
+.speech .program .article-header {
+  color: #fff;
+  text-align: center;
+  padding: 60px 0 85px;
+  background-image: url(/mobile/pain/assets/images/connection/bg_speech.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover; }
+  .speech .program .article-header .circle-list {
+    display: inline-block;
+    margin: 0 auto 50px;
+    text-align: left; }
+    .speech .program .article-header .circle-list > li {
+      color: #fff;
+      padding-left: 25px;
+      font-weight: 500; }
+      .speech .program .article-header .circle-list > li:before {
+        color: #ebaf3c;
+        background-color: #fff; }
+      .speech .program .article-header .circle-list > li ~ li {
+        margin-top: 15px; }
+  .speech .program .article-header ul > li figure {
+    width: 170px;
+    height: 170px;
+    padding: 43px 0;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #fff; }
+    .speech .program .article-header ul > li figure figcaption {
+      font-size: 14px;
+      color: #000;
+      font-weight: 400;
+      margin-top: 25px; }
+  .speech .program .article-header ul > li ~ li {
+    margin-top: 20px; }
+  .speech .program .article-header ul > li:nth-of-type(1) figure img {
+    width: 40px; }
+  .speech .program .article-header ul > li:nth-of-type(2) figure img {
+    width: 50px; }
+  .speech .program .article-header ul > li:nth-of-type(3) figure img {
+    width: 40px; }
+.speech .program .article-content {
+  padding-top: 30px; }
+  .speech .program .article-content .summary {
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 40px;
+    word-break: keep-all; }
+  .speech .program .article-content dl ~ dl {
+    margin-top: 20px; }
+  .speech .program .article-content dl dt {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 38px;
+    font-weight: 400; }
+  .speech .program .article-content dl dd {
+    padding: 20px 0 25px; }
+    .speech .program .article-content dl dd .dott-list {
+      text-align: left;
+      padding-left: 40px;
+      overflow: hidden; }
+      .speech .program .article-content dl dd .dott-list li {
+        position: relative;
+        float: left;
+        width: 50%;
+        font-size: 12px;
+        color: #666;
+        font-weight: lighter;
+        line-height: 18px;
+        padding-left: 10px;
+        /*@media(min-width: 430px) {
+            br {
+                display: none;
+            }
+            &:nth-of-type(2n + 2) {
+                margin-left: 40px;
+            }
+        }*/ }
+        .speech .program .article-content dl dd .dott-list li:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "\E801";
+          font-family: "fontello"; }
+        .speech .program .article-content dl dd .dott-list li:nth-of-type(2) ~ li {
+          margin-top: 10px; }
+  .speech .program .article-content dl.individual-program {
+    border: 1px solid #2861b6; }
+    .speech .program .article-content dl.individual-program dt {
+      background-color: #2861b6; }
+    .speech .program .article-content dl.individual-program dd .dott-list:before {
+      color: #2861b6; }
+  .speech .program .article-content dl.collective-program {
+    border: 1px solid #404040; }
+    .speech .program .article-content dl.collective-program dt {
+      background-color: #404040; }
+    .speech .program .article-content dl.collective-program dd .dott-list:before {
+      color: #404040; }
+
+/*# sourceMappingURL=connection.css.map */

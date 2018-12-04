@@ -1,0 +1,629 @@
+@import 'common';
+
+// introduction
+.introduction {
+    article {
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        .article-header {
+            color: #fff;
+            h4 {
+                font-size: 26px;
+                font-weight: 400;
+                margin-bottom: 20px;
+                letter-spacing: .5px;
+                @include godo();
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                i {
+                    color: #e9193a;
+                    font-style: normal;
+                }
+            }
+        }
+        &.seoul {
+            text-align: left;
+            padding: 50px 0 210px;
+            background-position: 50% 100%;
+            background-image: url(/mobile/pain/assets/images/introduce/bg_seoul.jpg);
+            .article-content {
+                margin-top: 40px;
+                p {
+                    font-size: 12px;
+                    font-weight: lighter;
+                    line-height: 22px;
+                    word-break: keep-all;
+                    color: rgba(255, 255, 255, .7);
+                }
+            }
+        }
+        &.gwangju {
+            padding: 65px 0 80px;
+            background-image: url(/mobile/pain/assets/images/introduce/bg_gwangju.jpg);
+            .article-header {
+                text-align: right;
+                padding-bottom: 30px;
+            }
+            .article-content {
+                > ol {
+                    > li {
+                        color: #fff;
+                        padding-bottom: 60px;
+                        > figure {
+                            .img-fluid {
+                                width: 100%;
+                            }
+                            figcaption {
+                                margin-top: 20px;
+                                h5 {
+                                    font-size: 18px;
+                                    font-weight: 300;
+                                    margin-bottom: 20px;
+                                    span {
+                                        display: inline-block;
+                                        margin-right: 4px;
+                                        font-size: 24px;
+                                        @include titi();
+                                    }
+                                }
+                                p {
+                                    font-size: 12px;
+                                    font-weight: lighter;
+                                    line-height: 22px;
+                                    word-break: keep-all;
+                                    color: rgba(255, 255, 255, .8);
+                                }
+                            }
+                        }
+                        &:nth-of-type(odd) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// doctors
+.doctors {
+    .article-content {
+        padding-top: 40px;
+        figure {
+            .img-fluid {
+                width: 100%;
+            }
+            figcaption {
+                margin-top: 20px;
+                text-align: center;
+                h4 {
+                    font-size: 30px;
+                    color: #333;
+                    font-weight: bolder;
+                    letter-spacing: -.5px;
+                    small {
+                        display: block;
+                        font-size: 16px;
+                        color: #666;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .history {
+            margin-top: 45px;
+            > li {
+                & ~ li {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// care-team
+.care-team {
+    .article-content {
+        margin-top: 40px;
+        > ul {
+            > li {
+                overflow: hidden;
+                background-color: #e6e9f1;
+                & ~ li {
+                    margin-top: 10px;
+                }
+                .member-img {
+                    padding: 20px 50px;
+                    position: relative;
+                    background-image: url(/mobile/pain/assets/images/introduce/bg_member_img.jpg);
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: 100% auto;
+                    .img-fluid {
+                        position: relative;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    .details {
+                        position: absolute;
+                        top: 30px;
+                        left: -20px;
+                        color: #fff;
+                        padding: 10px 60px 10px 30px;
+                        background-color: $kcolor;
+                        -ms-transform: skewX(35deg);
+                        -webkit-transform: skewX(35deg);
+                        transform: skewX(35deg);
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 500;
+                            letter-spacing: -.25px;
+                            -ms-transform: skewX(-35deg);
+                            -webkit-transform: skewX(-35deg);
+                            transform: skewX(-35deg);
+                            small {
+                                display: block;
+                                font-size: 10px;
+                                font-weight: 300;
+                            }
+                            span {
+                                font-size: 12px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                    &.none-history {
+                        padding-bottom: 0;
+                    }
+                }
+                .histroy {
+                    padding: 0 20px 25px;
+                    > ul {
+                        & ~ ul {
+                            margin-top: 20px;
+                        }
+                        li {
+                            position: relative;
+                            font-size: 11px;
+                            color: #333;
+                            font-weight: 300;
+                            line-height: 18px;
+                            word-break: keep-all;
+                            padding-left: 10px;
+                            &:before {
+                                position: absolute;
+                                top: 1px;
+                                left: 0;
+                                font-size: 10px;
+                                color: $kcolor;
+                                content: "\E801";
+                                font-family: "fontello";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 새롬학교 제거로 인한 css 수정건
+.facility-tab {
+    > ul {
+        > li {
+            &:nth-of-type(3) {
+                > a {
+                    border-right: 1px solid #e9e9e9;
+                }
+                &.active {
+                    > a {
+                        border-color: $kcolor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 시설안내 공통
+.common-facility {
+    .article-content {
+        margin-top: 30px;
+        .facility-slide {
+            position: relative;
+            overflow: hidden;
+            .slick-arrow {
+                position: absolute;
+                top: 40%;
+                width: 36px;
+                height: 36px;
+                z-index: 1;
+                font-size: 14px;
+                color: $kcolor;
+                border: 0;
+                padding: 0;
+                margin-top: -18px;
+                outline: none;
+                border-radius: 50%;
+                background-color: #f7f7f7;
+                &.slick-prev {
+                    left: -18px;
+                    text-align: right;
+                    padding-right: 2px;
+                    box-shadow: -3px 1px 5px 0px rgba(0, 0, 0, 0.13);
+                }
+                &.slick-next {
+                    right: -18px;
+                    text-align: left;
+                    padding-left: 2px;
+                    box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.13);
+                }
+            }
+            li {
+                outline: none;
+                figure {
+                    .img-fluid {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    text-align: center;
+                    color: #fff;
+                    padding: 15px 10px;
+                    background-color: #b2b2b2;
+                    h4 {
+                        font-size: 15px;
+                        font-weight: 400;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+        .slider-nav-2 {
+            margin-top: 10px;
+            ul {
+                > li {
+                    figure {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    &:nth-of-type(2) ~ li {
+                        figure {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            /*.slick-track {
+                width: 100% !important;
+                transform: translate3d(0px, 0px, 0px) !important;
+            }
+            ul {
+                overflow: hidden;
+                width: 100% !important;
+                li {
+                    outline: none;
+                    float: left; 
+                    width: 50% !important;
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                        padding-right: 5px;
+                    }
+                    &:nth-of-type(2n + 2) {
+                        padding-left: 5px;
+                    }
+                    &:nth-of-type(2) ~ li {
+                        margin-top: 10px;
+                    }
+                    figure {
+                        
+                    }
+                    .slick-arrow {
+                        display: none !important;
+                    }
+                }
+            }*/
+        }
+    }
+}
+
+// business-number
+.business-number {
+    article {
+        border-top: 1px solid #9fa1a4;
+        .contact {
+            padding-top: 40px;
+            & ~ .contact-list {
+                padding-top: 60px;
+            }
+            .contact-header {
+                padding-bottom: 30px;
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 16px;
+                    font-weight: lighter;
+                    word-break: keep-all;
+                }
+            }
+            .contact-content {
+                > ul {
+                    > li {
+                        & ~ li {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// location
+.location {
+    .article-content {
+        margin-top: 20px;
+        .sub-title {
+            margin-bottom: 30px;
+        }
+        .table-wrap {
+            tbody {
+                tr {
+                    th {
+                        width: 90px;
+                    }
+                    td {
+                        address {
+                            word-break: keep-all;
+                        }
+                    }
+                }
+            }
+        }
+        .maps {
+            margin-top: 20px;
+        }
+    }
+}
+
+// certificate
+.certificate {
+    .section-content {
+        padding-top: 40px;
+        border-top: 1px solid #9fa1a4;
+        article {
+            & ~ article {
+                margin-top: 65px;
+            }
+            .sub-title {
+                word-break: keep-all;
+                margin-bottom: 25px;
+            }
+            .summary {
+                font-size: 12px;
+                color: #666;
+                font-weight: lighter;
+                line-height: 18px;
+                word-break: keep-all;
+            }
+            &.outpatient {
+                > ol {
+                    > li {
+                        .icon-img {
+                            width: 100%;
+                            height: 120px;
+                            text-align: center;
+                            padding: 25px 0 30px;
+                            border: 1px solid #d6d6d6;
+                            h5 {
+                                font-size: 13px;
+                                color: #333;
+                                font-weight: 500;
+                                @include maven();
+                                letter-spacing: -.5px;
+                            }
+                            img {
+                                width: auto;
+                                height: 100%;
+                                transform: scale(.6);
+                            }
+                        }
+                        > p {
+                            font-size: 14px;
+                            color: #666;
+                            font-weight: lighter;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        &:nth-of-type(2) ~ li {
+                            .icon-img {
+                                margin-top: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.inpatient {
+                > ol {
+                    > li {
+                        .icon-img {
+                            width: 100%;
+                            height: 85px;
+                            text-align: center;
+                            padding: 15px 0 20px;
+                            border: 1px solid #d6d6d6;
+                            h5 {
+                                font-size: 13px;
+                                color: #333;
+                                font-weight: 500;
+                                @include maven();
+                                letter-spacing: -.5px;
+                            }
+                            img {
+                                width: auto;
+                                height: 100%;
+                                transform: scale(.6);
+                            }
+                        }
+                        .details {
+                            text-align: center;
+                            > p {
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: lighter;
+                                margin: 10px 0 3px;
+                            }
+                            small {
+                                display: block;
+                                font-size: 12px;
+                                color: #666;
+                                font-weight: lighter;
+                                line-height: 16px;
+                                word-break: keep-all;
+                                letter-spacing: -.5px;
+                                &:before {
+                                    content: "(";
+                                }
+                                &:after {
+                                    content: ")";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.required-documents {
+                .table-responsive {
+                    margin-top: 25px;
+                }
+                .btn-area {
+                    margin-top: 35px;
+                }
+            }
+            &.expense-guide {
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-weight: 300;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 13px;
+                                    color: 666;
+                                    text-align: center;
+                                    background: none;
+                                    border-right: 1px solid #d6d6d6;
+                                    &.td-title {
+                                        color: #333;
+                                    }
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                                &.bg-gr {
+                                    td {
+                                        background-color: #f8f8f8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// sum-list
+.sum-list {
+    .section-content {
+        padding-top: 40px;
+        border-top: 1px solid #9fa1a4;
+        article {
+            & ~ article {
+                margin-top: 70px;
+            }
+            .sub-title {
+                margin-bottom: 25px;
+            }
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:nth-of-type(1) {
+                                    width: 27%;
+                                }
+                                &:nth-of-type(2) {
+                                    
+                                }
+                                &:nth-of-type(3) {
+                                    width: 30%;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                word-break: keep-all;
+                                text-align: center;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                &:first-child {
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// partners
+.partners {
+    ul {
+        > li {
+            > a {
+                display: block;
+                figure {
+                    border: 1px solid #d6d6d6;
+                    .img-fluid {
+                        width: 100%;
+                    }
+                }
+                p {
+                    text-align: center;
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 400;
+                    margin-top: 10px;
+                }
+            }
+            &:nth-of-type(2) ~ li {
+                > a {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
