@@ -388,7 +388,7 @@
 .search-form {
     .form-group {
         position: relative;
-        padding-left: 120px;
+        /*padding-left: 120px;*/
         select {
             position: absolute;
             top: 0;
@@ -628,10 +628,11 @@
 
 // paging
 .paging {
+    text-align: center;
     .pagination {
+        display: inline-block;
         max-width: 300px;
         margin: 0 auto;
-        text-align: center;
         > li {
             display: inline-block;
             > a {

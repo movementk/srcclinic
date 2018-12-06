@@ -411,7 +411,7 @@ body {
 
 .search-form .form-group {
   position: relative;
-  padding-left: 120px; }
+  /*padding-left: 120px;*/ }
   .search-form .form-group select {
     position: absolute;
     top: 0;
@@ -573,41 +573,43 @@ body {
     .board-page-link > li:last-child {
       border-bottom: 0; }
 
-.paging .pagination {
-  max-width: 300px;
-  margin: 0 auto;
+.paging {
   text-align: center; }
-  .paging .pagination > li {
-    display: inline-block; }
-    .paging .pagination > li > a {
-      display: block;
-      width: 26px;
-      height: 26px;
-      line-height: 24px;
-      font-family: 'Roboto', sans-serif;
-      font-size: 13px;
-      margin-right: 6px;
-      border-radius: 3px;
-      border: 1px solid #e1e1e1; }
-    .paging .pagination > li.active > a {
-      color: #fff;
-      border-color: #2861b6;
-      background-color: #2861b6; }
-    .paging .pagination > li.first > a {
-      font-weight: bold;
-      color: #2861b6; }
-    .paging .pagination > li.prev > a {
-      font-weight: bold;
-      color: #2861b6;
-      margin-right: 25px; }
-    .paging .pagination > li.next > a {
-      font-weight: bold;
-      color: #2861b6;
-      margin-left: 25px; }
-    .paging .pagination > li.last > a {
-      font-weight: bold;
-      color: #2861b6;
-      margin-right: 0; }
+  .paging .pagination {
+    display: inline-block;
+    max-width: 300px;
+    margin: 0 auto; }
+    .paging .pagination > li {
+      display: inline-block; }
+      .paging .pagination > li > a {
+        display: block;
+        width: 26px;
+        height: 26px;
+        line-height: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        margin-right: 6px;
+        border-radius: 3px;
+        border: 1px solid #e1e1e1; }
+      .paging .pagination > li.active > a {
+        color: #fff;
+        border-color: #2861b6;
+        background-color: #2861b6; }
+      .paging .pagination > li.first > a {
+        font-weight: bold;
+        color: #2861b6; }
+      .paging .pagination > li.prev > a {
+        font-weight: bold;
+        color: #2861b6;
+        margin-right: 25px; }
+      .paging .pagination > li.next > a {
+        font-weight: bold;
+        color: #2861b6;
+        margin-left: 25px; }
+      .paging .pagination > li.last > a {
+        font-weight: bold;
+        color: #2861b6;
+        margin-right: 0; }
 
 .table-responsive .table {
   table-layout: fixed; }

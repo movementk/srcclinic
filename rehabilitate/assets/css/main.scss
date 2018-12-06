@@ -513,6 +513,8 @@
                 }
             }
 			.news-card {
+                position: relative;
+                height: 200px;
 				padding: 30px 30px 15px;
 				background-color: #fff;
 				small {
@@ -531,8 +533,10 @@
 					margin-top: 10px;
 				}
 				.p-txt02 {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 30px;
 					display: inline-block;
-					position: relative;
 					margin-top: 40px;
                     @include transition();
 					> p {

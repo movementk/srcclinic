@@ -582,6 +582,8 @@ a {
         -webkit-transition-delay: 2.3s;
         transition-delay: 2.3s; }
     .news .notice-board .news-card {
+      position: relative;
+      height: 200px;
       padding: 30px 30px 15px;
       background-color: #fff; }
       .news .notice-board .news-card small {
@@ -598,8 +600,10 @@ a {
         line-height: 34px;
         margin-top: 10px; }
       .news .notice-board .news-card .p-txt02 {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
         display: inline-block;
-        position: relative;
         margin-top: 40px;
         -webkit-transition-property: all;
         transition-property: all;
