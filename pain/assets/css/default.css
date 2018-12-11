@@ -439,6 +439,7 @@ body {
         font-size: 13px;
         color: #666;
         font-weight: 600;
+        width: 100%;
         font-family: 'Exo 2', sans-serif; }
         #quick-banner .quick-wrap .quick-top > .btn-top .icon-up-open {
           display: block;

@@ -419,6 +419,7 @@ body {
       text-align: center; }
       #quick-banner .quick-wrap .quick-top > .btn-top {
         display: inline-block;
+        width: 100%;
         padding-top: 20px;
         font-size: 13px;
         color: #666;
