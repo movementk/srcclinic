@@ -133,7 +133,7 @@ body {
 //부설의원 정보
 .information {
     height: 330px;
-    padding: 50px 0;
+    padding: 50px 0 !important;
     background-color: #fff;
     article {
         > .info-title {

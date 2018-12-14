@@ -78,7 +78,7 @@ a {
   border-radius: 0;
   box-shadow: none !important; }
 
-.ache section {
+.ache > section {
   padding-top: 100px; }
 .ache .sub-title h3 {
   font-size: 28px; }
@@ -194,7 +194,7 @@ a {
   .damage .section-content figure img, .breast-cancer .section-content figure img {
     float: right; }
 
-.operation-rehabilitation .section-content .slider, .injection-treatment .section-content .slider, .spine-intervention .section-content .slider {
+.operation-rehabilitation .section-content .slider, .injection-treatment .section-content .slider, .spine-intervention .section-content .slider, .childbirth .section-content .slider {
   margin-top: 140px; }
 
 .shock-wave .section-content {

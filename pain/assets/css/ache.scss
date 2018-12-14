@@ -1,7 +1,7 @@
 @import 'common';
 
 .ache {
-    section {
+    > section {
         padding-top: 100px;
     }
     .sub-title {
@@ -180,7 +180,7 @@
 }
 
 // operation-rehabilitation
-.operation-rehabilitation, .injection-treatment, .spine-intervention {
+.operation-rehabilitation, .injection-treatment, .spine-intervention, .childbirth {
     .section-content {
         .slider {
             margin-top: 140px;
@@ -232,49 +232,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

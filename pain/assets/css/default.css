@@ -189,7 +189,7 @@ body {
 
 .information {
   height: 330px;
-  padding: 50px 0;
+  padding: 50px 0 !important;
   background-color: #fff; }
   .information article > .info-title {
     font-size: 20px;
