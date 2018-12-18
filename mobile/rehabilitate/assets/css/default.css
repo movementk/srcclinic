@@ -248,7 +248,8 @@ body {
             float: right;
             font-family: "fontello";
             content: "\E800";
-            color: rgba(51, 51, 51, 0.5); }
+            color: rgba(51, 51, 51, 0.5);
+            font-weight: bold; }
         #gnb .gnb-menu > ul > li > ul > li > ul {
           display: none;
           padding: 10px 0;
@@ -305,7 +306,7 @@ body {
       #footer > .contact h2 ~ h2 {
         margin-top: 30px;
         margin-bottom: 20px; }
-    #footer > .contact a {
+    #footer > .contact a > strong {
       font-size: 32px;
       color: #e9193a;
       font-weight: bold;
@@ -410,7 +411,7 @@ body {
         border: 0;
         font-family: 'Exo 2', sans-serif;
         border-radius: 0;
-        transform: translate3d(0px, -109px, 0px) !important; }
+        /*transform: translate3d(0px, -109px, 0px) !important;*/ }
         #footer > .foot-info .family-site .dropdown-menu a {
           padding: 0 15px;
           text-align: left;

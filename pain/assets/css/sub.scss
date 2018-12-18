@@ -588,17 +588,20 @@ body {
 	.slider-main {
 		position: relative;
 		width: 100%;
-		height: 685px;
 		> .slick-list {
-			height: 685px;
 			> .slick-track {
-				height: 685px;
 				> .slick-slide {
-					height: 685px;
+                    text-align: center;
+                    height: 686px;
+                    .img-fluid {
+                        display: inline-block;
+                        max-height: 686px;
+                    }
+					/*
 					background-repeat: no-repeat;
 					background-size: cover;
 					background-position: 50% 50%;
-					box-shadow: 4px 3px 7px 0px rgba(0, 0, 0, 0.05); 
+					box-shadow: 4px 3px 7px 0px rgba(0, 0, 0, 0.05);*/ 
 				}
 			}
 		}
@@ -651,11 +654,14 @@ body {
         > ul {
             font-size: 0;
             > li {
+                text-align: center;
                 cursor: pointer;
                 display: inline-block;
                 width: 137.5px !important;
                 margin-right: 10px;
                 img {
+                    display: inline-block;
+                    max-height: 80px;
                     box-shadow: 4px 3px 7px 0px rgba(0, 0, 0, 0.05); 
                 }
                 &:nth-of-type(8n + 8) {
@@ -994,13 +1000,15 @@ body {
 		> .slick-list {
 			> .slick-track {
 				> .slick-slide {
-					height: 730px;
+					text-align: center;
+					height: 761px;
 					outline: none;
-					transition: all 500ms linear 0s !important;
+					/*transition: all 500ms linear 0s !important;*/
 					figure {
 						img {
-							width: 100%;
-							height: 655px;
+							/*width: 100%; */
+							display: inline-block;
+                            max-height: 686px;
 						}
 						figcaption {
 							display: block;
@@ -1059,10 +1067,12 @@ body {
                 cursor: pointer;
                 float: left;
                 width: 220px;
+                text-align: center;
                 /*height: 195px;*/
                 margin-right: 17px;
                 img {
-                    width: 100%;
+                    max-height: 129px;
+                    /*width: 100%;*/
                 }
                 &:nth-of-type(5n + 5) {
                     margin-right: 0;

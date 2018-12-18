@@ -282,19 +282,15 @@ body {
 			}
 		}
 		.btn-secondary {
-			position: relative;
 			border-color: #1ea474;
 			&:after {
-				position: absolute;
-				top: 0;
-				right: 20px;
-				width: 5px;
-				height: 100%;
 				display: block;
+				float: right;
+				width: auto;
+                height: auto;
 				content: "\E802";
 				font-family: "fontello";
-				text-align: right;
-				@include transition($duration: .4s);
+				@include transition($duration: .3s);
 			}
 			&:hover {
 				&:after {
@@ -381,8 +377,8 @@ body {
                     @include transition();
                     &:hover {
                         color: #fff;
-                        border-color: #28b690;
-                        background-color: #28b690;
+                        border-color: #2861b6;
+                        background-color: #2861b6;
                     }
 				}
 			}
@@ -473,6 +469,12 @@ body {
 						}
 					}
 				}
+                .gnb-quick {
+                    > a {
+                        color: #666;
+                        border-color: #aaa;
+                    }
+                }
 			}
 		}
     }
@@ -516,7 +518,7 @@ body {
                     > li {
                         float: left;
                         width: 25%;
-                        height: 620px;
+                        height: 639px;
                         display: block;
                         text-align: center;
                         border-right: 1px solid #dfdfdf;

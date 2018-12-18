@@ -264,19 +264,15 @@ body {
 			}
 		}
 		.btn-secondary {
-			position: relative;
 			border-color: #1ea474;
 			&:after {
-				position: absolute;
-				top: 0;
-				right: 20px;
-				width: 5px;
-				height: 100%;
+				float: right;
+				width: auto;
+				height: auto;
 				display: block;
 				content: "\E802";
 				font-family: "fontello";
-				text-align: right;
-				@include transition($duration: .4s);
+				@include transition($duration: .3s);
 			}
 			&:hover {
 				&:after {

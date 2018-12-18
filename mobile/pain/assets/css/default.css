@@ -221,7 +221,7 @@ body {
   #gnb .gnb-menu {
     border-top: 1px solid #2861b6; }
     #gnb .gnb-menu > ul > li {
-      border-top: 1px solid #7d7d7d; }
+      border-top: 1px solid #becfe9; }
       #gnb .gnb-menu > ul > li > a {
         display: block;
         font-size: 15px;
@@ -230,7 +230,7 @@ body {
         padding: 0 20px; }
         #gnb .gnb-menu > ul > li > a:after {
           font-size: 20px;
-          color: #4a4a4a;
+          color: #adadad;
           float: right;
           font-family: "fontello";
           content: "\E804"; }
@@ -239,24 +239,25 @@ body {
         #gnb .gnb-menu > ul > li > ul > li > a {
           display: block;
           font-size: 14px;
-          color: #333;
+          color: #2861b6;
           line-height: 40px;
           padding: 0 20px;
-          border-top: 1px solid #bee9de;
-          background-color: #e9f8f5; }
+          border-top: 1px solid #becfe9;
+          background-color: #e3ebf6; }
           #gnb .gnb-menu > ul > li > ul > li > a:after {
             float: right;
             font-family: "fontello";
             content: "\E800";
-            color: rgba(51, 51, 51, 0.5); }
+            color: #2861b6;
+            font-weight: bold; }
         #gnb .gnb-menu > ul > li > ul > li > ul {
           display: none;
           padding: 10px 0;
-          border-top: 1px solid #bee9de; }
+          border-top: 1px solid #becfe9; }
           #gnb .gnb-menu > ul > li > ul > li > ul > li > a {
             display: block;
             font-size: 13px;
-            color: #333;
+            color: #666;
             font-weight: 300;
             padding: 0 20px;
             line-height: 30px; }
@@ -284,7 +285,7 @@ body {
       #gnb .gnb-menu > ul > li:first-child {
         border-top: 0; }
       #gnb .gnb-menu > ul > li:last-child {
-        border-bottom: 1px solid #7d7d7d; }
+        border-bottom: 1px solid #becfe9; }
 
 .opened {
   overflow: hidden; }
@@ -305,7 +306,7 @@ body {
       #footer > .contact h2 ~ h2 {
         margin-top: 30px;
         margin-bottom: 20px; }
-    #footer > .contact a {
+    #footer > .contact a > strong {
       font-size: 32px;
       color: #e9193a;
       font-weight: bold;
@@ -410,7 +411,7 @@ body {
         border: 0;
         font-family: 'Exo 2', sans-serif;
         border-radius: 0;
-        transform: translate3d(0px, -109px, 0px) !important; }
+        /*transform: translate3d(0px, -109px, 0px) !important;*/ }
         #footer > .foot-info .family-site .dropdown-menu a {
           padding: 0 15px;
           text-align: left;

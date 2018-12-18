@@ -95,7 +95,7 @@
         border-top: 1px solid $kcolor;
         > ul {
             > li {
-                border-top: 1px solid #7d7d7d;
+                border-top: 1px solid #becfe9;
                 > a {
                     display: block;
                     font-size: 15px;
@@ -104,7 +104,7 @@
                     padding: 0 20px;
                     &:after {
                         font-size: 20px;
-                        color: #4a4a4a;
+                        color: #adadad;
                         float: right;
                         font-family: "fontello";
                         content: "\E804";
@@ -116,27 +116,28 @@
                         > a {
                             display: block;
                             font-size: 14px;
-                            color: #333;
+                            color: #2861b6;
                             line-height: 40px;
                             padding: 0 20px;
-                            border-top: 1px solid #bee9de;
-                            background-color: #e9f8f5;
+                            border-top: 1px solid #becfe9;
+                            background-color: #e3ebf6;
                             &:after {
                                 float: right;
                                 font-family: "fontello";
                                 content: "\E800";
-                                color: rgba(51, 51, 51, .5);
+                                color: #2861b6;
+                                font-weight: bold;
                             }
                         }
                         > ul {
                             display: none;
                             padding: 10px 0;
-                            border-top: 1px solid #bee9de;
+                            border-top: 1px solid #becfe9;
                             > li {
                                 > a {
                                     display: block;
                                     font-size: 13px;
-                                    color: #333;
+                                    color: #666;
                                     font-weight: 300;
                                     padding: 0 20px;
                                     line-height: 30px;
@@ -187,7 +188,7 @@
                     border-top: 0;
                 }
                 &:last-child {
-                    border-bottom: 1px solid #7d7d7d;
+                    border-bottom: 1px solid #becfe9;
                 }
             }
         }
@@ -222,11 +223,13 @@
             }
         }
         a {
-            font-size: 32px;
-            color: #e9193a;
-            font-weight: bold;
-            letter-spacing: 1px;
-            @include exo();
+            > strong {
+                font-size: 32px;
+                color: #e9193a;
+                font-weight: bold;
+                letter-spacing: 1px;
+                @include exo();
+            }
         }
         address {
             display: block;
@@ -348,7 +351,7 @@
                 border: 0;
                 @include exo();
                 border-radius: 0;
-                transform: translate3d(0px, -109px, 0px) !important;
+                /*transform: translate3d(0px, -109px, 0px) !important;*/
                 a {
                     padding: 0 15px;
                     text-align: left;
