@@ -267,6 +267,9 @@ body {
       .sportscenter .program div.underwater-program figure img {
         width: 60px; }
 
+.speech .page-header .page-intro p {
+  margin-top: 0 !important;
+  margin-bottom: 10px; }
 .speech .program .article-header {
   color: #fff;
   text-align: center;

@@ -263,8 +263,9 @@ a {
           letter-spacing: -4px;
           font-family: 'Roboto', sans-serif; }
         #content .benefit .benefit-content ol li > p {
-          font-size: 17px;
+          font-size: 21px;
           color: #999;
+          letter-spacing: -1px;
           font-weight: 300; }
           #content .benefit .benefit-content ol li > p > b {
             color: #333;

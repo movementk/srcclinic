@@ -188,6 +188,14 @@
 
 // speech
 .speech {
+    .page-header {
+        .page-intro {
+            p {
+                margin-top: 0 !important;
+                margin-bottom: 10px;
+            }
+        }
+    }
     .program {
         .article-header {
             color: #fff;

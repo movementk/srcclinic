@@ -221,7 +221,7 @@ body {
     .member ul li figure figcaption p {
       font-size: 15px;
       color: #999;
-      margin-top: 10px; }
+      margin-bottom: 10px; }
 
 .number .row .col-6:nth-of-type(2) ~ div .details {
   margin-top: 40px; }

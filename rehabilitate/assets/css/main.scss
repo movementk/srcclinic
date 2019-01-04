@@ -202,8 +202,9 @@
 						@include roboto();
 					}
 					> p {
-						font-size: 17px;
+						font-size: 21px;
 						color: #999;
+                        letter-spacing: -1px;
 						font-weight: 300;
 						> b {
 							color: #333;
